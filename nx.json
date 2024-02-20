@@ -1,27 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["{projectRoot}/.next, build, dist"],
-      "cache": true
-    },
-    "lint": {
-      "cache": true
-    }
-  },
   "affected": {
     "defaultBase": "main"
   },
   "plugins": [
-    {
-      "plugin": "@nx/next/plugin",
-      "options": {
-        "buildTargetName": "build",
-        "devTargetName": "dev",
-        "startTargetName": "start"
-      }
-    },
     {
       "plugin": "@nx/eslint/plugin",
       "options": {
@@ -33,7 +15,15 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "startTargetName": "start"
+      }
     }
   ],
-  "nxCloudAccessToken": "ZjE1YjM2ODMtM2Q1MC00MDJhLTkzMjgtNWY3YzQ2MGQ5MjE1fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "ZDljYTM4OWQtNTVlMy00OGIyLTg5YjktYzVkMTFlOGQyZjc3fHJlYWQtd3JpdGU="
 }
