@@ -1,0 +1,108 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "id": 1,
+      "thread_id": 0,
+      "method_id": "getHello",
+      "static": false,
+      "receiver": {
+        "class": "AppController",
+        "value": "AppController { appService: AppService {} }",
+        "object_id": 1
+      },
+      "defined_class": "AppController",
+      "path": "apps/api/src/app.controller.ts",
+      "lineno": 9
+    },
+    {
+      "event": "call",
+      "id": 2,
+      "thread_id": 0,
+      "method_id": "getHello",
+      "static": false,
+      "receiver": {
+        "class": "AppService",
+        "value": "AppService {}",
+        "object_id": 2
+      },
+      "defined_class": "AppService",
+      "path": "apps/api/src/app.service.ts",
+      "lineno": 5
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "String",
+        "value": "'Hello World!'"
+      },
+      "elapsed": 0.000005665991920977831
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 4,
+      "parent_id": 1,
+      "return_value": {
+        "class": "String",
+        "value": "'Hello World!'"
+      },
+      "elapsed": 0.0003342500131111592
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.15.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.9.0"
+    },
+    "app": "career-compass",
+    "recorder": {
+      "type": "tests",
+      "name": "jest"
+    },
+    "name": "AppController root should return \"Hello World!\"",
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "name": "src",
+      "type": "package",
+      "children": [
+        {
+          "type": "class",
+          "name": "AppController",
+          "children": [
+            {
+              "type": "function",
+              "name": "getHello",
+              "static": false,
+              "location": "apps/api/src/app.controller.ts:9"
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "AppService",
+          "children": [
+            {
+              "type": "function",
+              "name": "getHello",
+              "static": false,
+              "location": "apps/api/src/app.service.ts:5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

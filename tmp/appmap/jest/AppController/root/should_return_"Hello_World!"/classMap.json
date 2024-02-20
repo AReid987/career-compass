@@ -1,0 +1,32 @@
+[
+  {
+    "name": "src",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "AppController",
+        "children": [
+          {
+            "type": "function",
+            "name": "getHello",
+            "static": false,
+            "location": "apps/api/src/app.controller.ts:9"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "AppService",
+        "children": [
+          {
+            "type": "function",
+            "name": "getHello",
+            "static": false,
+            "location": "apps/api/src/app.service.ts:5"
+          }
+        ]
+      }
+    ]
+  }
+]
