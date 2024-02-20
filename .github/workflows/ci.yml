@@ -40,6 +40,21 @@ jobs:
           node-version: 20
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
+      
+      # Begin AppMap CI language agent installation
+      # This snippet can be safely removed once the AppMap language agent has been
+      # added to the project dependencies, and appmap.yml has been created.
+      - name: Install AppMap tools
+        id: install-appmap
+        uses: getappmap/install-action@v1
+        with:
+          project-type: npm
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "ci: Add AppMap language agent and appmap.yml"
+      # End AppMap CI language agent installation
+
       - uses: nrwl/nx-set-shas@v4
 
       - run: pnpm exec nx-cloud record -- nx format:check
