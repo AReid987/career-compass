@@ -1,17 +1,10 @@
 name: autofix.ci
-on:
-  pull_request:
-  push:
-    branches: ['main']
-permissions:
-  contents: read
-
+on: [push, pull_request]
 jobs:
   autofix:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: pnpm/action-setup@v3
         with:
           version: 8
