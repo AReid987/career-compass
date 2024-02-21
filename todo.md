@@ -1,0 +1,11 @@
+<!-- * TODO
+  - [ ] Fastify
+  - [ ] RSpack
+  - [ ] Swagger
+  - [ ] Swagger Stats
+  - [ ] Logger
+  - [ ] Docker
+  - [ ] PostgreSQL
+  - [ ] pgadmin4
+  - [ ] Prisma
+-->
