@@ -2,6 +2,7 @@
   - [x] Fastify
   - [ ] fix CI actions
   - [ ] RSpack
+  - [ ] Bit.dev
   - [x] Swagger
   - [x] Swagger Stats
   - [ ] Logger
