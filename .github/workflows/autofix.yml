@@ -21,6 +21,4 @@ jobs:
       - name: Trigger CI Workflow
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
           event-type: 'autofix-completed'
