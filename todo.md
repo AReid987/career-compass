@@ -1,8 +1,9 @@
 <!-- * TODO
-  - [ ] Fastify
+  - [x] Fastify
+  - [ ] fix CI actions
   - [ ] RSpack
-  - [ ] Swagger
-  - [ ] Swagger Stats
+  - [x] Swagger
+  - [x] Swagger Stats
   - [ ] Logger
   - [ ] Docker
   - [ ] PostgreSQL
