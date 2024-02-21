@@ -42,6 +42,9 @@ async function bootstrap() {
     '📊 Swagger Stats running on http://localhost:3000/swagger-stats/',
     'Bootstrap Swagger Stats',
   )
+  logger.log(
+    '📃 Prisma Studio => run pnpm dlx prisma studio. View on http://localhost:5000',
+  )
 }
 
 bootstrap()
