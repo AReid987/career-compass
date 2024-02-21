@@ -13,7 +13,7 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install --no-frozen-lockfile
       - run: pnpm dlx prettier --write .
 
       - uses: autofix-ci/action@ea32e3a12414e6d3183163c3424a7d7a8631ad84
