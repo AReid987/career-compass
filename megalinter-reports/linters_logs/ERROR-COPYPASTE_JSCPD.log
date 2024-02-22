@@ -1,0 +1,45 @@
+Results of jscpd linter (version 3.5.10)
+See documentation on https://megalinter.io/7.9.0/descriptors/copypaste_jscpd/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+Clone found (typescript):
+ - apps/client/.next/types/app/layout.ts [5:29 - 28:12] (23 lines, 200 tokens)
+   apps/client/.next/types/app/page.ts [5:27 - 28:10]
+
+Clone found (typescript):
+ - apps/client/.next/types/app/layout.ts [38:12 - 79:30] (41 lines, 661 tokens)
+   apps/client/.next/types/app/page.ts [38:10 - 79:30]
+
+Clone found (javascript):
+ - apps/client/.next/types/app/layout.js [2:29 - 22:2] (20 lines, 108 tokens)
+   apps/client/.next/types/app/page.js [2:27 - 22:2]
+
+┌────────────┬────────────────┬─────────────┬──────────────┬──────────────┬──────────────────┬───────────────────┐
+│ Format     │ Files analyzed │ Total lines │ Total tokens │ Clones found │ Duplicated lines │ Duplicated tokens │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ javascript │ 15             │ 479         │ 46515        │ 1            │ 20 (4.18%)       │ 108 (0.23%)       │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ typescript │ 9              │ 292         │ 3067         │ 2            │ 64 (21.92%)      │ 861 (28.07%)      │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ tsx        │ 1              │ 23          │ 182          │ 0            │ 0 (0%)           │ 0 (0%)            │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ jsx        │ 1              │ 14          │ 155          │ 0            │ 0 (0%)           │ 0 (0%)            │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ css        │ 1              │ 223         │ 1597         │ 0            │ 0 (0%)           │ 0 (0%)            │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ markdown   │ 1              │ 60          │ 630          │ 0            │ 0 (0%)           │ 0 (0%)            │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ Total:     │ 28             │ 1091        │ 52146        │ 3            │ 84 (7.7%)        │ 969 (1.86%)       │
+└────────────┴────────────────┴─────────────┴──────────────┴──────────────┴──────────────────┴───────────────────┘
+Found 3 clones.
+HTML report saved to megalinter-reports/copy-paste/html/
+ERROR: jscpd found too many duplicates (7.7%) over threshold (0%)
+Error: ERROR: jscpd found too many duplicates (7.7%) over threshold (0%)
+    at ThresholdReporter.report (/node-deps/node_modules/@jscpd/finder/dist/reporters/threshold.js:12:19)
+    at /node-deps/node_modules/@jscpd/finder/dist/in-files-detector.js:82:26
+    at Array.forEach (<anonymous>)
+    at /node-deps/node_modules/@jscpd/finder/dist/in-files-detector.js:81:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+

@@ -1,0 +1,24 @@
+Results of prettier linter (version 3.2.5)
+See documentation on https://megalinter.io/7.9.0/descriptors/json_prettier/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+Checking formatting...
+[warn] .vscode/symbols.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!".appmap.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classDependencies.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classes.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.exceptions.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpClientRequests.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpServerRequests.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.labels.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packageDependencies.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packages.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.parameters.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlNormalized.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlTables.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/classMap.json
+[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json
+[warn] Code style issues found in 15 files. Run Prettier to fix.
+

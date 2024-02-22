@@ -1,0 +1,1777 @@
+Results of cspell linter (version 8.3.2)
+See documentation on https://megalinter.io/7.9.0/descriptors/spell_cspell/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+ 1/62 ./.github/workflows/autofix.yml 1367.07ms X
+./.github/workflows/autofix.yml:1:7       - Unknown word (autofix)    -- name: autofix.ci
+	 Suggestions: [antefix, autoliv, autofill, Autoliv, hotfix]
+./.github/workflows/autofix.yml:8:3       - Unknown word (autofix)    -- autofix:
+	 Suggestions: [antefix, autoliv, autofill, Autoliv, hotfix]
+./.github/workflows/autofix.yml:23:15     - Unknown word (autofix)    -- - uses: autofix-ci/action@ea32e3a12
+	 Suggestions: [antefix, autoliv, autofill, Autoliv, hotfix]
+./.github/workflows/autofix.yml:28:26     - Unknown word (autofix)    -- # event-type: 'autofix-completed'
+	 Suggestions: [antefix, autoliv, autofill, Autoliv, hotfix]
+ 2/62 ./.github/workflows/ci.yml 392.96ms X
+./.github/workflows/ci.yml:37:15     - Unknown word (nrwl)       -- - uses: nrwl/nx-set-shas@v4
+	 Suggestions: [nrl, NRL, nail, natl, nbpl]
+./.github/workflows/ci.yml:46:23     - Unknown word (appmap)     -- path: ./tmp/appmap
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./.github/workflows/ci.yml:47:16     - Unknown word (appmaps)    -- key: appmaps-${{ github.sha }}-$
+	 Suggestions: [appals, appeals, appears, pampas, pampa's]
+./.github/workflows/ci.yml:49:3      - Unknown word (appmap)     -- appmap-analysis:
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./.github/workflows/ci.yml:52:11     - Unknown word (getappmap)  -- uses: getappmap/analyze-action/.github
+	 Suggestions: []
+./.github/workflows/ci.yml:52:54     - Unknown word (appmap)     -- action/.github/workflows/appmap-analysis.yml@v1
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+ 3/62 ./.github/workflows/mega-linter.yml 11.07ms
+ 4/62 ./.gitignore 161.24ms X
+./.gitignore:10:3      - Unknown word (appmap)     -- /.appmap
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+ 5/62 ./.husky/pre-commit 8.29ms
+ 6/62 ./.prettierrc 1.89ms
+ 7/62 ./.vscode/settings.json 172.80ms
+ 8/62 ./.vscode/symbols.json 24.52ms
+ 9/62 ./.whitesource 4.32ms
+10/62 ./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt 1104.69ms X
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:1:19      - Unknown word (autofix)    -- github workflows autofix
+	 Suggestions: [antefix, autoliv, autofill, Autoliv, hotfix]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:9:2       - Unknown word (whitesource) -- whitesource
+	 Suggestions: [whitehorse, whitespace]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:10:1      - Unknown word (appmap)      -- appmap
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:16:10     - Unknown word (rspack)      -- apps api rspack config
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:30:13     - Unknown word (postcss)     -- apps client postcss config
+	 Suggestions: [posts, post's, Post's, poetess, possess]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:31:13     - Unknown word (rpsack)      -- apps client rpsack config
+	 Suggestions: [rack, repack, restack, pack, plack]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:42:1      - Unknown word (techstack)   -- techstack
+	 Suggestions: [testacy, ticktack]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:43:5      - Unknown word (appmap)      -- tmp appmap jest AppController root
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:43:62     - Unknown word (appmap)      -- should return Hello World appmap
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:44:5      - Unknown word (appmap)      -- tmp appmap jest AppController root
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt:44:62     - Unknown word (appmap)      -- should return Hello World appmap findings
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+11/62 ./appmap.yml 179.98ms X
+./appmap.yml:2:1       - Unknown word (appmap)     -- appmap_dir: tmp/appmap
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./appmap.yml:2:17      - Unknown word (appmap)     -- appmap_dir: tmp/appmap
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+12/62 ./apps/api/.eslintrc.js 118.42ms
+13/62 ./apps/api/.gitignore 175.46ms X
+./apps/api/.gitignore:25:2      - Unknown word (classpath)  -- .classpath
+	 Suggestions: [classmate, claspt, cassatt, clarsach, classist]
+./apps/api/.gitignore:38:3      - Unknown word (dotenv)     -- # dotenv environment variable
+	 Suggestions: [dotnet, dote, doted, doter, dotes]
+./apps/api/.gitignore:50:1      - Unknown word (pids)       -- pids
+	 Suggestions: [pads, peds, pi's, pics, pies]
+14/62 ./apps/api/nest-cli.json 57.99ms X
+./apps/api/nest-cli.json:3:19      - Unknown word (nestjs)     -- "collection": "@nestjs/schematics",
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+15/62 ./apps/api/package.json 270.50ms X
+./apps/api/package.json:25:7      - Unknown word (nestjs)     -- "@nestjs/common": "^10.0.0",
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./apps/api/package.json:26:7      - Unknown word (nestjs)     -- "@nestjs/core": "^10.0.0",
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./apps/api/package.json:27:7      - Unknown word (nestjs)     -- "@nestjs/devtools-integration
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./apps/api/package.json:28:7      - Unknown word (nestjs)     -- "@nestjs/platform-express":
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./apps/api/package.json:29:7      - Unknown word (nestjs)     -- "@nestjs/platform-fastify":
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./apps/api/package.json:41:7      - Unknown word (rspack)     -- "@rspack/cli": "^0.5.4",
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+16/62 ./apps/api/README.md 868.07ms X
+./apps/api/README.md:67:13     - Unknown word (Kamil)      -- - Author - [Kamil Myśliwiec](https://kamilmysli
+	 Suggestions: [Kail, Kami, tamil, Tamil, Kali]
+./apps/api/README.md:67:19     - Unknown word (Myśliwiec)  -- - Author - [Kamil Myśliwiec](https://kamilmysliwiec
+	 Suggestions: []
+./apps/api/README.md:69:15     - Unknown word (nestframework) -- - Twitter - [@nestframework](https://twitter.com
+	 Suggestions: []
+17/62 ./apps/api/rspack.config.js 24.94ms
+18/62 ./apps/api/src/app.controller.spec.ts 15.80ms
+19/62 ./apps/api/src/app.controller.ts 148.26ms
+20/62 ./apps/api/src/app.module.ts 6.61ms
+21/62 ./apps/api/src/app.service.ts 2.76ms
+22/62 ./apps/api/src/main.ts 27.61ms
+23/62 ./apps/api/test/app.e2e-spec.ts 42.34ms
+24/62 ./apps/api/test/jest-e2e.json 3.86ms
+25/62 ./apps/api/tsconfig.build.json 3.15ms
+26/62 ./apps/api/tsconfig.json 27.86ms
+27/62 ./apps/client/.eslintrc.json 4.34ms
+28/62 ./apps/client/.gitignore 189.84ms X
+./apps/client/.gitignore:31:3      - Unknown word (vercel)     -- # vercel
+	 Suggestions: [tercel, verde, verge, verne, verse]
+./apps/client/.gitignore:32:2      - Unknown word (vercel)     -- .vercel
+	 Suggestions: [tercel, verde, verge, verne, verse]
+./apps/client/.gitignore:35:3      - Unknown word (tsbuildinfo) -- *.tsbuildinfo
+	 Suggestions: []
+29/62 ./apps/client/package.json 180.13ms X
+./apps/client/package.json:17:7      - Unknown word (rspack)     -- "@rspack/cli": "^0.5.4",
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+./apps/client/package.json:18:7      - Unknown word (rspack)     -- "@rspack/core": "^0.5.4",
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+30/62 ./apps/client/postcss.config.js 2.97ms
+31/62 ./apps/client/README.md 43.91ms
+32/62 ./apps/client/rpsack.config.js 74.82ms
+33/62 ./apps/client/src/app/globals.css 39.15ms
+34/62 ./apps/client/tailwind.config.js 6.85ms
+35/62 ./apps/client/tsconfig.json 15.05ms
+36/62 ./lint-staged.config.js 2.75ms
+37/62 ./nx.json 19.57ms
+38/62 ./package.json 251.34ms X
+./package.json:32:7      - Unknown word (nestjs)     -- "@nestjs/common": "^10.3.3",
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./package.json:33:7      - Unknown word (nestjs)     -- "@nestjs/core": "^10.3.3",
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./package.json:34:7      - Unknown word (nestjs)     -- "@nestjs/microservices": "^1
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./package.json:35:7      - Unknown word (nestjs)     -- "@nestjs/platform-express":
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./package.json:36:10     - Unknown word (rspack)     -- "@nx/rspack": "^17.2.8",
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+39/62 ./pnpm-lock.yaml 28793.96ms X
+./pnpm-lock.yaml:11:9      - Unknown word (nestjs)     -- '@nestjs/common':
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./pnpm-lock.yaml:14:9      - Unknown word (nestjs)     -- '@nestjs/core':
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./pnpm-lock.yaml:16:26     - Unknown word (nestjs)     -- version: 10.3.3(@nestjs/common@10.3.3)(@nestjs
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./pnpm-lock.yaml:16:49     - Unknown word (nestjs)     -- nestjs/common@10.3.3)(@nestjs/microservices@10.3.
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./pnpm-lock.yaml:16:79     - Unknown word (nestjs)     -- microservices@10.3.3)(@nestjs/platform-express@10
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./pnpm-lock.yaml:23:12     - Unknown word (rspack)     -- '@nx/rspack':
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+./pnpm-lock.yaml:25:26     - Unknown word (rspack)     -- version: 17.2.8(@rspack/core@0.5.4)(@types/node
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+./pnpm-lock.yaml:56:46     - Unknown word (rspack)     -- babel/core@7.23.9)(@rspack/core@0.5.4)(@types/node
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+./pnpm-lock.yaml:78:9      - Unknown word (fastify)    -- '@fastify/static':
+	 Suggestions: [falsify, fasting, fattily, fustily, falsity]
+./pnpm-lock.yaml:93:25     - Unknown word (fastify)    -- '@nestjs/platform-fastify':
+	 Suggestions: [falsify, fasting, fattily, fustily, falsity]
+./pnpm-lock.yaml:95:26     - Unknown word (fastify)    -- version: 10.3.3(@fastify/static@7.0.1)(@nestjs
+	 Suggestions: [falsify, fasting, fattily, fustily, falsity]
+./pnpm-lock.yaml:98:25     - Unknown word (fastify)    -- version: 7.3.0(@fastify/static@7.0.1)(@nestjs
+	 Suggestions: [falsify, fasting, fattily, fustily, falsity]
+./pnpm-lock.yaml:124:9     - Unknown word (rspack)     -- '@rspack/cli':
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+./pnpm-lock.yaml:126:25    - Unknown word (rspack)     -- version: 0.5.4(@rspack/core@0.5.4)(@types/express
+	 Suggestions: [repack, rack, rspec, repacks, restack]
+./pnpm-lock.yaml:136:15    - Unknown word (supertest)  -- '@types/supertest':
+	 Suggestions: [superbest, superset, superjets, supremest, superheat]
+./pnpm-lock.yaml:157:7     - Unknown word (postcss)    -- postcss-loader:
+	 Suggestions: [posts, post's, Post's, poetess, possess]
+./pnpm-lock.yaml:166:7     - Unknown word (supertest)  -- supertest:
+	 Suggestions: [superbest, superset, superjets, supremest, superheat]
+./pnpm-lock.yaml:212:7     - Unknown word (autoprefixer) -- autoprefixer:
+	 Suggestions: []
+./pnpm-lock.yaml:221:7     - Unknown word (postcss)      -- postcss:
+	 Suggestions: [posts, post's, Post's, poetess, possess]
+./pnpm-lock.yaml:224:7     - Unknown word (tailwindcss)  -- tailwindcss:
+	 Suggestions: [tailwinds, tailwind's, tailwind]
+./pnpm-lock.yaml:233:5     - Unknown word (aashutoshrathi) -- /@aashutoshrathi/word-wrap@1.2.6:
+	 Suggestions: []
+./pnpm-lock.yaml:240:5     - Unknown word (alloc)          -- /@alloc/quick-lru@5.2.0:
+	 Suggestions: [allof, allot, allow, alloy, allOf]
+./pnpm-lock.yaml:245:5     - Unknown word (ampproject)     -- /@ampproject/remapping@2.2.1:
+	 Suggestions: [project]
+./pnpm-lock.yaml:249:9     - Unknown word (jridgewell)     -- '@jridgewell/gen-mapping': 0.3.3
+	 Suggestions: []
+./pnpm-lock.yaml:250:9     - Unknown word (jridgewell)     -- '@jridgewell/trace-mapping': 0.3
+	 Suggestions: []
+./pnpm-lock.yaml:252:13    - Unknown word (devkit)         -- /@angular-devkit/core@17.1.2(chokidar
+	 Suggestions: [devi, davit, debit, demit, denki]
+./pnpm-lock.yaml:256:7     - Unknown word (chokidar)       -- chokidar: ^3.5.2
+	 Suggestions: [chokier, choir, chedar, chider, choked]
+./pnpm-lock.yaml:258:7     - Unknown word (chokidar)       -- chokidar:
+	 Suggestions: [chokier, choir, chedar, chider, choked]
+./pnpm-lock.yaml:263:7     - Unknown word (chokidar)       -- chokidar: 3.6.0
+	 Suggestions: [chokier, choir, chedar, chider, choked]
+./pnpm-lock.yaml:265:7     - Unknown word (picomatch)      -- picomatch: 3.0.1
+	 Suggestions: [micromatch]
+./pnpm-lock.yaml:270:13    - Unknown word (devkit)         -- /@angular-devkit/schematics-cli@17.1
+	 Suggestions: [devi, davit, debit, demit, denki]
+./pnpm-lock.yaml:275:17    - Unknown word (devkit)         -- '@angular-devkit/core': 17.1.2(chokidar
+	 Suggestions: [devi, davit, debit, demit, denki]
+./pnpm-lock.yaml:276:17    - Unknown word (devkit)         -- '@angular-devkit/schematics': 17.1.2
+	 Suggestions: [devi, davit, debit, demit, denki]
+./pnpm-lock.yaml:280:7     - Unknown word (yargs)          -- yargs-parser: 21.1.1
+	 Suggestions: [yards, yarns, args, xargs, ayr's]
+./pnpm-lock.yaml:282:9     - Unknown word (chokidar)       -- - chokidar
+	 Suggestions: [chokier, choir, chedar, chider, choked]
+./pnpm-lock.yaml:285:13    - Unknown word (devkit)         -- /@angular-devkit/schematics@17.1.2(chokidar
+	 Suggestions: [devi, davit, debit, demit, denki]
+./pnpm-lock.yaml:295:9     - Unknown word (chokidar)       -- - chokidar
+	 Suggestions: [chokier, choir, chedar, chider, choked]
+./pnpm-lock.yaml:313:9     - Unknown word (ampproject)     -- '@ampproject/remapping': 2.2.1
+	 Suggestions: [project]
+./pnpm-lock.yaml:325:7     - Unknown word (gensync)        -- gensync: 1.0.0-beta.2
+	 Suggestions: [resync, gens, genic, gemspec, generic]
+./pnpm-lock.yaml:336:9     - Unknown word (jridgewell)     -- '@jridgewell/gen-mapping': 0.3.3
+	 Suggestions: []
+./pnpm-lock.yaml:337:9     - Unknown word (jridgewell)     -- '@jridgewell/trace-mapping': 0.3
+	 Suggestions: []
+./pnpm-lock.yaml:338:7     - Unknown word (jsesc)          -- jsesc: 2.5.2
+	 Suggestions: [jess, jesse, Jess, Jesse, secs]
+./pnpm-lock.yaml:356:15    - Unknown word (compat)         -- '@babel/compat-data': 7.23.5
+	 Suggestions: [compt, combat, compal, compaq, compar]
+./pnpm-lock.yaml:358:7     - Unknown word (browserslist)   -- browserslist: 4.23.0
+	 Suggestions: []
+./pnpm-lock.yaml:373:22    - Unknown word (optimise)       -- '@babel/helper-optimise-call-expression': 7
+	 Suggestions: [optimism, optimist, optimize, Optimism, optimizes]
+./pnpm-lock.yaml:387:7     - Unknown word (regexpu)        -- regexpu-core: 5.3.2
+	 Suggestions: [regexp, regexps, regex, regex's, regexes]
+./pnpm-lock.yaml:476:22    - Unknown word (optimise)       -- '@babel/helper-optimise-call-expression': 7
+	 Suggestions: [optimism, optimist, optimize, Optimism, optimizes]
+./pnpm-lock.yaml:1079:15   - Unknown word (compat)         -- '@babel/compat-data': 7.23.5
+	 Suggestions: [compt, combat, compal, compaq, compar]
+./pnpm-lock.yaml:1240:29   - Unknown word (corejs)         -- babel-plugin-polyfill-corejs2: 0.4.8(@babel/core
+	 Suggestions: [cores, core's, coreos, corers, core]
+./pnpm-lock.yaml:1241:29   - Unknown word (corejs)         -- babel-plugin-polyfill-corejs3: 0.9.0(@babel/core
+	 Suggestions: [cores, core's, coreos, corers, core]
+./pnpm-lock.yaml:1350:15   - Unknown word (compat)         -- '@babel/compat-data': 7.23.5
+	 Suggestions: [compt, combat, compal, compaq, compar]
+./pnpm-lock.yaml:1387:32   - Unknown word (dotall)         -- babel/plugin-transform-dotall-regex': 7.23.3(@babel
+	 Suggestions: [donal, Donal, notal, total, Total]
+./pnpm-lock.yaml:1400:40   - Unknown word (systemjs)       -- plugin-transform-modules-systemjs': 7.23.9(@babel/core
+	 Suggestions: [systems, system's, Systems, system, systemd]
+./pnpm-lock.yaml:1420:32   - Unknown word (typeof)         -- babel/plugin-transform-typeof-symbol': 7.23.3(@babel
+	 Suggestions: [type, typo, typed, types, typos]
+./pnpm-lock.yaml:1426:29   - Unknown word (corejs)         -- babel-plugin-polyfill-corejs2: 0.4.8(@babel/core
+	 Suggestions: [cores, core's, coreos, corers, core]
+./pnpm-lock.yaml:1427:29   - Unknown word (corejs)         -- babel-plugin-polyfill-corejs3: 0.9.0(@babel/core
+	 Suggestions: [cores, core's, coreos, corers, core]
+./pnpm-lock.yaml:1429:15   - Unknown word (compat)         -- core-js-compat: 3.36.0
+	 Suggestions: [compt, combat, compal, compaq, compar]
+./pnpm-lock.yaml:1442:7    - Unknown word (esutils)        -- esutils: 2.0.3
+	 Suggestions: [psutils, eustis, Eustis, utils, etuis]
+./pnpm-lock.yaml:1514:5    - Unknown word (bcoe)           -- /@bcoe/v8-coverage@0.2.3:
+	 Suggestions: [cboe, bpoe, BPOE, boca, bock]
+./pnpm-lock.yaml:1525:5    - Unknown word (cspotcode)      -- /@cspotcode/source-map-support@
+	 Suggestions: []
+./pnpm-lock.yaml:1529:9    - Unknown word (jridgewell)     -- '@jridgewell/trace-mapping': 0.3
+	 Suggestions: []
+./pnpm-lock.yaml:1531:5    - Unknown word (discoveryjs)    -- /@discoveryjs/json-ext@0.5.7:
+	 Suggestions: [discovery's, discovers, discovery, discoverers, discoveries]
+./pnpm-lock.yaml:1555:7    - Unknown word (espree)         -- espree: 9.6.1
+	 Suggestions: [spree, epee, estee, entree, espied]
+./pnpm-lock.yaml:1560:7    - Unknown word (minimatch)      -- minimatch: 3.1.2
+	 Suggestions: [mismatch, minima, minimal, minimap, minimax]
+./pnpm-lock.yaml:1569:5    - Unknown word (fastify)        -- /@fastify/accept-negotiator@1
+	 Suggestions: [falsify, fasting, fattily, fustily, falsity]
+./pnpm-lock.yaml:1592:7    - Unknown word (mnemonist)      -- mnemonist: 0.39.6
+	 Suggestions: [mnemonic, mammonist, mnemonics, memoise, melodist]
+./pnpm-lock.yaml:1612:12   - Unknown word (querystring)    -- fast-querystring: 1.1.2
+	 Suggestions: [querying, questing]
+./pnpm-lock.yaml:1628:7    - Unknown word (reusify)        -- reusify: 1.0.4
+	 Suggestions: [reunify, reify, resiny, rectify, reusing]
+./pnpm-lock.yaml:1634:9    - Unknown word (lukeed)         -- '@lukeed/ms': 2.0.2
+	 Suggestions: [luke, laked, liked, lubed, luged]
+./pnpm-lock.yaml:1648:7    - Unknown word (fastq)          -- fastq: 1.17.1
+	 Suggestions: [fast, fasts, FAST, fats, fatso]
+./pnpm-lock.yaml:1652:5    - Unknown word (hapi)           -- /@hapi/accept@6.0.3:
+	 Suggestions: [haji, hapg, haps, hopi, Hopi]
+./pnpm-lock.yaml:1655:9    - Unknown word (hapi)           -- '@hapi/boom': 10.0.1
+	 Suggestions: [haji, hapg, haps, hopi, Hopi]
+./pnpm-lock.yaml:1656:9    - Unknown word (hapi)           -- '@hapi/hoek': 11.0.4
+	 Suggestions: [haji, hapg, haps, hopi, Hopi]
+./pnpm-lock.yaml:1656:14   - Unknown word (hoek)           -- '@hapi/hoek': 11.0.4
+	 Suggestions: [hoke, hock, hoed, hoer, hoes]
+./pnpm-lock.yaml:1659:5    - Unknown word (hapi)           -- /@hapi/ammo@6.0.1:
+	 Suggestions: [haji, hapg, haps, hopi, Hopi]
+./pnpm-lock.yaml:1662:9    - Unknown word (hapi)           -- '@hapi/hoek': 11.0.4
+	 Suggestions: [haji, hapg, haps, hopi, Hopi]
+./pnpm-lock.yaml:1662:14   - Unknown word (hoek)           -- '@hapi/hoek': 11.0.4
+	 Suggestions: [hoke, hock, hoed, hoer, hoes]
+./pnpm-lock.yaml:1668:14   - Unknown word (hoek)           -- '@hapi/hoek': 11.0.4
+	 Suggestions: [hoke, hock, hoed, hoer, hoes]
+./pnpm-lock.yaml:1674:14   - Unknown word (hoek)           -- '@hapi/hoek': 11.0.4
+	 Suggestions: [hoke, hock, hoed, hoer, hoes]
+./pnpm-lock.yaml:1681:14   - Unknown word (hoek)           -- '@hapi/hoek': 11.0.4
+	 Suggestions: [hoke, hock, hoed, hoer, hoes]
+./pnpm-lock.yaml:1737:14   - Unknown word (catbox)         -- '@hapi/catbox': 12.1.1
+	 Suggestions: [cato, cabob, cabot, carbo, carbon]
+./pnpm-lock.yaml:1738:14   - Unknown word (catbox)         -- '@hapi/catbox-memory': 6.0.1
+	 Suggestions: [cato, cabob, cabot, carbo, carbon]
+./pnpm-lock.yaml:1741:14   - Unknown word (mimos)          -- '@hapi/mimos': 7.0.1
+	 Suggestions: [memos, milos, mimas, mimes, minos]
+./pnpm-lock.yaml:1744:14   - Unknown word (somever)        -- '@hapi/somever': 4.1.1
+	 Suggestions: [soever, semver, sever, shmeer, solver]
+./pnpm-lock.yaml:1748:14   - Unknown word (topo)           -- '@hapi/topo': 6.0.2
+	 Suggestions: [todo, togo, tojo, tope, topi]
+./pnpm-lock.yaml:1778:14   - Unknown word (cryptiles)      -- '@hapi/cryptiles': 6.0.1
+	 Suggestions: [crypts, crypt's, cryptal, cryptic, cryptos]
+./pnpm-lock.yaml:1835:14   - Unknown word (cryptiles)      -- '@hapi/cryptiles': 6.0.1
+	 Suggestions: [crypts, crypt's, cryptal, cryptic, cryptos]
+./pnpm-lock.yaml:1874:14   - Unknown word (topo)           -- '@hapi/topo': 6.0.2
+	 Suggestions: [todo, togo, tojo, tope, topi]
+./pnpm-lock.yaml:1891:5    - Unknown word (humanwhocodes)  -- /@humanwhocodes/config-array@0.11.1
+	 Suggestions: []
+./pnpm-lock.yaml:1895:9    - Unknown word (humanwhocodes)  -- '@humanwhocodes/object-schema': 2.0
+	 Suggestions: []
+./pnpm-lock.yaml:1897:7    - Unknown word (minimatch)      -- minimatch: 3.1.2
+	 Suggestions: [mismatch, minima, minimal, minimap, minimax]
+./pnpm-lock.yaml:1901:5    - Unknown word (humanwhocodes)  -- /@humanwhocodes/module-importer@1.0
+	 Suggestions: []
+./pnpm-lock.yaml:1905:5    - Unknown word (humanwhocodes)  -- /@humanwhocodes/object-schema@2.0.2
+	 Suggestions: []
+./pnpm-lock.yaml:1908:5    - Unknown word (isaacs)         -- /@isaacs/cliui@8.0.2:
+	 Suggestions: [isaac, isaac's, Isaac, Isaac's, sacs]
+./pnpm-lock.yaml:1919:5    - Unknown word (istanbuljs)     -- /@istanbuljs/load-nyc-config@1.1
+	 Suggestions: [istanbul's, Istanbul's, istanbul, Istanbul]
+./pnpm-lock.yaml:1923:7    - Unknown word (camelcase)     -- camelcase: 5.3.1
+	 Suggestions: [camelias, cablecast, camelizes, camels, camel's]
+./pnpm-lock.yaml:1930:5    - Unknown word (istanbuljs)    -- /@istanbuljs/schema@0.1.3:
+	 Suggestions: [istanbul's, Istanbul's, istanbul, Istanbul]
+./pnpm-lock.yaml:2022:9    - Unknown word (sinonjs)       -- '@sinonjs/fake-timers': 10.3.
+	 Suggestions: [sinon, sion's, sidon's, simon's, Sion's]
+./pnpm-lock.yaml:2050:9    - Unknown word (bcoe)          -- '@bcoe/v8-coverage': 0.2.3
+	 Suggestions: [cboe, bpoe, BPOE, boca, bock]
+./pnpm-lock.yaml:2082:18   - Unknown word (typebox)       -- '@sinclair/typebox': 0.27.8
+	 Suggestions: [typebar, type, typo, typed, types]
+./pnpm-lock.yaml:2089:7    - Unknown word (callsites)     -- callsites: 3.1.0
+	 Suggestions: [calcites, campsites, callosities, callets, callisto]
+./pnpm-lock.yaml:2144:15   - Unknown word (yargs)         -- '@types/yargs': 17.0.32
+	 Suggestions: [yards, yarns, args, xargs, ayr's]
+./pnpm-lock.yaml:2185:5    - Unknown word (leichtgewicht) -- /@leichtgewicht/ip-codec@2.0.4:
+	 Suggestions: []
+./pnpm-lock.yaml:2189:5    - Unknown word (ljharb)        -- /@ljharb/through@2.3.12:
+	 Suggestions: [lamb, lara, lard, lari, lark]
+./pnpm-lock.yaml:2196:5    - Unknown word (lukeed)        -- /@lukeed/csprng@1.1.0:
+	 Suggestions: [luke, laked, liked, lubed, luged]
+./pnpm-lock.yaml:2200:5    - Unknown word (lukeed)        -- /@lukeed/ms@2.0.2:
+	 Suggestions: [luke, laked, liked, lubed, luged]
+./pnpm-lock.yaml:2255:7    - Unknown word (rimraf)        -- rimraf: 4.4.1
+	 Suggestions: [rimas, ricrac, riprap, RIMAS, irma]
+./pnpm-lock.yaml:2256:7    - Unknown word (shelljs)       -- shelljs: 0.8.5
+	 Suggestions: [shells, shell's, Shell's, sells, shell]
+./pnpm-lock.yaml:2265:9    - Unknown word (esbuild)       -- - esbuild
+	 Suggestions: [ebuild, build, rebuild, erbil, espied]
+./pnpm-lock.yaml:2283:7    - Unknown word (iterare)       -- iterare: 1.2.1
+	 Suggestions: [iterate, iterant, iterable, iterated, iteratee]
+./pnpm-lock.yaml:2296:16   - Unknown word (websockets)    -- '@nestjs/websockets': ^10.0.0
+	 Suggestions: [websocket]
+./pnpm-lock.yaml:2304:16   - Unknown word (websockets)    -- '@nestjs/websockets':
+	 Suggestions: [websocket]
+./pnpm-lock.yaml:2310:9    - Unknown word (nuxtjs)        -- '@nuxtjs/opencollective': 0.
+	 Suggestions: [nuts, nut's, next's, Nut's, units]
+./pnpm-lock.yaml:2310:16   - Unknown word (opencollective) -- '@nuxtjs/opencollective': 0.3.2
+	 Suggestions: []
+./pnpm-lock.yaml:2312:7    - Unknown word (iterare)        -- iterare: 1.2.1
+	 Suggestions: [iterate, iterant, iterable, iterated, iteratee]
+./pnpm-lock.yaml:2358:16   - Unknown word (websockets)     -- '@nestjs/websockets': ^10.0.0
+	 Suggestions: [websocket]
+./pnpm-lock.yaml:2359:7    - Unknown word (amqp)           -- amqp-connection-manager:
+	 Suggestions: [amp, AMP, map, am's, amah]
+./pnpm-lock.yaml:2360:7    - Unknown word (amqplib)        -- amqplib: '*'
+	 Suggestions: [apib, ample, amply, amalia, amelia]
+./pnpm-lock.yaml:2362:7    - Unknown word (ioredis)        -- ioredis: '*'
+	 Suggestions: [orders, corders, ired, ires, iris]
+./pnpm-lock.yaml:2363:7    - Unknown word (kafkajs)        -- kafkajs: '*'
+	 Suggestions: [kafka's, Kafka's, kafka, kakas, kaftans]
+./pnpm-lock.yaml:2364:7    - Unknown word (mqtt)           -- mqtt: '*'
+	 Suggestions: [matt, mitt, mott, mutt, Matt]
+./pnpm-lock.yaml:2365:7    - Unknown word (nats)           -- nats: '*'
+	 Suggestions: [ants, na's, nabs, nags, naos]
+./pnpm-lock.yaml:2371:16   - Unknown word (websockets)     -- '@nestjs/websockets':
+	 Suggestions: [websocket]
+./pnpm-lock.yaml:2373:7    - Unknown word (amqp)           -- amqp-connection-manager:
+	 Suggestions: [amp, AMP, map, am's, amah]
+./pnpm-lock.yaml:2375:7    - Unknown word (amqplib)        -- amqplib:
+	 Suggestions: [apib, ample, amply, amalia, amelia]
+./pnpm-lock.yaml:2379:7    - Unknown word (ioredis)        -- ioredis:
+	 Suggestions: [orders, corders, ired, ires, iris]
+./pnpm-lock.yaml:2381:7    - Unknown word (kafkajs)        -- kafkajs:
+	 Suggestions: [kafka's, Kafka's, kafka, kakas, kaftans]
+./pnpm-lock.yaml:2383:7    - Unknown word (mqtt)           -- mqtt:
+	 Suggestions: [matt, mitt, mott, mutt, Matt]
+./pnpm-lock.yaml:2385:7    - Unknown word (nats)           -- nats:
+	 Suggestions: [ants, na's, nabs, nags, naos]
+./pnpm-lock.yaml:2390:7    - Unknown word (iterare)        -- iterare: 1.2.1
+	 Suggestions: [iterate, iterant, iterable, iterated, iteratee]
+./pnpm-lock.yaml:2406:7    - Unknown word (multer)         -- multer: 1.4.4-lts.1
+	 Suggestions: [muter, melter, milter, molter, mulder]
+./pnpm-lock.yaml:2425:17   - Unknown word (formbody)       -- '@fastify/formbody': 7.4.0
+	 Suggestions: [forbode, forebode, forby, forbad, forbid]
+./pnpm-lock.yaml:2426:17   - Unknown word (middie)         -- '@fastify/middie': 8.3.0
+	 Suggestions: [middle, middies, kiddie, midi, midge]
+./pnpm-lock.yaml:2471:19   - Unknown word (tsdoc)          -- '@microsoft/tsdoc': 0.14.2
+	 Suggestions: [tsco, todo, tsdk, tudor, Tudor]
+./pnpm-lock.yaml:2583:5    - Unknown word (nodelib)        -- /@nodelib/fs.scandir@2.1.5:
+	 Suggestions: [nodeid, nodeID, node, nodi, noel]
+./pnpm-lock.yaml:2587:9    - Unknown word (nodelib)        -- '@nodelib/fs.stat': 2.0.5
+	 Suggestions: [nodeid, nodeID, node, nodi, noel]
+./pnpm-lock.yaml:2590:5    - Unknown word (nodelib)        -- /@nodelib/fs.stat@2.0.5:
+	 Suggestions: [nodeid, nodeID, node, nodi, noel]
+./pnpm-lock.yaml:2594:5    - Unknown word (nodelib)        -- /@nodelib/fs.walk@1.2.8:
+	 Suggestions: [nodeid, nodeID, node, nodi, noel]
+./pnpm-lock.yaml:2598:9    - Unknown word (nodelib)        -- '@nodelib/fs.scandir': 2.1.5
+	 Suggestions: [nodeid, nodeID, node, nodi, noel]
+./pnpm-lock.yaml:2598:20   - Unknown word (scandir)        -- '@nodelib/fs.scandir': 2.1.5
+	 Suggestions: [scandia, scandic, sander, sandier, scaldic]
+./pnpm-lock.yaml:2599:7    - Unknown word (fastq)          -- fastq: 1.17.1
+	 Suggestions: [fast, fasts, FAST, fats, fatso]
+./pnpm-lock.yaml:2601:5    - Unknown word (nrwl)           -- /@nrwl/devkit@17.3.2(nx@18
+	 Suggestions: [nrl, NRL, nail, natl, nbpl]
+./pnpm-lock.yaml:2609:5    - Unknown word (nrwl)           -- /@nrwl/devkit@18.0.4(nx@18
+	 Suggestions: [nrl, NRL, nail, natl, nbpl]
+./pnpm-lock.yaml:2617:5    - Unknown word (nrwl)           -- /@nrwl/jest@18.0.4(@types/node
+	 Suggestions: [nrl, NRL, nail, natl, nbpl]
+./pnpm-lock.yaml:2637:5    - Unknown word (nrwl)           -- /@nrwl/js@17.3.2(@types/node
+	 Suggestions: [nrl, NRL, nail, natl, nbpl]
+./pnpm-lock.yaml:2654:5    - Unknown word (nrwl)           -- /@nrwl/js@18.0.4(@types/node
+	 Suggestions: [nrl, NRL, nail, natl, nbpl]
+./pnpm-lock.yaml:2685:9    - Unknown word (bufferutil)     -- - bufferutil
+	 Suggestions: []
+./pnpm-lock.yaml:2687:9    - Unknown word (csso)           -- - csso
+	 Suggestions: [csco, CSCO, css, CSS, sso]
+./pnpm-lock.yaml:2689:9    - Unknown word (esbuild)        -- - esbuild
+	 Suggestions: [ebuild, build, rebuild, erbil, espied]
+./pnpm-lock.yaml:2694:9    - Unknown word (lightningcss)   -- - lightningcss
+	 Suggestions: [lightnings, lightning's, lightings, lighting's, lightenings]
+./pnpm-lock.yaml:2806:9    - Unknown word (bufferutil)     -- - bufferutil
+	 Suggestions: []
+./pnpm-lock.yaml:2808:9    - Unknown word (csso)           -- - csso
+	 Suggestions: [csco, CSCO, css, CSS, sso]
+./pnpm-lock.yaml:2810:9    - Unknown word (esbuild)        -- - esbuild
+	 Suggestions: [ebuild, build, rebuild, erbil, espied]
+./pnpm-lock.yaml:2813:9    - Unknown word (lightningcss)   -- - lightningcss
+	 Suggestions: [lightnings, lightning's, lightings, lighting's, lightenings]
+./pnpm-lock.yaml:2846:5    - Unknown word (nuxtjs)         -- /@nuxtjs/opencollective@0.3.
+	 Suggestions: [nuts, nut's, next's, Nut's, units]
+./pnpm-lock.yaml:2852:7    - Unknown word (consola)        -- consola: 2.15.3
+	 Suggestions: [consol, console, consols, CONSOL, canola]
+./pnpm-lock.yaml:2870:7    - Unknown word (yargs)          -- yargs-parser: 21.1.1
+	 Suggestions: [yards, yarns, args, xargs, ayr's]
+./pnpm-lock.yaml:2886:7    - Unknown word (yargs)          -- yargs-parser: 21.1.1
+	 Suggestions: [yards, yarns, args, xargs, ayr's]
+./pnpm-lock.yaml:2902:7    - Unknown word (yargs)          -- yargs-parser: 21.1.1
+	 Suggestions: [yards, yarns, args, xargs, ayr's]
+./pnpm-lock.yaml:2965:9    - Unknown word (phenomnomnominal) -- '@phenomnomnominal/tsquery': 5.0.1(typescript
+	 Suggestions: []
+./pnpm-lock.yaml:2965:26   - Unknown word (tsquery)          -- '@phenomnomnominal/tsquery': 5.0.1(typescript@
+	 Suggestions: [query, toque, truer, tuque, toques]
+./pnpm-lock.yaml:2971:7    - Unknown word (minimatch)        -- minimatch: 9.0.3
+	 Suggestions: [mismatch, minima, minimal, minimap, minimax]
+./pnpm-lock.yaml:3008:9    - Unknown word (phenomnomnominal) -- '@phenomnomnominal/tsquery': 5.0.1(typescript
+	 Suggestions: []
+./pnpm-lock.yaml:3008:26   - Unknown word (tsquery)          -- '@phenomnomnominal/tsquery': 5.0.1(typescript@
+	 Suggestions: [query, toque, truer, tuque, toques]
+./pnpm-lock.yaml:3013:7    - Unknown word (columnify)        -- columnify: 1.6.0
+	 Suggestions: [columnist, community, Community, column, calumny]
+./pnpm-lock.yaml:3019:7    - Unknown word (minimatch)        -- minimatch: 9.0.3
+	 Suggestions: [mismatch, minima, minimal, minimap, minimax]
+./pnpm-lock.yaml:3058:9    - Unknown word (phenomnomnominal) -- '@phenomnomnominal/tsquery': 5.0.1(typescript
+	 Suggestions: []
+./pnpm-lock.yaml:3058:26   - Unknown word (tsquery)          -- '@phenomnomnominal/tsquery': 5.0.1(typescript@
+	 Suggestions: [query, toque, truer, tuque, toques]
+./pnpm-lock.yaml:3063:7    - Unknown word (columnify)        -- columnify: 1.6.0
+	 Suggestions: [columnist, community, Community, column, calumny]
+./pnpm-lock.yaml:3069:7    - Unknown word (minimatch)        -- minimatch: 9.0.3
+	 Suggestions: [mismatch, minima, minimal, minimap, minimax]
+./pnpm-lock.yaml:3138:9    - Unknown word (svgr)             -- '@svgr/webpack': 8.1.0(typescript
+	 Suggestions: [svga, SVGA, svg, surg, evrg]
+./pnpm-lock.yaml:3158:9    - Unknown word (bufferutil)       -- - bufferutil
+	 Suggestions: []
+./pnpm-lock.yaml:3160:9    - Unknown word (csso)             -- - csso
+	 Suggestions: [csco, CSCO, css, CSS, sso]
+./pnpm-lock.yaml:3162:9    - Unknown word (esbuild)          -- - esbuild
+	 Suggestions: [ebuild, build, rebuild, erbil, espied]
+./pnpm-lock.yaml:3167:9    - Unknown word (lightningcss)     -- - lightningcss
+	 Suggestions: [lightnings, lightning's, lightings, lighting's, lightenings]
+./pnpm-lock.yaml:3359:9    - Unknown word (phenomnomnominal) -- '@phenomnomnominal/tsquery': 5.0.1(typescript
+	 Suggestions: []
+./pnpm-lock.yaml:3359:26   - Unknown word (tsquery)          -- '@phenomnomnominal/tsquery': 5.0.1(typescript@
+	 Suggestions: [query, toque, truer, tuque, toques]
+./pnpm-lock.yaml:3360:9    - Unknown word (svgr)             -- '@svgr/webpack': 8.1.0(typescript
+	 Suggestions: [svga, SVGA, svg, surg, evrg]
+./pnpm-lock.yaml:3387:9    - Unknown word (phenomnomnominal) -- '@phenomnomnominal/tsquery': 5.0.1(typescript
+	 Suggestions: []
+./pnpm-lock.yaml:3387:26   - Unknown word (tsquery)          -- '@phenomnomnominal/tsquery': 5.0.1(typescript@
+	 Suggestions: [query, toque, truer, tuque, toques]
+./pnpm-lock.yaml:3450:7    - Unknown word (autoprefixer)     -- autoprefixer: 10.4.17(postcss@8.
+	 Suggestions: []
+./pnpm-lock.yaml:3452:7    - Unknown word (browserslist)     -- browserslist: 4.23.0
+	 Suggestions: []
+./pnpm-lock.yaml:3464:7    - Unknown word (postcss)          -- postcss: 8.4.35
+	 Suggestions: [posts, post's, Post's, poetess, possess]
+./pnpm-lock.yaml:3465:7    - Unknown word (postcss)          -- postcss-import: 14.1.0(postcss
+	 Suggestions: [posts, post's, Post's, poetess, possess]
+./pnpm-lock.yaml:3466:7    - Unknown word (postcss)          -- postcss-loader: 6.2.1(postcss
+	 Suggestions: [posts, post's, Post's, poetess, possess]
+./pnpm-lock.yaml:3491:9    - Unknown word (bufferutil)       -- - bufferutil
+	 Suggestions: []
+./pnpm-lock.yaml:3493:9    - Unknown word (csso)             -- - csso
+	 Suggestions: [csco, CSCO, css, CSS, sso]
+./pnpm-lock.yaml:3495:9    - Unknown word (esbuild)          -- - esbuild
+	 Suggestions: [ebuild, build, rebuild, erbil, espied]
+./pnpm-lock.yaml:3498:9    - Unknown word (lightningcss)     -- - lightningcss
+	 Suggestions: [lightnings, lightning's, lightings, lighting's, lightenings]
+./pnpm-lock.yaml:3548:7    - Unknown word (esquery)          -- esquery: 1.5.0
+	 Suggestions: [enquiry, equerry, esquire, estuary, Esquire]
+./pnpm-lock.yaml:3551:5    - Unknown word (pkgjs)            -- /@pkgjs/parseargs@0.11.0:
+	 Suggestions: [pegs, pigs, pugs, pages, peg's]
+./pnpm-lock.yaml:3557:5    - Unknown word (pkgr)             -- /@pkgr/core@0.1.1:
+	 Suggestions: [pkg, paar, page, pair, parr]
+./pnpm-lock.yaml:3638:36   - Unknown word (msvc)             -- binding-win32-arm64-msvc': 0.5.4
+	 Suggestions: [msec, svc, Svc, macc, marc]
+./pnpm-lock.yaml:3639:35   - Unknown word (msvc)             -- rspack/binding-win32-ia32-msvc': 0.5.4
+	 Suggestions: [msec, svc, Svc, macc, marc]
+./pnpm-lock.yaml:3640:34   - Unknown word (msvc)             -- rspack/binding-win32-x64-msvc': 0.5.4
+	 Suggestions: [msec, svc, Svc, macc, marc]
+./pnpm-lock.yaml:3648:9    - Unknown word (discoveryjs)      -- '@discoveryjs/json-ext': 0.5.7
+	 Suggestions: [discovery's, discovers, discovery, discoverers, discoveries]
+./pnpm-lock.yaml:3651:7    - Unknown word (colorette)        -- colorette: 2.0.19
+	 Suggestions: [colette, Colette, clorets, chlorate, chlorite]
+./pnpm-lock.yaml:3654:7    - Unknown word (rechoir)          -- rechoir: 0.8.0
+	 Suggestions: [recoil, recoin, rector, renoir, revoir]
+./pnpm-lock.yaml:3660:9    - Unknown word (bufferutil)       -- - bufferutil
+	 Suggestions: []
+./pnpm-lock.yaml:3679:7    - Unknown word (browserslist)     -- browserslist: 4.23.0
+	 Suggestions: []
+./pnpm-lock.yaml:3685:7    - Unknown word (tapable)          -- tapable: 2.2.1
+	 Suggestions: [takable, tamable, taxable, capable, table]
+./pnpm-lock.yaml:3687:7    - Unknown word (watchpack)        -- watchpack: 2.4.0
+	 Suggestions: [watchman, watchband, watchcase]
+./pnpm-lock.yaml:3716:5    - Unknown word (rushstack)        -- /@rushstack/eslint-patch@1.7.2:
+	 Suggestions: []
+./pnpm-lock.yaml:3737:5    - Unknown word (sinonjs)          -- /@sinonjs/commons@3.0.1:
+	 Suggestions: [sinon, sion's, sidon's, simon's, Sion's]
+./pnpm-lock.yaml:3743:5    - Unknown word (sinonjs)          -- /@sinonjs/fake-timers@10.3.0:
+	 Suggestions: [sinon, sion's, sidon's, simon's, Sion's]
+./pnpm-lock.yaml:3746:9    - Unknown word (sinonjs)          -- '@sinonjs/commons': 3.0.1
+	 Suggestions: [sinon, sion's, sidon's, simon's, Sion's]
+./pnpm-lock.yaml:3749:5    - Unknown word (svgr)             -- /@svgr/babel-plugin-add-jsx
+	 Suggestions: [svga, SVGA, svg, surg, evrg]
+./pnpm-lock.yaml:3758:5    - Unknown word (svgr)             -- /@svgr/babel-plugin-remove
+	 Suggestions: [svga, SVGA, svg, surg, evrg]
+./pnpm-lock.yaml:3767:5    - Unknown word (svgr)             -- /@svgr/babel-plugin-remove
+	 Suggestions: [svga, SVGA, svg, surg, evrg]
+./pnpm-lock.yaml:3844:7    - Unknown word (camelcase)        -- camelcase: 6.3.0
+	 Suggestions: [camelias, cablecast, camelizes, camels, camel's]
+./pnpm-lock.yaml:3845:7    - Unknown word (cosmiconfig)      -- cosmiconfig: 8.3.6(typescript@5
+	 Suggestions: []
+./pnpm-lock.yaml:3882:7    - Unknown word (cosmiconfig)      -- cosmiconfig: 8.3.6(typescript@5
+	 Suggestions: []
+./pnpm-lock.yaml:3883:7    - Unknown word (deepmerge)        -- deepmerge: 4.3.1
+	 Suggestions: [deeper]
+./pnpm-lock.yaml:3884:7    - Unknown word (svgo)             -- svgo: 3.2.0
+	 Suggestions: [sago, svga, SVGA, svg, avgo]
+./pnpm-lock.yaml:3900:21   - Unknown word (svgo)             -- '@svgr/plugin-svgo': 8.1.0(@svgr/core@
+	 Suggestions: [sago, svga, SVGA, svg, avgo]
+./pnpm-lock.yaml:3911:5    - Unknown word (trysound)         -- /@trysound/sax@0.2.0:
+	 Suggestions: [tyson, tryout, tryouts, trysted, trysting]
+./pnpm-lock.yaml:3989:15   - Unknown word (estree)           -- '@types/estree': 1.0.5
+	 Suggestions: [estee, entree, estée, entrée, Estée]
+./pnpm-lock.yaml:3994:15   - Unknown word (estree)           -- '@types/estree': 1.0.5
+	 Suggestions: [estee, entree, estée, entrée, Estée]
+./pnpm-lock.yaml:4080:7    - Unknown word (undici)           -- undici-types: 5.26.5
+	 Suggestions: [undid, undies, undine, unpick, nudie]
+./pnpm-lock.yaml:4106:7    - Unknown word (csstype)          -- csstype: 3.1.3
+	 Suggestions: [fstype, fsType, caste, coste, castle]
+./pnpm-lock.yaml:4153:15   - Unknown word (cookiejar)        -- '@types/cookiejar': 2.1.5
+	 Suggestions: [cooker, cookie, chokier, cockier, cookies]
+./pnpm-lock.yaml:4162:15   - Unknown word (superagent)       -- '@types/superagent': 8.1.3
+	 Suggestions: [superagency, superjacent, supermen, superset, superbest]
+./pnpm-lock.yaml:4205:26   - Unknown word (regexpp)          -- '@eslint-community/regexpp': 4.10.0
+	 Suggestions: [regexp, regexps, regex, regex's, regexes]
+./pnpm-lock.yaml:4213:7    - Unknown word (graphemer)        -- graphemer: 1.4.0
+	 Suggestions: [grapheme, graphemes, grahame, graphed, grapier]
+./pnpm-lock.yaml:4235:38   - Unknown word (estree)           -- typescript-eslint/typescript-estree': 6.21.0(typescript
+	 Suggestions: [estee, entree, estée, entrée, Estée]
+./pnpm-lock.yaml:4256:38   - Unknown word (estree)           -- typescript-eslint/typescript-estree': 7.0.2(typescript@
+	 Suggestions: [estee, entree, estée, entrée, Estée]
+./pnpm-lock.yaml:4291:38   - Unknown word (estree)           -- typescript-eslint/typescript-estree': 7.0.2(typescript@
+	 Suggestions: [estee, entree, estée, entrée, Estée]
+./pnpm-lock.yaml:4323:7    - Unknown word (globby)           -- globby: 11.1.0
+	 Suggestions: [lobby, glob, goby, globe, globs]
+./pnpm-lock.yaml:4345:7    - Unknown word (globby)           -- globby: 11.1.0
+	 Suggestions: [lobby, glob, goby, globe, globs]
+./pnpm-lock.yaml:4390:5    - Unknown word (ungap)            -- /@ungap/structured-clone@1.
+	 Suggestions: [uncap, unmap, urga, unapt, unbar]
+./pnpm-lock.yaml:4393:5    - Unknown word (webassemblyjs)    -- /@webassemblyjs/ast@1.11.6:
+	 Suggestions: []
+./pnpm-lock.yaml:4396:9    - Unknown word (webassemblyjs)    -- '@webassemblyjs/helper-numbers': 1.
+	 Suggestions: []
+./pnpm-lock.yaml:4397:9    - Unknown word (webassemblyjs)    -- '@webassemblyjs/helper-wasm-bytecode
+	 Suggestions: []
+./pnpm-lock.yaml:4399:5    - Unknown word (webassemblyjs)    -- /@webassemblyjs/floating-point-hex-parser
+	 Suggestions: []
+./pnpm-lock.yaml:4402:5    - Unknown word (webassemblyjs)    -- /@webassemblyjs/helper-api-error@1.
+	 Suggestions: []
+./pnpm-lock.yaml:4413:9    - Unknown word (xtuc)             -- '@xtuc/long': 4.2.2
+	 Suggestions: [utc, xaut, xdc, xec, xtz]
+./pnpm-lock.yaml:4429:9    - Unknown word (xtuc)             -- '@xtuc/ieee754': 1.2.0
+	 Suggestions: [utc, xaut, xdc, xec, xtz]
+./pnpm-lock.yaml:4434:9    - Unknown word (xtuc)             -- '@xtuc/long': 4.2.2
+	 Suggestions: [utc, xaut, xdc, xec, xtz]
+./pnpm-lock.yaml:4482:9    - Unknown word (xtuc)             -- '@xtuc/long': 4.2.2
+	 Suggestions: [utc, xaut, xdc, xec, xtz]
+./pnpm-lock.yaml:4484:5    - Unknown word (xtuc)             -- /@xtuc/ieee754@1.2.0:
+	 Suggestions: [utc, xaut, xdc, xec, xtz]
+./pnpm-lock.yaml:4490:5    - Unknown word (yarnpkg)          -- /@yarnpkg/lockfile@1.1.0:
+	 Suggestions: [yarning, yang, yank, yarn, yanks]
+./pnpm-lock.yaml:4493:5    - Unknown word (yarnpkg)          -- /@yarnpkg/parsers@3.0.0-rc.46
+	 Suggestions: [yarning, yang, yank, yarn, yanks]
+./pnpm-lock.yaml:4500:5    - Unknown word (zkochan)          -- /@zkochan/js-yaml@0.0.6:
+	 Suggestions: [kochab, Kochab, zoan]
+./pnpm-lock.yaml:4504:7    - Unknown word (argparse)        -- argparse: 2.0.1
+	 Suggestions: [afmparse, Afmparse, rapparee, agars, aglare]
+./pnpm-lock.yaml:4657:7    - Unknown word (picomatch)       -- picomatch: 2.3.1
+	 Suggestions: [micromatch]
+./pnpm-lock.yaml:4676:7    - Unknown word (sprintf)         -- sprintf-js: 1.0.3
+	 Suggestions: [sprint, sprints, snprintf, Sprint, printf]
+./pnpm-lock.yaml:4684:7    - Unknown word (dequal)          -- dequal: 2.0.3
+	 Suggestions: [deal, decal, dedal, denial, dental]
+./pnpm-lock.yaml:4742:15   - Unknown word (unscopables)     -- es-shim-unscopables: 1.0.2
+	 Suggestions: [unsociable, unscopes, unescapable, unscrambles, unstoppable]
+./pnpm-lock.yaml:4752:15   - Unknown word (unscopables)     -- es-shim-unscopables: 1.0.2
+	 Suggestions: [unsociable, unscopes, unescapable, unscrambles, unstoppable]
+./pnpm-lock.yaml:4762:15   - Unknown word (unscopables)     -- es-shim-unscopables: 1.0.2
+	 Suggestions: [unsociable, unscopes, unescapable, unscrambles, unstoppable]
+./pnpm-lock.yaml:4772:15   - Unknown word (unscopables)     -- es-shim-unscopables: 1.0.2
+	 Suggestions: [unsociable, unscopes, unescapable, unscrambles, unstoppable]
+./pnpm-lock.yaml:4827:7    - Unknown word (browserslist)    -- browserslist: 4.23.0
+	 Suggestions: []
+./pnpm-lock.yaml:4831:7    - Unknown word (picocolors)      -- picocolors: 1.0.0
+	 Suggestions: [piccolos, piccolo's, piccolo, piccoloist]
+./pnpm-lock.yaml:4846:7    - Unknown word (archy)           -- archy: 1.0.0
+	 Suggestions: [achy, arch, archt, archly, Arch]
+./pnpm-lock.yaml:4848:7    - Unknown word (fastq)           -- fastq: 1.17.1
+	 Suggestions: [fast, fasts, FAST, fats, fatso]
+./pnpm-lock.yaml:4849:13   - Unknown word (microtask)       -- queue-microtask: 1.2.3
+	 Suggestions: [micros, micro's, microns, microbes, microbus]
+./pnpm-lock.yaml:4858:7    - Unknown word (archy)           -- archy: 1.0.0
+	 Suggestions: [achy, arch, archt, archly, Arch]
+./pnpm-lock.yaml:4860:7    - Unknown word (fastq)           -- fastq: 1.17.1
+	 Suggestions: [fast, fasts, FAST, fats, fatso]
+./pnpm-lock.yaml:4882:7    - Unknown word (dequal)          -- dequal: 2.0.3
+	 Suggestions: [deal, decal, dedal, denial, dental]
+./pnpm-lock.yaml:4933:9    - Unknown word (istanbuljs)      -- '@istanbuljs/load-nyc-config': 1
+	 Suggestions: [istanbul's, Istanbul's, istanbul, Istanbul]
+./pnpm-lock.yaml:4934:9    - Unknown word (istanbuljs)      -- '@istanbuljs/schema': 0.1.3
+	 Suggestions: [istanbul's, Istanbul's, istanbul, Istanbul]
+./pnpm-lock.yaml:4955:7    - Unknown word (cosmiconfig)     -- cosmiconfig: 6.0.0
+	 Suggestions: []
+./pnpm-lock.yaml:4963:15   - Unknown word (compat)          -- '@babel/compat-data': 7.23.5
+	 Suggestions: [compt, combat, compal, compaq, compar]
+./pnpm-lock.yaml:5076:7    - Unknown word (depd)            -- depd: 2.0.0
+	 Suggestions: [dead, decd, deed, depp, deps]
+./pnpm-lock.yaml:5084:7    - Unknown word (unpipe)          -- unpipe: 1.0.0
+	 Suggestions: [unpile, unripe, unhip, unite, unpin]
+./pnpm-lock.yaml:5096:7    - Unknown word (depd)            -- depd: 2.0.0
+	 Suggestions: [dead, decd, deed, depp, deps]
+./pnpm-lock.yaml:5104:7    - Unknown word (unpipe)          -- unpipe: 1.0.0
+	 Suggestions: [unpile, unripe, unhip, unite, unpin]
+./pnpm-lock.yaml:5115:7    - Unknown word (depd)            -- depd: 2.0.0
+	 Suggestions: [dead, decd, deed, depp, deps]
+./pnpm-lock.yaml:5123:7    - Unknown word (unpipe)          -- unpipe: 1.0.0
+	 Suggestions: [unpile, unripe, unhip, unite, unpin]
+./pnpm-lock.yaml:5142:7    - Unknown word (concat)          -- concat-map: 0.0.1
+	 Suggestions: [coact, coenact, contact, coat, coca]
+./pnpm-lock.yaml:5163:14   - Unknown word (browserslist)    -- update-browserslist-db: 1.0.13(browserslist
+	 Suggestions: []
+./pnpm-lock.yaml:5203:7    - Unknown word (streamsearch)    -- streamsearch: 1.1.0
+	 Suggestions: []
+./pnpm-lock.yaml:5288:7    - Unknown word (anymatch)        -- anymatch: 3.1.3
+	 Suggestions: [namath, almach, anarch, animate, animato]
+./pnpm-lock.yaml:5294:7    - Unknown word (readdirp)        -- readdirp: 3.6.0
+	 Suggestions: [redip, reader, readers, readied, readier]
+./pnpm-lock.yaml:5296:7    - Unknown word (fsevents)        -- fsevents: 2.3.3
+	 Suggestions: [events, sevens, seven's, seventh, seventy]
+./pnpm-lock.yaml:5303:7    - Unknown word (anymatch)        -- anymatch: 3.1.3
+	 Suggestions: [namath, almach, anarch, animate, animato]
+./pnpm-lock.yaml:5309:7    - Unknown word (readdirp)        -- readdirp: 3.6.0
+	 Suggestions: [redip, reader, readers, readied, readier]
+./pnpm-lock.yaml:5311:7    - Unknown word (fsevents)        -- fsevents: 2.3.3
+	 Suggestions: [events, sevens, seven's, seventh, seventy]
+./pnpm-lock.yaml:5401:15   - Unknown word (iojs)            -- engines: {iojs: '>= 1.0.0', node:
+	 Suggestions: [io's, ions, iops, Io's, ios]
+./pnpm-lock.yaml:5442:7    - Unknown word (wcwidth)         -- wcwidth: 1.0.1
+	 Suggestions: [width, with, wwids, whidah, widths]
+./pnpm-lock.yaml:5472:13   - Unknown word (timsort)         -- array-timsort: 1.0.3
+	 Suggestions: [timor, timeout, Timor, import, timer]
+./pnpm-lock.yaml:5474:7    - Unknown word (esprima)         -- esprima: 4.0.1
+	 Suggestions: [esprit, esprits, sepia, septime, seriema]
+./pnpm-lock.yaml:5519:7    - Unknown word (typedarray)      -- typedarray: 0.0.6
+	 Suggestions: []
+./pnpm-lock.yaml:5557:7    - Unknown word (depd)            -- depd: 2.0.0
+	 Suggestions: [dead, decd, deed, depp, deps]
+./pnpm-lock.yaml:5558:7    - Unknown word (keygrip)         -- keygrip: 1.1.0
+	 Suggestions: [keri, kerri, kyrie, kymric, keycorp]
+./pnpm-lock.yaml:5574:7    - Unknown word (globby)          -- globby: 12.2.0
+	 Suggestions: [lobby, glob, goby, globe, globs]
+./pnpm-lock.yaml:5706:7    - Unknown word (icss)            -- icss-utils: 5.1.0(postcss
+	 Suggestions: [ices, icsh, ICSH, iss, scss]
+./pnpm-lock.yaml:5724:7    - Unknown word (csso)            -- csso: '*'
+	 Suggestions: [csco, CSCO, css, CSS, sso]
+./pnpm-lock.yaml:5726:7    - Unknown word (lightningcss)    -- lightningcss: '*'
+	 Suggestions: [lightnings, lightning's, lightings, lighting's, lightenings]
+./pnpm-lock.yaml:5743:7    - Unknown word (cssnano)         -- cssnano: 6.0.3(postcss@8.4.
+	 Suggestions: [conan, casino, cessna, cassino, cessna's]
+./pnpm-lock.yaml:5754:7    - Unknown word (boolbase)        -- boolbase: 1.0.0
+	 Suggestions: [bookcase, boobies, bilobate, boilable, bookable]
+./pnpm-lock.yaml:5756:7    - Unknown word (domhandler)      -- domhandler: 5.0.3
+	 Suggestions: [demander]
+./pnpm-lock.yaml:5757:7    - Unknown word (domutils)        -- domutils: 3.1.0
+	 Suggestions: [domicils, donuts, domains, domicil, dottels]
+./pnpm-lock.yaml:5795:7    - Unknown word (cssnano)         -- cssnano-utils: 4.0.1(postcss
+	 Suggestions: [conan, casino, cessna, cassino, cessna's]
+./pnpm-lock.yaml:5798:15   - Unknown word (colormin)        -- postcss-colormin: 6.0.2(postcss@8.4.
+	 Suggestions: [chlorin, comorin, coloring, Comorin, colin]
+./pnpm-lock.yaml:5822:15   - Unknown word (svgo)            -- postcss-svgo: 6.0.2(postcss@8.4.
+	 Suggestions: [sago, svga, SVGA, svg, avgo]
+./pnpm-lock.yaml:5841:7    - Unknown word (cssnano)         -- cssnano-preset-default: 6.0
+	 Suggestions: [conan, casino, cessna, cassino, cessna's]
+./pnpm-lock.yaml:5842:7    - Unknown word (lilconfig)       -- lilconfig: 3.1.1
+	 Suggestions: [ifconfig, ipconfig, gitconfig]
+./pnpm-lock.yaml:5913:7    - Unknown word (execa)           -- execa: 5.1.1
+	 Suggestions: [exec, execs, excel, elea, exch]
+./pnpm-lock.yaml:5927:7    - Unknown word (gopd)            -- gopd: 1.0.1
+	 Suggestions: [goad, gold, gond, good, Gold]
+./pnpm-lock.yaml:5986:7    - Unknown word (wrappy)          -- wrappy: 1.0.2
+	 Suggestions: [crappy, wrap, wraps, wrapt, crapy]
+./pnpm-lock.yaml:6016:9    - Unknown word (leichtgewicht)   -- '@leichtgewicht/ip-codec': 2.0.4
+	 Suggestions: []
+./pnpm-lock.yaml:6023:7    - Unknown word (esutils)         -- esutils: 2.0.3
+	 Suggestions: [psutils, eustis, Eustis, utils, etuis]
+./pnpm-lock.yaml:6030:7    - Unknown word (esutils)         -- esutils: 2.0.3
+	 Suggestions: [psutils, eustis, Eustis, utils, etuis]
+./pnpm-lock.yaml:6035:7    - Unknown word (domelementtype)  -- domelementtype: 2.3.0
+	 Suggestions: []
+./pnpm-lock.yaml:6036:7    - Unknown word (domhandler)      -- domhandler: 5.0.3
+	 Suggestions: [demander]
+./pnpm-lock.yaml:6048:7    - Unknown word (domelementtype)  -- domelementtype: 2.3.0
+	 Suggestions: []
+./pnpm-lock.yaml:6055:7    - Unknown word (domelementtype)  -- domelementtype: 2.3.0
+	 Suggestions: []
+./pnpm-lock.yaml:6056:7    - Unknown word (domhandler)      -- domhandler: 5.0.3
+	 Suggestions: [demander]
+./pnpm-lock.yaml:6127:7    - Unknown word (tapable)         -- tapable: 2.2.1
+	 Suggestions: [takable, tamable, taxable, capable, table]
+./pnpm-lock.yaml:6134:7    - Unknown word (tapable)         -- tapable: 2.2.1
+	 Suggestions: [takable, tamable, taxable, capable, table]
+./pnpm-lock.yaml:6163:10   - Unknown word (arrayish)        -- is-arrayish: 0.2.1
+	 Suggestions: [arrays, array's, arraying, arabist, Arabist]
+./pnpm-lock.yaml:6170:7    - Unknown word (arraybuffer)    -- arraybuffer.prototype.slice: 1.
+	 Suggestions: []
+./pnpm-lock.yaml:6175:14   - Unknown word (tostringtag)    -- es-set-tostringtag: 2.0.3
+	 Suggestions: []
+./pnpm-lock.yaml:6180:7    - Unknown word (globalthis)     -- globalthis: 1.0.3
+	 Suggestions: [globals, globalism, globalist, globalists, globalizes]
+./pnpm-lock.yaml:6181:7    - Unknown word (gopd)           -- gopd: 1.0.1
+	 Suggestions: [goad, gold, gond, good, Gold]
+./pnpm-lock.yaml:6183:11   - Unknown word (proto)          -- has-proto: 1.0.3
+	 Suggestions: [porto, Porto, prot, photo, prato]
+./pnpm-lock.yaml:6185:7    - Unknown word (hasown)         -- hasown: 2.0.1
+	 Suggestions: [halon, hyson, hanson, hasten, Halon]
+./pnpm-lock.yaml:6194:10   - Unknown word (weakref)        -- is-weakref: 1.0.2
+	 Suggestions: [weaker, weaken, wearer, waker, wakers]
+./pnpm-lock.yaml:6199:18   - Unknown word (concat)         -- safe-array-concat: 1.1.0
+	 Suggestions: [coact, coenact, contact, coat, coca]
+./pnpm-lock.yaml:6202:24   - Unknown word (trimend)        -- string.prototype.trimend: 1.0.7
+	 Suggestions: [trined, timed, trend, tried, triced]
+./pnpm-lock.yaml:6203:24   - Unknown word (trimstart)      -- string.prototype.trimstart: 1.0.7
+	 Suggestions: [tristram, trimestral, Tristram, tristan, trimeter]
+./pnpm-lock.yaml:6230:7    - Unknown word (asynciterator)  -- asynciterator.prototype: 1.0.0
+	 Suggestions: []
+./pnpm-lock.yaml:6235:14   - Unknown word (tostringtag)    -- es-set-tostringtag: 2.0.3
+	 Suggestions: []
+./pnpm-lock.yaml:6238:7    - Unknown word (globalthis)     -- globalthis: 1.0.3
+	 Suggestions: [globals, globalism, globalist, globalists, globalizes]
+./pnpm-lock.yaml:6240:11   - Unknown word (proto)          -- has-proto: 1.0.3
+	 Suggestions: [porto, Porto, prot, photo, prato]
+./pnpm-lock.yaml:6244:18   - Unknown word (concat)         -- safe-array-concat: 1.1.0
+	 Suggestions: [coact, coenact, contact, coat, coca]
+./pnpm-lock.yaml:6255:11   - Unknown word (tostringtag)    -- has-tostringtag: 1.0.2
+	 Suggestions: []
+./pnpm-lock.yaml:6256:7    - Unknown word (hasown)         -- hasown: 2.0.1
+	 Suggestions: [halon, hyson, hanson, hasten, Halon]
+./pnpm-lock.yaml:6262:7    - Unknown word (hasown)         -- hasown: 2.0.1
+	 Suggestions: [halon, hyson, hanson, hasten, Halon]
+./pnpm-lock.yaml:6309:9    - Unknown word (rushstack)      -- '@rushstack/eslint-patch': 1.7.
+	 Suggestions: []
+./pnpm-lock.yaml:6408:23   - Unknown word (findlastindex)  -- array.prototype.findlastindex: 1.2.4
+	 Suggestions: []
+./pnpm-lock.yaml:6410:23   - Unknown word (flatmap)        -- array.prototype.flatmap: 1.3.2
+	 Suggestions: [flagman, flatcar, flattop, flaxman, flytrap]
+./pnpm-lock.yaml:6416:7    - Unknown word (hasown)         -- hasown: 2.0.1
+	 Suggestions: [halon, hyson, hanson, hasten, Halon]
+./pnpm-lock.yaml:6420:14   - Unknown word (fromentries)    -- object.fromentries: 2.0.7
+	 Suggestions: [frumenties]
+./pnpm-lock.yaml:6421:14   - Unknown word (groupby)        -- object.groupby: 1.0.2
+	 Suggestions: [group, groupe, groups, grouty, grubby]
+./pnpm-lock.yaml:6440:23   - Unknown word (flatmap)        -- array.prototype.flatmap: 1.3.2
+	 Suggestions: [flagman, flatcar, flattop, flaxman, flytrap]
+./pnpm-lock.yaml:6443:7    - Unknown word (axobject)       -- axobject-query: 3.2.1
+	 Suggestions: [object]
+./pnpm-lock.yaml:6444:7    - Unknown word (damerau)        -- damerau-levenshtein: 1.0.8
+	 Suggestions: [damar, damars, dammar, admiral, dammars]
+./pnpm-lock.yaml:6448:7    - Unknown word (hasown)         -- hasown: 2.0.1
+	 Suggestions: [halon, hyson, hanson, hasten, Halon]
+./pnpm-lock.yaml:6453:14   - Unknown word (fromentries)    -- object.fromentries: 2.0.7
+	 Suggestions: [frumenties]
+./pnpm-lock.yaml:6474:7    - Unknown word (synckit)        -- synckit: 0.8.8
+	 Suggestions: [snit, sync, synch, syncs, sennit]
+./pnpm-lock.yaml:6493:23   - Unknown word (flatmap)        -- array.prototype.flatmap: 1.3.2
+	 Suggestions: [flagman, flatcar, flattop, flaxman, flytrap]
+./pnpm-lock.yaml:6494:23   - Unknown word (tosorted)       -- array.prototype.tosorted: 1.1.3
+	 Suggestions: [tooted, sorted, unsorted, sooted, torte]
+./pnpm-lock.yaml:6498:7    - Unknown word (estraverse)     -- estraverse: 5.3.0
+	 Suggestions: [estovers, extravert]
+./pnpm-lock.yaml:6502:14   - Unknown word (fromentries)    -- object.fromentries: 2.0.7
+	 Suggestions: [frumenties]
+./pnpm-lock.yaml:6508:24   - Unknown word (matchall)       -- string.prototype.matchall: 4.0.10
+	 Suggestions: [marshall, mitchell, matchable, Marshall, Mitchell]
+./pnpm-lock.yaml:6515:7    - Unknown word (esrecurse)      -- esrecurse: 4.3.0
+	 Suggestions: [recurse]
+./pnpm-lock.yaml:6516:7    - Unknown word (estraverse)     -- estraverse: 4.3.0
+	 Suggestions: [estovers, extravert]
+./pnpm-lock.yaml:6522:7    - Unknown word (esrecurse)      -- esrecurse: 4.3.0
+	 Suggestions: [recurse]
+./pnpm-lock.yaml:6523:7    - Unknown word (estraverse)     -- estraverse: 5.3.0
+	 Suggestions: [estovers, extravert]
+./pnpm-lock.yaml:6535:26   - Unknown word (regexpp)        -- '@eslint-community/regexpp': 4.10.0
+	 Suggestions: [regexp, regexps, regex, regex's, regexes]
+./pnpm-lock.yaml:6538:9    - Unknown word (humanwhocodes)  -- '@humanwhocodes/config-array': 0.11
+	 Suggestions: []
+./pnpm-lock.yaml:6541:9    - Unknown word (ungap)          -- '@ungap/structured-clone':
+	 Suggestions: [uncap, unmap, urga, unapt, unbar]
+./pnpm-lock.yaml:6550:7    - Unknown word (espree)         -- espree: 9.6.1
+	 Suggestions: [spree, epee, estee, entree, espied]
+./pnpm-lock.yaml:6551:7    - Unknown word (esquery)        -- esquery: 1.5.0
+	 Suggestions: [enquiry, equerry, esquire, estuary, Esquire]
+./pnpm-lock.yaml:6552:7    - Unknown word (esutils)        -- esutils: 2.0.3
+	 Suggestions: [psutils, eustis, Eustis, utils, etuis]
+./pnpm-lock.yaml:6558:7    - Unknown word (graphemer)      -- graphemer: 1.4.0
+	 Suggestions: [grapheme, graphemes, grahame, graphed, grapier]
+./pnpm-lock.yaml:6560:7    - Unknown word (imurmurhash)    -- imurmurhash: 0.1.4
+	 Suggestions: []
+./pnpm-lock.yaml:6564:37   - Unknown word (jsonify)        -- stable-stringify-without-jsonify: 1.0.1
+	 Suggestions: [jsconfig, joni, json, json5, jsonb]
+./pnpm-lock.yaml:6565:7    - Unknown word (levn)           -- levn: 0.4.1
+	 Suggestions: [lean, leon, leva, levi, levo]
+./pnpm-lock.yaml:6569:7    - Unknown word (optionator)     -- optionator: 0.9.3
+	 Suggestions: [optional, ostinato, optionals, ostinatos, optionally]
+./pnpm-lock.yaml:6592:7    - Unknown word (estraverse)     -- estraverse: 5.3.0
+	 Suggestions: [estovers, extravert]
+./pnpm-lock.yaml:6598:7    - Unknown word (estraverse)     -- estraverse: 5.3.0
+	 Suggestions: [estovers, extravert]
+./pnpm-lock.yaml:6696:7    - Unknown word (depd)           -- depd: 2.0.0
+	 Suggestions: [dead, decd, deed, depp, deps]
+./pnpm-lock.yaml:6697:7    - Unknown word (encodeurl)      -- encodeurl: 1.0.2
+	 Suggestions: [encoder, encoders, encode, encoded, encodes]
+./pnpm-lock.yaml:6699:7    - Unknown word (etag)           -- etag: 1.8.1
+	 Suggestions: [etas, eta, ctag, stag, ETA]
+./pnpm-lock.yaml:6700:7    - Unknown word (finalhandler)   -- finalhandler: 1.2.0
+	 Suggestions: [finlander]
+./pnpm-lock.yaml:6706:7    - Unknown word (parseurl)       -- parseurl: 1.3.3
+	 Suggestions: [parser, parsers, baseurl, pursuer, pursuers]
+./pnpm-lock.yaml:6714:7    - Unknown word (setprototypeof) -- setprototypeof: 1.2.0
+	 Suggestions: []
+./pnpm-lock.yaml:6736:7    - Unknown word (encodeurl)      -- encodeurl: 1.0.2
+	 Suggestions: [encoder, encoders, encode, encoded, encodes]
+./pnpm-lock.yaml:6738:7    - Unknown word (etag)           -- etag: 1.8.1
+	 Suggestions: [etas, eta, ctag, stag, ETA]
+./pnpm-lock.yaml:6739:7    - Unknown word (finalhandler)   -- finalhandler: 1.2.0
+	 Suggestions: [finlander]
+./pnpm-lock.yaml:6745:7    - Unknown word (parseurl)       -- parseurl: 1.3.3
+	 Suggestions: [parser, parsers, baseurl, pursuer, pursuers]
+./pnpm-lock.yaml:6753:7    - Unknown word (setprototypeof) -- setprototypeof: 1.2.0
+	 Suggestions: []
+./pnpm-lock.yaml:6765:7    - Unknown word (chardet)        -- chardet: 0.7.0
+	 Suggestions: [charset, chared, cadet, caret, chard]
+./pnpm-lock.yaml:6813:7    - Unknown word (deepmerge)      -- deepmerge: 4.3.1
+	 Suggestions: [deeper]
+./pnpm-lock.yaml:6814:7    - Unknown word (rfdc)           -- rfdc: 1.3.1
+	 Suggestions: [rfc, rfd, afdc, RFC, RFD]
+./pnpm-lock.yaml:6827:7    - Unknown word (rfdc)           -- rfdc: 1.3.1
+	 Suggestions: [rfc, rfd, afdc, RFC, RFD]
+./pnpm-lock.yaml:6861:7    - Unknown word (avvio)          -- avvio: 7.2.5
+	 Suggestions: [aviv, aviva, avive, Aviv, Aviva]
+./pnpm-lock.yaml:6865:7    - Unknown word (flatstr)        -- flatstr: 1.0.12
+	 Suggestions: [flattr, Flattr, flats, flatt, flatcar]
+./pnpm-lock.yaml:6867:7    - Unknown word (pino)           -- pino: 6.14.0
+	 Suggestions: [pion, pine, ping, pink, pins]
+./pnpm-lock.yaml:6870:7    - Unknown word (rfdc)           -- rfdc: 1.3.1
+	 Suggestions: [rfc, rfd, afdc, RFC, RFD]
+./pnpm-lock.yaml:6885:7    - Unknown word (avvio)          -- avvio: 8.3.0
+	 Suggestions: [aviv, aviva, avive, Aviv, Aviva]
+./pnpm-lock.yaml:6890:7    - Unknown word (pino)           -- pino: 8.19.0
+	 Suggestions: [pion, pine, ping, pink, pins]
+./pnpm-lock.yaml:6893:7    - Unknown word (rfdc)           -- rfdc: 1.3.1
+	 Suggestions: [rfc, rfd, afdc, RFC, RFD]
+./pnpm-lock.yaml:6904:7    - Unknown word (reusify)        -- reusify: 1.0.4
+	 Suggestions: [reunify, reify, resiny, rectify, reusing]
+./pnpm-lock.yaml:6916:7    - Unknown word (bser)           -- bser: 2.1.1
+	 Suggestions: [beer, bier, boer, baser, Boer]
+./pnpm-lock.yaml:6955:7    - Unknown word (encodeurl)      -- encodeurl: 1.0.2
+	 Suggestions: [encoder, encoders, encode, encoded, encodes]
+./pnpm-lock.yaml:6958:7    - Unknown word (parseurl)       -- parseurl: 1.3.3
+	 Suggestions: [parser, parsers, baseurl, pursuer, pursuers]
+./pnpm-lock.yaml:6960:7    - Unknown word (unpipe)         -- unpipe: 1.0.0
+	 Suggestions: [unpile, unripe, unhip, unite, unpin]
+./pnpm-lock.yaml:6987:12   - Unknown word (querystring)    -- fast-querystring: 1.1.2
+	 Suggestions: [querying, questing]
+./pnpm-lock.yaml:7019:7    - Unknown word (keyv)           -- keyv: 4.5.4
+	 Suggestions: [keys, KEYS, key, Key, KEY]
+./pnpm-lock.yaml:7020:7    - Unknown word (rimraf)         -- rimraf: 3.0.2
+	 Suggestions: [rimas, ricrac, riprap, RIMAS, irma]
+./pnpm-lock.yaml:7071:7    - Unknown word (cosmiconfig)    -- cosmiconfig: 7.1.0
+	 Suggestions: []
+./pnpm-lock.yaml:7072:7    - Unknown word (deepmerge)      -- deepmerge: 4.3.1
+	 Suggestions: [deeper]
+./pnpm-lock.yaml:7074:7    - Unknown word (memfs)          -- memfs: 3.5.3
+	 Suggestions: [mems, memes, memos, emfs, mmes]
+./pnpm-lock.yaml:7079:7    - Unknown word (tapable)        -- tapable: 2.2.1
+	 Suggestions: [takable, tamable, taxable, capable, table]
+./pnpm-lock.yaml:7094:7    - Unknown word (cosmiconfig)    -- cosmiconfig: 8.3.6(typescript@5
+	 Suggestions: []
+./pnpm-lock.yaml:7095:7    - Unknown word (deepmerge)      -- deepmerge: 4.3.1
+	 Suggestions: [deeper]
+./pnpm-lock.yaml:7097:7    - Unknown word (memfs)          -- memfs: 3.5.3
+	 Suggestions: [mems, memes, memos, emfs, mmes]
+./pnpm-lock.yaml:7102:7    - Unknown word (tapable)        -- tapable: 2.2.1
+	 Suggestions: [takable, tamable, taxable, capable, table]
+./pnpm-lock.yaml:7111:7    - Unknown word (asynckit)       -- asynckit: 0.4.0
+	 Suggestions: [async]
+./pnpm-lock.yaml:7118:7    - Unknown word (dezalgo)        -- dezalgo: 1.0.4
+	 Suggestions: [delano, demagog, Delano, deal, dego]
+./pnpm-lock.yaml:7119:7    - Unknown word (hexoid)         -- hexoid: 1.0.0
+	 Suggestions: [hemoid, hesiod, Hesiod, herod, hexad]
+./pnpm-lock.yaml:7144:7    - Unknown word (jsonfile)       -- jsonfile: 6.1.0
+	 Suggestions: [jsonl, jsonld, jsconfig]
+./pnpm-lock.yaml:7145:7    - Unknown word (universalify)   -- universalify: 2.0.1
+	 Suggestions: [universality, universally, universalism, universalist, universalize]
+./pnpm-lock.yaml:7153:7    - Unknown word (jsonfile)       -- jsonfile: 6.1.0
+	 Suggestions: [jsonl, jsonld, jsconfig]
+./pnpm-lock.yaml:7154:7    - Unknown word (universalify)   -- universalify: 2.0.1
+	 Suggestions: [universality, universally, universalism, universalist, universalize]
+./pnpm-lock.yaml:7206:11   - Unknown word (proto)          -- has-proto: 1.0.3
+	 Suggestions: [porto, Porto, prot, photo, prato]
+./pnpm-lock.yaml:7261:7    - Unknown word (jackspeak)      -- jackspeak: 2.3.6
+	 Suggestions: [jackstay, jacksmelt, jackstraw]
+./pnpm-lock.yaml:7263:7    - Unknown word (minipass)       -- minipass: 7.0.4
+	 Suggestions: [minibars, minicabs, minicams, minicars, minimals]
+./pnpm-lock.yaml:7269:10   - Unknown word (realpath)       -- fs.realpath: 1.0.0
+	 Suggestions: [readapt, readapts, ralph, realty, relate]
+./pnpm-lock.yaml:7280:10   - Unknown word (realpath)       -- fs.realpath: 1.0.0
+	 Suggestions: [readapt, readapts, ralph, realty, relate]
+./pnpm-lock.yaml:7282:7    - Unknown word (minipass)       -- minipass: 4.2.8
+	 Suggestions: [minibars, minicabs, minicams, minicars, minimals]
+./pnpm-lock.yaml:7419:7    - Unknown word (obuf)           -- obuf: 1.1.2
+	 Suggestions: [boff, bout, ob's, obad, obdt]
+./pnpm-lock.yaml:7421:7    - Unknown word (wbuf)           -- wbuf: 1.7.3
+	 Suggestions: [waaf, waif, waul, wb's, wbnb]
+./pnpm-lock.yaml:7428:7    - Unknown word (whatwg)         -- whatwg-encoding: 2.0.0
+	 Suggestions: [what, whang, whats, what'd, what's]
+./pnpm-lock.yaml:7449:7    - Unknown word (setprototypeof) -- setprototypeof: 1.1.0
+	 Suggestions: []
+./pnpm-lock.yaml:7459:7    - Unknown word (setprototypeof) -- setprototypeof: 1.2.0
+	 Suggestions: []
+./pnpm-lock.yaml:7461:7    - Unknown word (toidentifier)   -- toidentifier: 1.0.1
+	 Suggestions: [identifier]
+./pnpm-lock.yaml:7490:7    - Unknown word (eventemitter)   -- eventemitter3: 4.0.7
+	 Suggestions: []
+./pnpm-lock.yaml:7504:7    - Unknown word (corser)         -- corser: 2.0.1
+	 Suggestions: [corer, corse, corder, corker, corner]
+./pnpm-lock.yaml:7509:7    - Unknown word (minimist)       -- minimist: 1.2.8
+	 Suggestions: [minims, minim's, minimus, minidisk, minimize]
+./pnpm-lock.yaml:7511:7    - Unknown word (portfinder)     -- portfinder: 1.0.32
+	 Suggestions: [portainer, portlander, Portainer, Portlander, portfire]
+./pnpm-lock.yaml:7605:7    - Unknown word (wrappy)         -- wrappy: 1.0.2
+	 Suggestions: [crappy, wrap, wraps, wrapt, crapy]
+./pnpm-lock.yaml:7639:9    - Unknown word (ljharb)         -- '@ljharb/through': 2.3.12
+	 Suggestions: [lamb, lara, lard, lari, lark]
+./pnpm-lock.yaml:7699:11   - Unknown word (tostringtag)    -- has-tostringtag: 1.0.2
+	 Suggestions: []
+./pnpm-lock.yaml:7705:11   - Unknown word (bigints)        -- has-bigints: 1.0.2
+	 Suggestions: [bigint, bints, begins, bights, bigots]
+./pnpm-lock.yaml:7719:11   - Unknown word (tostringtag)    -- has-tostringtag: 1.0.2
+	 Suggestions: []
+./pnpm-lock.yaml:7786:10   - Unknown word (extglob)        -- is-extglob: 2.1.1
+	 Suggestions: [extol, extoll, extols, etalab, etalon]
+./pnpm-lock.yaml:7825:7    - Unknown word (isobject)       -- isobject: 3.0.1
+	 Suggestions: [object]
+./pnpm-lock.yaml:7938:9    - Unknown word (istanbuljs)     -- '@istanbuljs/schema': 0.1.3
+	 Suggestions: [istanbul's, Istanbul's, istanbul, Istanbul]
+./pnpm-lock.yaml:7996:15   - Unknown word (getprototypeof) -- reflect.getprototypeof: 1.0.5
+	 Suggestions: []
+./pnpm-lock.yaml:8004:9    - Unknown word (isaacs)         -- '@isaacs/cliui': 8.0.2
+	 Suggestions: [isaac, isaac's, Isaac, Isaac's, sacs]
+./pnpm-lock.yaml:8004:16   - Unknown word (cliui)          -- '@isaacs/cliui': 8.0.2
+	 Suggestions: [clii, clfi, clio, clip, clit]
+./pnpm-lock.yaml:8006:9    - Unknown word (pkgjs)          -- '@pkgjs/parseargs': 0.11.0
+	 Suggestions: [pegs, pigs, pugs, pages, peg's]
+./pnpm-lock.yaml:8006:15   - Unknown word (parseargs)      -- '@pkgjs/parseargs': 0.11.0
+	 Suggestions: [parsers, parers, parser, parses, parangs]
+./pnpm-lock.yaml:8015:7    - Unknown word (filelist)       -- filelist: 1.0.4
+	 Suggestions: [fidelis, filefish, finalist, fillets, filets]
+./pnpm-lock.yaml:8022:7    - Unknown word (execa)          -- execa: 5.1.1
+	 Suggestions: [exec, execs, excel, elea, exch]
+./pnpm-lock.yaml:8103:7    - Unknown word (deepmerge)      -- deepmerge: 4.3.1
+	 Suggestions: [deeper]
+./pnpm-lock.yaml:8175:7    - Unknown word (anymatch)       -- anymatch: 3.1.3
+	 Suggestions: [namath, almach, anarch, animate, animato]
+./pnpm-lock.yaml:8184:7    - Unknown word (fsevents)       -- fsevents: 2.3.3
+	 Suggestions: [events, sevens, seven's, seventh, seventy]
+./pnpm-lock.yaml:8282:7    - Unknown word (emittery)       -- emittery: 0.13.1
+	 Suggestions: [emitter, emitters, emitted, embitter, embitters]
+./pnpm-lock.yaml:8367:7    - Unknown word (picomatch)      -- picomatch: 2.3.1
+	 Suggestions: [micromatch]
+./pnpm-lock.yaml:8375:7    - Unknown word (camelcase)      -- camelcase: 6.3.0
+	 Suggestions: [camelias, cablecast, camelizes, camels, camel's]
+./pnpm-lock.yaml:8391:7    - Unknown word (emittery)       -- emittery: 0.13.1
+	 Suggestions: [emitter, emitters, emitted, embitter, embitters]
+./pnpm-lock.yaml:8444:14   - Unknown word (topo)           -- '@hapi/topo': 5.1.0
+	 Suggestions: [todo, togo, tojo, tope, topi]
+./pnpm-lock.yaml:8457:7    - Unknown word (argparse)       -- argparse: 1.0.10
+	 Suggestions: [afmparse, Afmparse, rapparee, agars, aglare]
+./pnpm-lock.yaml:8458:7    - Unknown word (esprima)        -- esprima: 4.0.1
+	 Suggestions: [esprit, esprits, sepia, septime, seriema]
+./pnpm-lock.yaml:8464:7    - Unknown word (argparse)       -- argparse: 2.0.1
+	 Suggestions: [afmparse, Afmparse, rapparee, agars, aglare]
+./pnpm-lock.yaml:8504:7    - Unknown word (minimist)       -- minimist: 1.2.8
+	 Suggestions: [minims, minim's, minimus, minidisk, minimize]
+./pnpm-lock.yaml:8522:7    - Unknown word (universalify)   -- universalify: 2.0.1
+	 Suggestions: [universality, universally, universalism, universalist, universalize]
+./pnpm-lock.yaml:8540:7    - Unknown word (tsscmp)         -- tsscmp: 1.0.6
+	 Suggestions: [stamp, stomp, stump, tsco, tsp]
+./pnpm-lock.yaml:8570:16   - Unknown word (subtag)         -- language-subtag-registry: 0.3.22
+	 Suggestions: [stag, sutta, sontag, subpar, subtle]
+./pnpm-lock.yaml:8576:7    - Unknown word (picocolors)     -- picocolors: 1.0.0
+	 Suggestions: [piccolos, piccolo's, piccolo, piccoloist]
+./pnpm-lock.yaml:8587:7    - Unknown word (klona)          -- klona: 2.0.6
+	 Suggestions: [klong, krona, króna, klan, koan]
+./pnpm-lock.yaml:8600:7    - Unknown word (errno)          -- errno: 0.1.8
+	 Suggestions: [reno, enron, Enron, ergo, erna]
+./pnpm-lock.yaml:8680:7    - Unknown word (execa)          -- execa: 8.0.1
+	 Suggestions: [exec, execs, excel, elea, exch]
+./pnpm-lock.yaml:8681:7    - Unknown word (lilconfig)      -- lilconfig: 3.0.0
+	 Suggestions: [ifconfig, ipconfig, gitconfig]
+./pnpm-lock.yaml:8682:7    - Unknown word (listr)          -- listr2: 8.0.1
+	 Suggestions: [list, lists, lister, Lister, distr]
+./pnpm-lock.yaml:8684:7    - Unknown word (pidtree)        -- pidtree: 0.6.0
+	 Suggestions: [pinter, pitter, pedigree, Pinter, padre]
+./pnpm-lock.yaml:8696:7    - Unknown word (colorette)      -- colorette: 2.0.20
+	 Suggestions: [colette, Colette, clorets, chlorate, chlorite]
+./pnpm-lock.yaml:8697:7    - Unknown word (eventemitter)   -- eventemitter3: 5.0.1
+	 Suggestions: []
+./pnpm-lock.yaml:8699:7    - Unknown word (rfdc)           -- rfdc: 1.3.1
+	 Suggestions: [rfc, rfd, afdc, RFC, RFD]
+./pnpm-lock.yaml:8790:7    - Unknown word (yallist)        -- yallist: 3.1.1
+	 Suggestions: [yamllint, tallis, wallis, Wallis, carlist]
+./pnpm-lock.yaml:8796:7    - Unknown word (yallist)        -- yallist: 4.0.0
+	 Suggestions: [yamllint, tallis, wallis, Wallis, carlist]
+./pnpm-lock.yaml:8810:7    - Unknown word (pify)           -- pify: 4.0.1
+	 Suggestions: [pily, piny, pipy, pity, pixy]
+./pnpm-lock.yaml:8827:7    - Unknown word (tmpl)           -- tmpl: 1.0.5
+	 Suggestions: [tmp, tpl, impl, TPL, mpl]
+./pnpm-lock.yaml:8868:7    - Unknown word (picomatch)      -- picomatch: 2.3.1
+	 Suggestions: [micromatch]
+./pnpm-lock.yaml:8960:7    - Unknown word (minimist)       -- minimist: 1.2.8
+	 Suggestions: [minims, minim's, minimus, minidisk, minimize]
+./pnpm-lock.yaml:8992:7    - Unknown word (concat)         -- concat-stream: 1.6.2
+	 Suggestions: [coact, coenact, contact, coat, coca]
+./pnpm-lock.yaml:8993:7    - Unknown word (mkdirp)         -- mkdirp: 0.5.6
+	 Suggestions: [mkdir, madrid, midrib, Madrid, meir]
+./pnpm-lock.yaml:8996:7    - Unknown word (xtend)          -- xtend: 4.0.2
+	 Suggestions: [tend, extend, xterm, aten, Aten]
+./pnpm-lock.yaml:9003:7    - Unknown word (thunky)         -- thunky: 1.1.0
+	 Suggestions: [thunk, thunks, hunky, chunky, thun]
+./pnpm-lock.yaml:9026:7    - Unknown word (thenify)        -- thenify-all: 1.6.0
+	 Suggestions: [theine, thingy, thinly, then, they]
+./pnpm-lock.yaml:9071:9    - Unknown word (opentelemetry)  -- '@opentelemetry/api': ^1.1.0
+	 Suggestions: []
+./pnpm-lock.yaml:9076:9    - Unknown word (opentelemetry)  -- '@opentelemetry/api':
+	 Suggestions: []
+./pnpm-lock.yaml:9097:30   - Unknown word (msvc)           -- next/swc-win32-arm64-msvc': 14.1.0
+	 Suggestions: [msec, svc, Svc, macc, marc]
+./pnpm-lock.yaml:9098:29   - Unknown word (msvc)           -- next/swc-win32-ia32-msvc': 14.1.0
+	 Suggestions: [msec, svc, Svc, macc, marc]
+./pnpm-lock.yaml:9130:7    - Unknown word (whatwg)         -- whatwg-url: 5.0.0
+	 Suggestions: [what, whang, whats, what'd, what's]
+./pnpm-lock.yaml:9181:7    - Unknown word (boolbase)       -- boolbase: 1.0.0
+	 Suggestions: [bookcase, boobies, bilobate, boilable, bookable]
+./pnpm-lock.yaml:9198:9    - Unknown word (yarnpkg)        -- '@yarnpkg/lockfile': 1.1.0
+	 Suggestions: [yarning, yang, yank, yarn, yanks]
+./pnpm-lock.yaml:9199:9    - Unknown word (yarnpkg)        -- '@yarnpkg/parsers': 3.0.0-rc.
+	 Suggestions: [yarning, yang, yank, yarn, yanks]
+./pnpm-lock.yaml:9200:9    - Unknown word (zkochan)        -- '@zkochan/js-yaml': 0.0.6
+	 Suggestions: [kochab, Kochab, zoan]
+./pnpm-lock.yaml:9201:7    - Unknown word (axios)          -- axios: 1.6.7(debug@4.3.4)
+	 Suggestions: [axis, adios, agios, axils, axiom]
+./pnpm-lock.yaml:9205:7    - Unknown word (cliui)          -- cliui: 8.0.1
+	 Suggestions: [clii, clfi, clio, clip, clit]
+./pnpm-lock.yaml:9206:7    - Unknown word (dotenv)         -- dotenv: 16.3.2
+	 Suggestions: [dotnet, dote, doted, doter, dotes]
+./pnpm-lock.yaml:9207:7    - Unknown word (dotenv)         -- dotenv-expand: 10.0.0
+	 Suggestions: [dotnet, dote, doted, doter, dotes]
+./pnpm-lock.yaml:9235:25   - Unknown word (gnueabihf)      -- '@nx/nx-linux-arm-gnueabihf': 17.3.2
+	 Suggestions: []
+./pnpm-lock.yaml:9260:9    - Unknown word (yarnpkg)        -- '@yarnpkg/lockfile': 1.1.0
+	 Suggestions: [yarning, yang, yank, yarn, yanks]
+./pnpm-lock.yaml:9262:9    - Unknown word (zkochan)        -- '@zkochan/js-yaml': 0.0.6
+	 Suggestions: [kochab, Kochab, zoan]
+./pnpm-lock.yaml:9263:7    - Unknown word (axios)          -- axios: 1.6.7(debug@4.3.4)
+	 Suggestions: [axis, adios, agios, axils, axiom]
+./pnpm-lock.yaml:9267:7    - Unknown word (cliui)          -- cliui: 8.0.1
+	 Suggestions: [clii, clfi, clio, clip, clit]
+./pnpm-lock.yaml:9268:7    - Unknown word (dotenv)         -- dotenv: 16.3.2
+	 Suggestions: [dotnet, dote, doted, doter, dotes]
+./pnpm-lock.yaml:9269:7    - Unknown word (dotenv)         -- dotenv-expand: 10.0.0
+	 Suggestions: [dotnet, dote, doted, doter, dotes]
+./pnpm-lock.yaml:9297:25   - Unknown word (gnueabihf)      -- '@nx/nx-linux-arm-gnueabihf': 18.0.4
+	 Suggestions: []
+./pnpm-lock.yaml:9405:7    - Unknown word (wrappy)         -- wrappy: 1.0.2
+	 Suggestions: [crappy, wrap, wraps, wrapt, crapy]
+./pnpm-lock.yaml:9437:9    - Unknown word (aashutoshrathi) -- '@aashutoshrathi/word-wrap': 1.2.6
+	 Suggestions: []
+./pnpm-lock.yaml:9440:7    - Unknown word (levn)           -- levn: 0.4.1
+	 Suggestions: [lean, leon, leva, levi, levo]
+./pnpm-lock.yaml:9455:7    - Unknown word (wcwidth)        -- wcwidth: 1.0.1
+	 Suggestions: [width, with, wwids, whidah, widths]
+./pnpm-lock.yaml:9469:7    - Unknown word (wcwidth)        -- wcwidth: 1.0.1
+	 Suggestions: [width, with, wwids, whidah, widths]
+./pnpm-lock.yaml:9488:7    - Unknown word (yocto)          -- yocto-queue: 0.1.0
+	 Suggestions: [yoko, yobbo, youth, Yoko, coco]
+./pnpm-lock.yaml:9494:7    - Unknown word (yocto)          -- yocto-queue: 1.0.0
+	 Suggestions: [yoko, yobbo, youth, Yoko, coco]
+./pnpm-lock.yaml:9534:7    - Unknown word (callsites)      -- callsites: 3.1.0
+	 Suggestions: [calcites, campsites, callosities, callets, callisto]
+./pnpm-lock.yaml:9587:7    - Unknown word (minipass)       -- minipass: 7.0.4
+	 Suggestions: [minibars, minicabs, minicams, minicars, minimals]
+./pnpm-lock.yaml:9653:7    - Unknown word (flatstr)        -- flatstr: 1.0.12
+	 Suggestions: [flattr, Flattr, flats, flatt, flatcar]
+./pnpm-lock.yaml:9654:7    - Unknown word (pino)           -- pino-std-serializers: 3.
+	 Suggestions: [pion, pine, ping, pink, pins]
+./pnpm-lock.yaml:9667:7    - Unknown word (pino)           -- pino-abstract-transport:
+	 Suggestions: [pion, pine, ping, pink, pins]
+./pnpm-lock.yaml:9668:7    - Unknown word (pino)           -- pino-std-serializers: 6.
+	 Suggestions: [pion, pine, ping, pink, pins]
+./pnpm-lock.yaml:9707:7    - Unknown word (mkdirp)         -- mkdirp: 0.5.6
+	 Suggestions: [mkdir, madrid, midrib, Madrid, meir]
+./pnpm-lock.yaml:9736:7    - Unknown word (colord)         -- colord: 2.9.3
+	 Suggestions: [color, coord, colors, colored, cooled]
+./pnpm-lock.yaml:9818:7    - Unknown word (camelcase)      -- camelcase-css: 2.0.1
+	 Suggestions: [camelias, cablecast, camelizes, camels, camel's]
+./pnpm-lock.yaml:9834:7    - Unknown word (lilconfig)      -- lilconfig: 3.1.1
+	 Suggestions: [ifconfig, ipconfig, gitconfig]
+./pnpm-lock.yaml:9847:7    - Unknown word (klona)          -- klona: 2.0.6
+	 Suggestions: [klong, krona, króna, klan, koan]
+./pnpm-lock.yaml:9868:7    - Unknown word (jiti)           -- jiti: 1.21.0
+	 Suggestions: [titi, ziti, jami, jato, jedi]
+./pnpm-lock.yaml:9884:7    - Unknown word (stylehacks)     -- stylehacks: 6.0.2(postcss@8.4.
+	 Suggestions: [stylebooks]
+./pnpm-lock.yaml:9895:7    - Unknown word (cssnano)        -- cssnano-utils: 4.0.1(postcss
+	 Suggestions: [conan, casino, cessna, cassino, cessna's]
+./pnpm-lock.yaml:9916:7    - Unknown word (colord)         -- colord: 2.9.3
+	 Suggestions: [color, coord, colors, colored, cooled]
+./pnpm-lock.yaml:9917:7    - Unknown word (cssnano)        -- cssnano-utils: 4.0.1(postcss
+	 Suggestions: [conan, casino, cessna, cassino, cessna's]
+./pnpm-lock.yaml:9959:7    - Unknown word (icss)           -- icss-utils: 5.1.0(postcss
+	 Suggestions: [ices, icsh, ICSH, iss, scss]
+./pnpm-lock.yaml:9981:7    - Unknown word (icss)           -- icss-utils: 5.1.0(postcss
+	 Suggestions: [ices, icsh, ICSH, iss, scss]
+./pnpm-lock.yaml:10121:7   - Unknown word (cssesc)         -- cssesc: 3.0.0
+	 Suggestions: [cosecs, cases, cosec, css's, cusec]
+./pnpm-lock.yaml:10133:7   - Unknown word (svgo)           -- svgo: 3.2.0
+	 Suggestions: [sago, svga, SVGA, svg, avgo]
+./pnpm-lock.yaml:10155:7   - Unknown word (picocolors)     -- picocolors: 1.0.0
+	 Suggestions: [piccolos, piccolo's, piccolo, piccoloist]
+./pnpm-lock.yaml:10163:7   - Unknown word (picocolors)     -- picocolors: 1.0.0
+	 Suggestions: [piccolos, piccolo's, piccolo, piccoloist]
+./pnpm-lock.yaml:10220:7   - Unknown word (tdigest)        -- tdigest: 0.1.2
+	 Suggestions: [digest, tidiest, edgiest, tritest, triggest]
+./pnpm-lock.yaml:10227:7   - Unknown word (kleur)          -- kleur: 3.0.3
+	 Suggestions: [bluer, gluer, kerr, kier, klee]
+./pnpm-lock.yaml:10228:7   - Unknown word (sisteransi)     -- sisteransi: 1.0.5
+	 Suggestions: [sisters, sister's, sistering]
+./pnpm-lock.yaml:10234:13  - Unknown word (envify)         -- loose-envify: 1.4.0
+	 Suggestions: [enif, envy, edify, endif, envoy]
+./pnpm-lock.yaml:10244:7   - Unknown word (ipaddr)         -- ipaddr.js: 1.9.1
+	 Suggestions: [ipad, ipads, iPad, iPads, ipad's]
+./pnpm-lock.yaml:10304:7   - Unknown word (unpipe)         -- unpipe: 1.0.0
+	 Suggestions: [unpile, unripe, unhip, unite, unpin]
+./pnpm-lock.yaml:10320:13  - Unknown word (envify)         -- loose-envify: 1.4.0
+	 Suggestions: [enif, envy, edify, endif, envoy]
+./pnpm-lock.yaml:10335:13  - Unknown word (envify)         -- loose-envify: 1.4.0
+	 Suggestions: [enif, envy, edify, endif, envoy]
+./pnpm-lock.yaml:10340:7   - Unknown word (pify)           -- pify: 2.3.0
+	 Suggestions: [pily, piny, pipy, pity, pixy]
+./pnpm-lock.yaml:10348:7   - Unknown word (isarray)        -- isarray: 1.0.0
+	 Suggestions: [sierra, sirrah, sierran, sierras, isar]
+./pnpm-lock.yaml:10349:15  - Unknown word (nextick)        -- process-nextick-args: 2.0.1
+	 Suggestions: [natick, Natick, enatic, entice, neck]
+./pnpm-lock.yaml:10377:7   - Unknown word (picomatch)      -- picomatch: 2.3.1
+	 Suggestions: [micromatch]
+./pnpm-lock.yaml:10410:7   - Unknown word (globalthis)     -- globalthis: 1.0.3
+	 Suggestions: [globals, globalism, globalist, globalists, globalizes]
+./pnpm-lock.yaml:10445:15  - Unknown word (regjsgen)       -- '@babel/regjsgen': 0.8.0
+	 Suggestions: [regauge, regimen, regorge, refasten, regauged]
+./pnpm-lock.yaml:10448:7   - Unknown word (regjsparser)    -- regjsparser: 0.9.1
+	 Suggestions: []
+./pnpm-lock.yaml:10456:7   - Unknown word (jsesc)          -- jsesc: 0.5.0
+	 Suggestions: [jess, jesse, Jess, Jesse, secs]
+./pnpm-lock.yaml:10549:15  - Unknown word (iojs)           -- engines: {iojs: '>=1.0.0', node: '
+	 Suggestions: [io's, ions, iops, Io's, ios]
+./pnpm-lock.yaml:10581:13  - Unknown word (microtask)      -- queue-microtask: 1.2.3
+	 Suggestions: [micros, micro's, microns, microbes, microbus]
+./pnpm-lock.yaml:10595:7   - Unknown word (isarray)        -- isarray: 2.0.5
+	 Suggestions: [sierra, sirrah, sierran, sierras, isar]
+./pnpm-lock.yaml:10646:7   - Unknown word (klona)          -- klona: 2.0.6
+	 Suggestions: [klong, krona, króna, klan, koan]
+./pnpm-lock.yaml:10671:13  - Unknown word (envify)         -- loose-envify: 1.4.0
+	 Suggestions: [enif, envy, edify, endif, envoy]
+./pnpm-lock.yaml:10739:7   - Unknown word (encodeurl)      -- encodeurl: 1.0.2
+	 Suggestions: [encoder, encoders, encode, encoded, encodes]
+./pnpm-lock.yaml:10741:7   - Unknown word (etag)           -- etag: 1.8.1
+	 Suggestions: [etas, eta, ctag, stag, ETA]
+./pnpm-lock.yaml:10755:7   - Unknown word (randombytes)    -- randombytes: 2.1.0
+	 Suggestions: [randomizes]
+./pnpm-lock.yaml:10767:7   - Unknown word (parseurl)       -- parseurl: 1.3.3
+	 Suggestions: [parser, parsers, baseurl, pursuer, pursuers]
+./pnpm-lock.yaml:10776:7   - Unknown word (encodeurl)      -- encodeurl: 1.0.2
+	 Suggestions: [encoder, encoders, encode, encoded, encodes]
+./pnpm-lock.yaml:10778:7   - Unknown word (parseurl)       -- parseurl: 1.3.3
+	 Suggestions: [parser, parsers, baseurl, pursuer, pursuers]
+./pnpm-lock.yaml:10795:7   - Unknown word (gopd)           -- gopd: 1.0.1
+	 Suggestions: [goad, gold, gond, good, Gold]
+./pnpm-lock.yaml:10843:7   - Unknown word (rechoir)        -- rechoir: 0.6.2
+	 Suggestions: [recoil, recoin, rector, renoir, revoir]
+./pnpm-lock.yaml:10867:7   - Unknown word (mrmime)         -- mrmime: 1.0.1
+	 Suggestions: [mammie, mime, mamie, mtime, marmite]
+./pnpm-lock.yaml:10868:7   - Unknown word (totalist)       -- totalist: 1.1.0
+	 Suggestions: [totalism, totals, titlist, total's, totaling]
+./pnpm-lock.yaml:10890:10  - Unknown word (fullwidth)      -- is-fullwidth-code-point: 4.0.0
+	 Suggestions: [fullish]
+./pnpm-lock.yaml:10898:10  - Unknown word (fullwidth)      -- is-fullwidth-code-point: 5.0.0
+	 Suggestions: [fullish]
+./pnpm-lock.yaml:10920:7   - Unknown word (flatstr)        -- flatstr: 1.0.12
+	 Suggestions: [flattr, Flattr, flats, flatt, flatcar]
+./pnpm-lock.yaml:10977:7   - Unknown word (hpack)          -- hpack.js: 2.1.6
+	 Suggestions: [hack, pack, haik, hank, hark]
+./pnpm-lock.yaml:10978:7   - Unknown word (obuf)           -- obuf: 1.1.2
+	 Suggestions: [boff, bout, ob's, obad, obdt]
+./pnpm-lock.yaml:10980:7   - Unknown word (wbuf)           -- wbuf: 1.7.3
+	 Suggestions: [waaf, waif, waul, wb's, wbnb]
+./pnpm-lock.yaml:10993:7   - Unknown word (spdy)           -- spdy-transport: 3.0.0
+	 Suggestions: [spay, spdx, spry, SPDX, spy]
+./pnpm-lock.yaml:11053:10  - Unknown word (fullwidth)      -- is-fullwidth-code-point: 3.0.0
+	 Suggestions: [fullish]
+./pnpm-lock.yaml:11060:7   - Unknown word (eastasianwidth) -- eastasianwidth: 0.2.0
+	 Suggestions: []
+./pnpm-lock.yaml:11163:7   - Unknown word (minimist)       -- minimist: 1.2.8
+	 Suggestions: [minims, minim's, minimus, minidisk, minimize]
+./pnpm-lock.yaml:11246:7   - Unknown word (cookiejar)      -- cookiejar: 2.1.4
+	 Suggestions: [cooker, cookie, chokier, cockier, cookies]
+./pnpm-lock.yaml:11264:7   - Unknown word (superagent)     -- superagent: 8.1.2
+	 Suggestions: [superagency, superjacent, supermen, superset, superbest]
+./pnpm-lock.yaml:11307:9   - Unknown word (trysound)       -- '@trysound/sax': 0.2.0
+	 Suggestions: [tyson, tryout, tryouts, trysted, trysting]
+./pnpm-lock.yaml:11313:7   - Unknown word (picocolors)     -- picocolors: 1.0.0
+	 Suggestions: [piccolos, piccolo's, piccolo, piccoloist]
+./pnpm-lock.yaml:11321:7   - Unknown word (axios)          -- axios: 1.6.7(debug@4.3.4)
+	 Suggestions: [axis, adios, agios, axils, axiom]
+./pnpm-lock.yaml:11348:9   - Unknown word (pkgr)           -- '@pkgr/core': 0.1.1
+	 Suggestions: [pkg, paar, page, pair, parr]
+./pnpm-lock.yaml:11357:9   - Unknown word (alloc)          -- '@alloc/quick-lru': 5.2.0
+	 Suggestions: [allof, allot, allow, alloy, allOf]
+./pnpm-lock.yaml:11360:7   - Unknown word (didyoumean)     -- didyoumean: 1.2.2
+	 Suggestions: []
+./pnpm-lock.yaml:11365:7   - Unknown word (jiti)           -- jiti: 1.21.0
+	 Suggestions: [titi, ziti, jami, jato, jedi]
+./pnpm-lock.yaml:11366:7   - Unknown word (lilconfig)      -- lilconfig: 2.1.0
+	 Suggestions: [ifconfig, ipconfig, gitconfig]
+./pnpm-lock.yaml:11400:7   - Unknown word (bintrees)       -- bintrees: 1.0.2
+	 Suggestions: [binaries, biters, banters, binders, bisters]
+./pnpm-lock.yaml:11483:7   - Unknown word (thenify)        -- thenify: 3.3.1
+	 Suggestions: [theine, thingy, thinly, then, they]
+./pnpm-lock.yaml:11514:10  - Unknown word (tmpdir)         -- os-tmpdir: 1.0.2
+	 Suggestions: [tapir, mkdir, rmdir, impair, tepid]
+./pnpm-lock.yaml:11521:7   - Unknown word (rimraf)         -- rimraf: 3.0.2
+	 Suggestions: [rimas, ricrac, riprap, RIMAS, irma]
+./pnpm-lock.yaml:11636:9   - Unknown word (cspotcode)      -- '@cspotcode/source-map-support'
+	 Suggestions: []
+./pnpm-lock.yaml:11666:9   - Unknown word (cspotcode)      -- '@cspotcode/source-map-support'
+	 Suggestions: []
+./pnpm-lock.yaml:11706:7   - Unknown word (minimist)       -- minimist: 1.2.8
+	 Suggestions: [minims, minim's, minimus, minidisk, minimize]
+./pnpm-lock.yaml:11754:13  - Unknown word (typer)          -- media-typer: 0.3.0
+	 Suggestions: [type, taper, toper, tyler, typed]
+./pnpm-lock.yaml:11772:11  - Unknown word (proto)          -- has-proto: 1.0.3
+	 Suggestions: [porto, Porto, prot, photo, prato]
+./pnpm-lock.yaml:11783:7   - Unknown word (gopd)           -- gopd: 1.0.1
+	 Suggestions: [goad, gold, gond, good, Gold]
+./pnpm-lock.yaml:11784:11  - Unknown word (proto)          -- has-proto: 1.0.3
+	 Suggestions: [porto, Porto, prot, photo, prato]
+./pnpm-lock.yaml:11794:7   - Unknown word (gopd)           -- gopd: 1.0.1
+	 Suggestions: [goad, gold, gond, good, Gold]
+./pnpm-lock.yaml:11816:9   - Unknown word (lukeed)         -- '@lukeed/csprng': 1.1.0
+	 Suggestions: [luke, laked, liked, lubed, luged]
+./pnpm-lock.yaml:11816:16  - Unknown word (csprng)         -- '@lukeed/csprng': 1.1.0
+	 Suggestions: [cspr, coping, csproj, CSPR, spang]
+./pnpm-lock.yaml:11822:11  - Unknown word (bigints)        -- has-bigints: 1.0.2
+	 Suggestions: [bigint, bints, begins, bights, bigots]
+./pnpm-lock.yaml:11877:7   - Unknown word (punycode)       -- punycode: 2.3.1
+	 Suggestions: [punched, pentode, pinecone]
+./pnpm-lock.yaml:11932:7   - Unknown word (builtins)       -- builtins: 5.0.1
+	 Suggestions: [builtin, biotins, building, buildings, bulletins]
+./pnpm-lock.yaml:11941:7   - Unknown word (makeerror)      -- makeerror: 1.0.12
+	 Suggestions: []
+./pnpm-lock.yaml:11977:7   - Unknown word (sirv)           -- sirv: 1.0.19
+	 Suggestions: [sire, sirs, surv, Sirs, sir]
+./pnpm-lock.yaml:11990:7   - Unknown word (colorette)      -- colorette: 2.0.20
+	 Suggestions: [colette, Colette, clorets, chlorate, chlorite]
+./pnpm-lock.yaml:11991:7   - Unknown word (memfs)          -- memfs: 3.5.3
+	 Suggestions: [mems, memes, memos, emfs, mmes]
+./pnpm-lock.yaml:12007:7   - Unknown word (colorette)      -- colorette: 2.0.20
+	 Suggestions: [colette, Colette, clorets, chlorate, chlorite]
+./pnpm-lock.yaml:12008:7   - Unknown word (memfs)          -- memfs: 3.5.3
+	 Suggestions: [mems, memes, memos, emfs, mmes]
+./pnpm-lock.yaml:12033:15  - Unknown word (sockjs)         -- '@types/sockjs': 0.3.36
+	 Suggestions: [socks, sock's, sock, sacks, sicks]
+./pnpm-lock.yaml:12038:7   - Unknown word (colorette)      -- colorette: 2.0.20
+	 Suggestions: [colette, Colette, clorets, chlorate, chlorite]
+./pnpm-lock.yaml:12046:7   - Unknown word (ipaddr)         -- ipaddr.js: 2.1.0
+	 Suggestions: [ipad, ipads, iPad, iPads, ipad's]
+./pnpm-lock.yaml:12050:7   - Unknown word (rimraf)         -- rimraf: 3.0.2
+	 Suggestions: [rimas, ricrac, riprap, RIMAS, irma]
+./pnpm-lock.yaml:12052:7   - Unknown word (selfsigned)     -- selfsigned: 2.4.1
+	 Suggestions: []
+./pnpm-lock.yaml:12054:7   - Unknown word (sockjs)         -- sockjs: 0.3.24
+	 Suggestions: [socks, sock's, sock, sacks, sicks]
+./pnpm-lock.yaml:12055:7   - Unknown word (spdy)           -- spdy: 4.0.2
+	 Suggestions: [spay, spdx, spry, SPDX, spy]
+./pnpm-lock.yaml:12084:15  - Unknown word (sockjs)         -- '@types/sockjs': 0.3.36
+	 Suggestions: [socks, sock's, sock, sacks, sicks]
+./pnpm-lock.yaml:12097:7   - Unknown word (ipaddr)         -- ipaddr.js: 2.1.0
+	 Suggestions: [ipad, ipads, iPad, iPads, ipad's]
+./pnpm-lock.yaml:12101:7   - Unknown word (rimraf)         -- rimraf: 3.0.2
+	 Suggestions: [rimas, ricrac, riprap, RIMAS, irma]
+./pnpm-lock.yaml:12103:7   - Unknown word (selfsigned)     -- selfsigned: 2.4.1
+	 Suggestions: []
+./pnpm-lock.yaml:12105:7   - Unknown word (sockjs)         -- sockjs: 0.3.24
+	 Suggestions: [socks, sock's, sock, sacks, sicks]
+./pnpm-lock.yaml:12106:7   - Unknown word (spdy)           -- spdy: 4.0.2
+	 Suggestions: [spay, spdx, spry, SPDX, spy]
+./pnpm-lock.yaml:12181:7   - Unknown word (watchpack)      -- watchpack: 2.4.0
+	 Suggestions: [watchman, watchband, watchcase]
+./pnpm-lock.yaml:12221:7   - Unknown word (watchpack)      -- watchpack: 2.4.0
+	 Suggestions: [watchman, watchband, watchcase]
+./pnpm-lock.yaml:12253:7   - Unknown word (webidl)         -- webidl-conversions: 3.0.1
+	 Suggestions: [weill, Weill, weld, wild, weald]
+./pnpm-lock.yaml:12273:10  - Unknown word (finalizationregistry) -- is-finalizationregistry: 1.0.2
+	 Suggestions: []
+./pnpm-lock.yaml:12276:10  - Unknown word (weakref)              -- is-weakref: 1.0.2
+	 Suggestions: [weaker, weaken, wearer, waker, wakers]
+./pnpm-lock.yaml:12277:7   - Unknown word (isarray)              -- isarray: 2.0.5
+	 Suggestions: [sierra, sirrah, sierran, sierras, isar]
+./pnpm-lock.yaml:12288:10  - Unknown word (weakmap)              -- is-weakmap: 2.0.1
+	 Suggestions: [weak, weka, wekas, wadmal, warmup]
+./pnpm-lock.yaml:12289:10  - Unknown word (weakset)              -- is-weakset: 2.0.2
+	 Suggestions: [weakest, weaken, weaker, weasel, wakes]
+./pnpm-lock.yaml:12308:7   - Unknown word (isexe)                -- isexe: 2.0.0
+	 Suggestions: [siege, sieve, ibex, idex, ieee]
+./pnpm-lock.yaml:12355:7   - Unknown word (imurmurhash)          -- imurmurhash: 0.1.4
+	 Suggestions: []
+./pnpm-lock.yaml:12429:7   - Unknown word (cliui)                -- cliui: 8.0.1
+	 Suggestions: [clii, clfi, clio, clip, clit]
+./pnpm-lock.yaml:12442:7   - Unknown word (cliui)                -- cliui: 8.0.1
+	 Suggestions: [clii, clfi, clio, clip, clit]
+40/62 ./pnpm-workspace.yaml 37.20ms
+41/62 ./readme.md 256.98ms X
+./readme.md:64:17     - Unknown word (nestjs)     -- <sub><a href="nestjs.com">NestJS</a></sub
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./readme.md:220:5     - Unknown word (nestjs)     -- | [@nestjs/common](https://www
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./readme.md:221:5     - Unknown word (nestjs)     -- | [@nestjs/core](https://www.npmjs
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./readme.md:222:5     - Unknown word (nestjs)     -- | [@nestjs/testing](https://www
+	 Suggestions: [nests, nest's, nextjs, ness, nest]
+./readme.md:253:7     - Unknown word (Repography) -- ## [![Repography logo](https://images
+	 Suggestions: [Reprography]
+./readme.md:257:7     - Unknown word (Repography) -- ## [![Repography logo](https://images
+	 Suggestions: [Reprography]
+./readme.md:266:7     - Unknown word (Repography) -- ## [![Repography logo](https://images
+	 Suggestions: [Reprography]
+42/62 ./renovate.json 248.99ms X
+./renovate.json:4:4       - Unknown word (automerge)  -- "automerge": true,
+	 Suggestions: [auberge, antimere, automake, automate, autowire]
+43/62 ./techstack.yml 652.09ms X
+./techstack.yml:43:9      - Unknown word (Autoprefixer) -- - name: Autoprefixer
+	 Suggestions: []
+./techstack.yml:63:17     - Unknown word (Microframeworks) -- sub_category: Microframeworks (Backend)
+	 Suggestions: []
+./techstack.yml:71:34     - Unknown word (kammysliwiec)    -- side applications by @kammysliwiec.
+	 Suggestions: []
+./techstack.yml:72:16     - Unknown word (nestjs)          -- website_url: nestjs.com
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./techstack.yml:194:40    - Unknown word (autofix)         -- ".github/workflows/autofix.yml"
+	 Suggestions: [antefix, autoliv, autofill, Autoliv, hotfix]
+./techstack.yml:280:11    - Unknown word (nestjs)          -- - name: "@nestjs/common"
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./techstack.yml:294:11    - Unknown word (nestjs)          -- - name: "@nestjs/core"
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./techstack.yml:308:11    - Unknown word (nestjs)          -- - name: "@nestjs/testing"
+	 Suggestions: [nests, nest's, ness, nest, nets]
+./techstack.yml:390:17    - Unknown word (supertest)       -- - name: "@types/supertest"
+	 Suggestions: [superbest, superset, superjets, supremest, superheat]
+./techstack.yml:571:9     - Unknown word (tailwindcss)     -- - name: tailwindcss
+	 Suggestions: [tailwinds, tailwind's, tailwind]
+44/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!".appmap.json 122.57ms X
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!".appmap.json:59:16     - Unknown word (appmap)     -- "name": "appmap-node",
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+45/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json 593.03ms X
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json:47:13     - Unknown word (antonioreid) -- "/Users/antonioreid/development/code/career
+	 Suggestions: []
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json:47:61     - Unknown word (appmap)      -- code/career-compass/tmp/appmap/jest/AppController/root
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json:47:123    - Unknown word (appmap)      -- return_\"Hello_World!\".appmap.json": {
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json:116:31    - Unknown word (occurrances) -- description": "Finds occurrances of deserialization in
+	 Suggestions: [occurrences*, occurrence, occurrence's, occupance, occupancies]
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json:138:30    - Unknown word (occurrances) -- description": "Find occurrances of system command execution
+	 Suggestions: [occurrences*, occurrence, occurrence's, occupance, occupancies]
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json:183:12    - Unknown word (OWASP)       -- "OWASP - Session fixation"
+	 Suggestions: [wasp, WASP, SWAPS, OAST, OKAS]
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json:412:20    - Unknown word (appmap)      -- "name": "appmap-node",
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+46/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classDependencies.json 3.01ms
+47/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classes.json 2.09ms
+48/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.exceptions.json 1.88ms
+49/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpClientRequests.json 1.56ms
+50/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpServerRequests.json 1.32ms
+51/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.labels.json 1.44ms
+52/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packageDependencies.json 1.49ms
+53/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packages.json 1.31ms
+54/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.parameters.json 1.22ms
+55/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlNormalized.json 0.98ms
+56/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlTables.json 1.20ms
+57/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/classMap.json 3.08ms
+58/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json 92.75ms X
+./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json:3:14      - Unknown word (appmap)     -- "name": "appmap-node",
+	 Suggestions: [appal, apeman, appeal, appear, pampa]
+59/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/mtime 20.38ms
+60/62 ./tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/version 5.12ms
+61/62 ./todo.md 129.10ms X
+./todo.md:13:9      - Unknown word (pgadmin)    -- - [ ] pgadmin4
+	 Suggestions: [plasmin, admin, gamin, garmin, Garmin]
+62/62 ./tsconfig.json 196.78ms X
+./tsconfig.json:6:34      - Unknown word (tsbuildinfo) -- incremental": true /* Save .tsbuildinfo files to allow for incrementa
+	 Suggestions: []
+./tsconfig.json:8:31      - Unknown word (tsbuildinfo) -- tsBuildInfoFile": "./.tsbuildinfo", /* Specify
+	 Suggestions: []
+./tsconfig.json:8:82      - Unknown word (tsbuildinfo) -- Specify the path to .tsbuildinfo incremental compilation
+	 Suggestions: []
+./tsconfig.json:95:88     - Unknown word (codepaths)   -- error reporting for codepaths that do not explicitly
+	 Suggestions: [codepage]
+CSpell: Files checked: 62, Issues found: 704 in 21 files
+
+
+You can skip this misspellings by defining the following .cspell.json file at the root of your repository
+Of course, please correct real typos before :)
+
+{
+    "version": "0.2",
+    "language": "en",
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        "**/.pnpm-lock.json",
+        ".vscode",
+        "package-lock.json",
+        "megalinter-reports"
+    ],
+    "words": [
+        "Autoprefixer",
+        "Kamil",
+        "Microframeworks",
+        "My\u015bliwiec",
+        "OWASP",
+        "Repography",
+        "aashutoshrathi",
+        "alloc",
+        "ampproject",
+        "amqp",
+        "amqplib",
+        "antonioreid",
+        "anymatch",
+        "appmap",
+        "appmaps",
+        "archy",
+        "argparse",
+        "arraybuffer",
+        "arrayish",
+        "asynciterator",
+        "asynckit",
+        "autofix",
+        "automerge",
+        "autoprefixer",
+        "avvio",
+        "axios",
+        "axobject",
+        "bcoe",
+        "bigints",
+        "bintrees",
+        "boolbase",
+        "browserslist",
+        "bser",
+        "bufferutil",
+        "builtins",
+        "callsites",
+        "camelcase",
+        "catbox",
+        "chardet",
+        "chokidar",
+        "classpath",
+        "cliui",
+        "codepaths",
+        "colord",
+        "colorette",
+        "colormin",
+        "columnify",
+        "compat",
+        "concat",
+        "consola",
+        "cookiejar",
+        "corejs",
+        "corser",
+        "cosmiconfig",
+        "cryptiles",
+        "cspotcode",
+        "csprng",
+        "cssesc",
+        "cssnano",
+        "csso",
+        "csstype",
+        "damerau",
+        "deepmerge",
+        "depd",
+        "dequal",
+        "devkit",
+        "dezalgo",
+        "didyoumean",
+        "discoveryjs",
+        "domelementtype",
+        "domhandler",
+        "domutils",
+        "dotall",
+        "dotenv",
+        "eastasianwidth",
+        "emittery",
+        "encodeurl",
+        "envify",
+        "errno",
+        "esbuild",
+        "espree",
+        "esprima",
+        "esquery",
+        "esrecurse",
+        "estraverse",
+        "estree",
+        "esutils",
+        "etag",
+        "eventemitter",
+        "execa",
+        "extglob",
+        "fastify",
+        "fastq",
+        "filelist",
+        "finalhandler",
+        "finalizationregistry",
+        "findlastindex",
+        "flatmap",
+        "flatstr",
+        "formbody",
+        "fromentries",
+        "fsevents",
+        "fullwidth",
+        "gensync",
+        "getappmap",
+        "getprototypeof",
+        "globalthis",
+        "globby",
+        "gnueabihf",
+        "gopd",
+        "graphemer",
+        "groupby",
+        "hapi",
+        "hasown",
+        "hexoid",
+        "hoek",
+        "hpack",
+        "humanwhocodes",
+        "icss",
+        "imurmurhash",
+        "iojs",
+        "ioredis",
+        "ipaddr",
+        "isaacs",
+        "isarray",
+        "isexe",
+        "isobject",
+        "istanbuljs",
+        "iterare",
+        "jackspeak",
+        "jiti",
+        "jridgewell",
+        "jsesc",
+        "jsonfile",
+        "jsonify",
+        "kafkajs",
+        "kammysliwiec",
+        "keygrip",
+        "keyv",
+        "kleur",
+        "klona",
+        "leichtgewicht",
+        "levn",
+        "lightningcss",
+        "lilconfig",
+        "listr",
+        "ljharb",
+        "lukeed",
+        "makeerror",
+        "matchall",
+        "memfs",
+        "microtask",
+        "middie",
+        "mimos",
+        "minimatch",
+        "minimist",
+        "minipass",
+        "mkdirp",
+        "mnemonist",
+        "mqtt",
+        "mrmime",
+        "msvc",
+        "multer",
+        "nats",
+        "nestframework",
+        "nestjs",
+        "nextick",
+        "nodelib",
+        "nrwl",
+        "nuxtjs",
+        "obuf",
+        "occurrances",
+        "opencollective",
+        "opentelemetry",
+        "optimise",
+        "optionator",
+        "parseargs",
+        "parseurl",
+        "pgadmin",
+        "phenomnomnominal",
+        "picocolors",
+        "picomatch",
+        "pids",
+        "pidtree",
+        "pify",
+        "pino",
+        "pkgjs",
+        "pkgr",
+        "portfinder",
+        "postcss",
+        "proto",
+        "punycode",
+        "querystring",
+        "randombytes",
+        "readdirp",
+        "realpath",
+        "rechoir",
+        "regexpp",
+        "regexpu",
+        "regjsgen",
+        "regjsparser",
+        "reusify",
+        "rfdc",
+        "rimraf",
+        "rpsack",
+        "rspack",
+        "rushstack",
+        "scandir",
+        "selfsigned",
+        "setprototypeof",
+        "shelljs",
+        "sinonjs",
+        "sirv",
+        "sisteransi",
+        "sockjs",
+        "somever",
+        "spdy",
+        "sprintf",
+        "streamsearch",
+        "stylehacks",
+        "subtag",
+        "superagent",
+        "supertest",
+        "svgo",
+        "svgr",
+        "synckit",
+        "systemjs",
+        "tailwindcss",
+        "tapable",
+        "tdigest",
+        "techstack",
+        "thenify",
+        "thunky",
+        "timsort",
+        "tmpdir",
+        "tmpl",
+        "toidentifier",
+        "topo",
+        "tosorted",
+        "tostringtag",
+        "totalist",
+        "trimend",
+        "trimstart",
+        "trysound",
+        "tsbuildinfo",
+        "tsdoc",
+        "tsquery",
+        "tsscmp",
+        "typebox",
+        "typedarray",
+        "typeof",
+        "typer",
+        "undici",
+        "ungap",
+        "universalify",
+        "unpipe",
+        "unscopables",
+        "vercel",
+        "watchpack",
+        "wbuf",
+        "wcwidth",
+        "weakmap",
+        "weakref",
+        "weakset",
+        "webassemblyjs",
+        "webidl",
+        "websockets",
+        "whatwg",
+        "whitesource",
+        "wrappy",
+        "xtend",
+        "xtuc",
+        "yallist",
+        "yargs",
+        "yarnpkg",
+        "yocto",
+        "zkochan"
+    ]
+}
+
+
+You can also copy-paste megalinter-reports/.cspell.json at the root of your repository

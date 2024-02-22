@@ -1,0 +1,562 @@
+{
+  "statistics": {
+    "detectionDate": "2024-02-22T04:40:26.158Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "apps/client/.next/server/app/favicon.ico/route.js": {
+            "lines": 11,
+            "tokens": 17366,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/.next/types/app/page.js": {
+            "lines": 21,
+            "tokens": 121,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 108,
+            "percentage": 95.24,
+            "percentageTokens": 89.26,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/.next/types/app/layout.js": {
+            "lines": 21,
+            "tokens": 121,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 108,
+            "percentage": 95.24,
+            "percentageTokens": 89.26,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/.next/server/chunks/491.js": {
+            "lines": 5,
+            "tokens": 11765,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/.next/server/app/page.js": {
+            "lines": 5,
+            "tokens": 14134,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/src/app/layout.tsx": {
+            "lines": 0,
+            "tokens": 5,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/src/app/layout.jsx": {
+            "lines": 0,
+            "tokens": 5,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/coverage/lcov-report/sorter.js": {
+            "lines": 190,
+            "tokens": 1598,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/coverage/lcov-report/block-navigation.js": {
+            "lines": 84,
+            "tokens": 576,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/tailwind.config.js": {
+            "lines": 17,
+            "tokens": 84,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/rpsack.config.js": {
+            "lines": 74,
+            "tokens": 442,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/postcss.config.js": {
+            "lines": 5,
+            "tokens": 32,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/next.config.mjs": {
+            "lines": 3,
+            "tokens": 16,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/rspack.config.js": {
+            "lines": 19,
+            "tokens": 104,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/.eslintrc.js": {
+            "lines": 24,
+            "tokens": 146,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 479,
+          "tokens": 46515,
+          "sources": 15,
+          "clones": 1,
+          "duplicatedLines": 20,
+          "duplicatedTokens": 108,
+          "percentage": 4.18,
+          "percentageTokens": 0.23,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "typescript": {
+        "sources": {
+          "apps/client/.next/types/app/page.ts": {
+            "lines": 78,
+            "tokens": 1007,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 64,
+            "duplicatedTokens": 861,
+            "percentage": 82.05,
+            "percentageTokens": 85.5,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/.next/types/app/layout.ts": {
+            "lines": 78,
+            "tokens": 1007,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 64,
+            "duplicatedTokens": 861,
+            "percentage": 82.05,
+            "percentageTokens": 85.5,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/test/app.e2e-spec.ts": {
+            "lines": 27,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/src/main.ts": {
+            "lines": 49,
+            "tokens": 354,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/src/app.service.ts": {
+            "lines": 7,
+            "tokens": 44,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/src/app.module.ts": {
+            "lines": 14,
+            "tokens": 116,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/src/app.controller.ts": {
+            "lines": 14,
+            "tokens": 123,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/api/src/app.controller.spec.ts": {
+            "lines": 21,
+            "tokens": 187,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/client/next-env.d.ts": {
+            "lines": 4,
+            "tokens": 7,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 292,
+          "tokens": 3067,
+          "sources": 9,
+          "clones": 2,
+          "duplicatedLines": 64,
+          "duplicatedTokens": 861,
+          "percentage": 21.92,
+          "percentageTokens": 28.07,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "apps/client/src/app/layout.tsx": {
+            "lines": 23,
+            "tokens": 182,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 23,
+          "tokens": 182,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "jsx": {
+        "sources": {
+          "apps/client/src/app/layout.jsx": {
+            "lines": 14,
+            "tokens": 155,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 14,
+          "tokens": 155,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "css": {
+        "sources": {
+          "apps/api/coverage/lcov-report/base.css": {
+            "lines": 223,
+            "tokens": 1597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 223,
+          "tokens": 1597,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "markdown": {
+        "sources": {
+          "a6fc1723-0770-41eb-9bf3-773b81cdf165-megalinter_file_names_cspell.txt": {
+            "lines": 60,
+            "tokens": 630,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 60,
+          "tokens": 630,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1091,
+      "tokens": 52146,
+      "sources": 28,
+      "clones": 3,
+      "duplicatedLines": 84,
+      "duplicatedTokens": 969,
+      "percentage": 7.7,
+      "percentageTokens": 1.86,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 24,
+      "fragment": ")\n\n// Check that the entry is a valid entry\ncheckFields<Diff<{\n  default: Function\n  config?: {}\n  generateStaticParams?: Function\n  revalidate?: RevalidateRange<TEntry> | false\n  dynamic?: 'auto' | 'force-dynamic' | 'error' | 'force-static'\n  dynamicParams?: boolean\n  fetchCache?: 'auto' | 'force-no-store' | 'only-no-store' | 'default-no-store' | 'default-cache' | 'only-cache' | 'force-cache'\n  preferredRegion?: 'auto' | 'global' | 'home' | string | string[]\n  runtime?: 'nodejs' | 'experimental-edge' | 'edge'\n  maxDuration?: number\n  \n  metadata?: any\n  generateMetadata?: Function\n  viewport?: any\n  generateViewport?: Function\n  \n}, TEntry, ''>>()\n\n// Check the prop type of the entry function\ncheckFields<Diff<LayoutProps",
+      "tokens": 0,
+      "firstFile": {
+        "name": "apps/client/.next/types/app/layout.ts",
+        "start": 5,
+        "end": 28,
+        "startLoc": {
+          "line": 5,
+          "column": 29,
+          "position": 43
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 12,
+          "position": 243
+        }
+      },
+      "secondFile": {
+        "name": "apps/client/.next/types/app/page.ts",
+        "start": 5,
+        "end": 28,
+        "startLoc": {
+          "line": 5,
+          "column": 27,
+          "position": 43
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 10,
+          "position": 243
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 42,
+      "fragment": ", FirstArg<MaybeField<TEntry, 'generateViewport'>>, 'generateViewport'>>()\n  checkFields<Diff<ResolvingViewport, SecondArg<MaybeField<TEntry, 'generateViewport'>>, 'generateViewport'>>()\n}\n\n// Check the arguments and return type of the generateStaticParams function\nif ('generateStaticParams' in entry) {\n  checkFields<Diff<{ params: PageParams }, FirstArg<MaybeField<TEntry, 'generateStaticParams'>>, 'generateStaticParams'>>()\n  checkFields<Diff<{ __tag__: 'generateStaticParams', __return_type__: any[] | Promise<any[]> }, { __tag__: 'generateStaticParams', __return_type__: ReturnType<MaybeField<TEntry, 'generateStaticParams'>> }>>()\n}\n\ntype PageParams = any\nexport interface PageProps {\n  params?: any\n  searchParams?: any\n}\nexport interface LayoutProps {\n  children?: React.ReactNode\n\n  params?: any\n}\n\n// =============\n// Utility types\ntype RevalidateRange<T> = T extends { revalidate: any } ? NonNegative<T['revalidate']> : never\n\n// If T is unknown or any, it will be an empty {} type. Otherwise, it will be the same as Omit<T, keyof Base>.\ntype OmitWithTag<T, K extends keyof any, _M> = Omit<T, K>\ntype Diff<Base, T extends Base, Message extends string = ''> = 0 extends (1 & T) ? {} : OmitWithTag<T, keyof Base, Message>\n\ntype FirstArg<T extends Function> = T extends (...args: [infer T, any]) => any ? unknown extends T ? any : T : never\ntype SecondArg<T extends Function> = T extends (...args: [any, infer T]) => any ? unknown extends T ? any : T : never\ntype MaybeField<T, K extends string> = T extends { [k in K]: infer G } ? G extends Function ? G : never : never\n\n\n\nfunction checkFields<_ extends { [k in keyof any]: never }>() {}\n\n// https://github.com/sindresorhus/type-fest\ntype Numeric = number | bigint\ntype Zero = 0 | 0n\ntype Negative<T extends Numeric> = T extends Zero ? never : `${T}` extends `-${string}` ? T : never\ntype NonNegative<T extends Numeric> = T extends Zero ? T : Negative<T> extends never ? T : '__invalid_negative_number__'",
+      "tokens": 0,
+      "firstFile": {
+        "name": "apps/client/.next/types/app/layout.ts",
+        "start": 38,
+        "end": 79,
+        "startLoc": {
+          "line": 38,
+          "column": 12,
+          "position": 346
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 30,
+          "position": 1007
+        }
+      },
+      "secondFile": {
+        "name": "apps/client/.next/types/app/page.ts",
+        "start": 38,
+        "end": 79,
+        "startLoc": {
+          "line": 38,
+          "column": 10,
+          "position": 346
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 30,
+          "position": 1007
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 21,
+      "fragment": ";\n// Check that the entry is a valid entry\ncheckFields();\n// Check the prop type of the entry function\ncheckFields();\n// Check the arguments and return type of the generateMetadata function\nif ('generateMetadata' in entry) {\n    checkFields();\n    checkFields();\n}\n// Check the arguments and return type of the generateViewport function\nif ('generateViewport' in entry) {\n    checkFields();\n    checkFields();\n}\n// Check the arguments and return type of the generateStaticParams function\nif ('generateStaticParams' in entry) {\n    checkFields();\n    checkFields();\n}\nfunction checkFields() { }",
+      "tokens": 0,
+      "firstFile": {
+        "name": "apps/client/.next/types/app/layout.js",
+        "start": 2,
+        "end": 22,
+        "startLoc": {
+          "line": 2,
+          "column": 29,
+          "position": 13
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 2,
+          "position": 121
+        }
+      },
+      "secondFile": {
+        "name": "apps/client/.next/types/app/page.js",
+        "start": 2,
+        "end": 22,
+        "startLoc": {
+          "line": 2,
+          "column": 27,
+          "position": 13
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 2,
+          "position": 121
+        }
+      }
+    }
+  ],
+  "filename": "/node-deps/node_modules/@jscpd/html-reporter/dist/templates/main.pug"
+}
