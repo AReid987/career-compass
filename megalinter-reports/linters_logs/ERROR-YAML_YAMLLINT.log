@@ -1,0 +1,32 @@
+Results of yamllint linter (version 1.34.0)
+See documentation on https://megalinter.io/7.9.0/descriptors/yaml_yamllint/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+.github/workflows/autofix.yml
+  1:1       warning  missing document start "---"  (document-start)
+  2:1       warning  truthy value should be one of [false, true]  (truthy)
+
+.github/workflows/ci.yml
+  1:1       warning  missing document start "---"  (document-start)
+  3:1       warning  truthy value should be one of [false, true]  (truthy)
+
+.github/workflows/mega-linter.yml
+  4:1       warning  missing document start "---"  (document-start)
+  6:1       warning  truthy value should be one of [false, true]  (truthy)
+
+appmap.yml
+  1:1       warning  missing document start "---"  (document-start)
+
+pnpm-lock.yaml
+  1:1       warning  missing document start "---"  (document-start)
+
+pnpm-workspace.yaml
+  1:1       warning  missing document start "---"  (document-start)
+
+techstack.yml
+  1:1       warning  missing document start "---"  (document-start)
+  11:1      error    wrong indentation: expected at least 1  (indentation)
+
+

@@ -16,7 +16,7 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.1
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -28,25 +28,19 @@ jobs:
         with:
           version: 8
       # Cache node_modules
-      - uses: actions/setup-node@v4.0.2
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
       - run: pnpm install --no-frozen-lockfile
 
-      - uses: nrwl/nx-set-shas@v4.0.4
+      - uses: nrwl/nx-set-shas@v4
 
-      - run: pnpm exec nx-cloud record -- nx format:write
+      - run: pnpm exec nx-cloud record -- nx format:check
       - run: pnpm exec nx affected -t lint test build
 
-      - name: Archive AppMaps
-        uses: getappmap/analyze-action@v1
-        with:
-          project-summary: true
-          verbose: true
-
       - name: Save AppMaps
-        uses: actions/cache/save@v4.0.0
+        uses: actions/cache/save@v4
         if: always()
         with:
           path: ./tmp/appmap

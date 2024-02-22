@@ -1,0 +1,163 @@
+Results of lychee linter (version 0.14.3)
+See documentation on https://megalinter.io/7.9.0/descriptors/spell_lychee/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+✗ [ERR] http://localhost:3000/ | Failed: Network error: tcp connect error: Connection refused (os error 111)
+✗ [ERR] http://localhost:3000/ | Failed: Network error: tcp connect error: Connection refused (os error 111)
+✗ [ERR] file://apps/api/LICENSE | Failed: Cannot find file
+✗ [ERR] file://nestjs.com | Failed: Cannot find file
+✗ [404] http://facebook.github.io/jest/ | Failed: Network error: Not Found
+↻ [404] http://facebook.github.io/jest/ | Cached: Error (cached)
+✗ [404] https://owasp.org/Top10/A02_2021-Cryptographic_Failures//nimpactDomain | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/eslint-config-next | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/package/supertest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react-dom | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/@types/react-dom | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/@types/supertest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tailwindcss | Failed: Network error: Too Many Requests
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/@types/node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/express | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/eslint-config-next | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/source-map-support | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/husky | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/parser | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/source-map | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-config-prettier | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/package/supertest | Cached: Error (cached)
+↻ [429] https://www.npmjs.com/@types/react | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/@types/jest | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/@typescript-eslint/parser | Cached: Error (cached)
+↻ [429] https://www.npmjs.com/@types/supertest | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/tslib | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/eslint-plugin | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/express | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/lint-staged | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/lint-staged | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tslib | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-plugin-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/source-map | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/eslint-plugin | Failed: Network error: Too Many Requests
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/methods | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/methods | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/source-map-support | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-plugin-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-config-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tailwindcss | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/husky | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/react-dom | Failed: Network error: Too Many Requests
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+⧖ [TIMEOUT] https://aka.ms/tsconfig | Timeout
+📝 Summary
+---------------------
+🔍 Total..........271
+✅ Successful.....202
+⏳ Timeouts.........3
+🔀 Redirected.......0
+👻 Excluded.........1
+❓ Unknown..........0
+🚫 Errors..........65
+
+Errors in tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json
+✗ [404] https://owasp.org/Top10/A02_2021-Cryptographic_Failures//nimpactDomain | Failed: Network error: Not Found
+
+Errors in apps/api/README.md
+✗ [ERR] file://apps/api/LICENSE | Failed: Cannot find file
+
+Errors in tsconfig.json
+⧖ [TIMEOUT] https://aka.ms/tsconfig | Timeout
+
+Errors in readme.md
+✗ [429] https://www.npmjs.com/source-map-support | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/supertest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tslib | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/methods | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/husky | Failed: Network error: Too Many Requests
+✗ [404] http://facebook.github.io/jest/ | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/@types/react | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tailwindcss | Failed: Network error: Too Many Requests
+✗ [ERR] file://nestjs.com | Failed: Cannot find file
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/@typescript-eslint/eslint-plugin | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-plugin-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/package/supertest | Failed: Network error: Too Many Requests
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+✗ [429] https://www.npmjs.com/@typescript-eslint/parser | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/express | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-config-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-config-next | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/source-map | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/lint-staged | Failed: Network error: Too Many Requests
+
+Errors in techstack.yml
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+↻ [429] https://www.npmjs.com/@types/react | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/@types/express | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/package/supertest | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/lint-staged | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tailwindcss | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/eslint-config-next | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/eslint-plugin-prettier | Failed: Network error: Too Many Requests
+↻ [404] http://facebook.github.io/jest/ | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/@types/jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/husky | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/@typescript-eslint/parser | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tslib | Failed: Network error: Too Many Requests
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/source-map | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/@types/react-dom | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/methods | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/source-map-support | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+↻ [429] https://www.npmjs.com/@types/supertest | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-config-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/eslint-plugin | Failed: Network error: Too Many Requests
+
+Errors in apps/client/README.md
+✗ [ERR] http://localhost:3000/ | Failed: Network error: tcp connect error: Connection refused (os error 111)
+
