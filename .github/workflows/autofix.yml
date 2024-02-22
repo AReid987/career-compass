@@ -18,7 +18,7 @@ jobs:
 
       - uses: autofix-ci/action@ea32e3a12414e6d3183163c3424a7d7a8631ad84
 
-      - name: Trigger CI Workflow
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          event-type: 'autofix-completed'
+      # - name: Trigger CI Workflow
+      #   uses: peter-evans/repository-dispatch@v3
+      #   with:
+      #     event-type: 'autofix-completed'

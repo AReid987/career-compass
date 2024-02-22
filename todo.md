@@ -1,6 +1,8 @@
 <!-- * TODO
   - [x] Fastify
   - [ ] fix CI actions
+  - [ ] commitlint
+  - [ ] commitizen
   - [ ] RSpack
   - [ ] Bit.dev
   - [x] Swagger

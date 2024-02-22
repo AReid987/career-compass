@@ -6,10 +6,10 @@ import { DevtoolsModule } from '@nestjs/devtools-integration'
 @Module({
   imports: [
     DevtoolsModule.register({
-      http: process.env.NODE_ENV !== 'production',
-    }),
+      http: process.env.NODE_ENV !== 'production'
+    })
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService]
 })
 export class AppModule {}
