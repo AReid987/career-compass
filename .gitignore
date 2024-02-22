@@ -8,3 +8,5 @@ build
 
 # AppMap artifacts
 /.appmap
+
+megalinter-reports/

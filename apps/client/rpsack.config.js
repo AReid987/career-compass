@@ -1,3 +1,4 @@
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 module.exports = {
   module: {
     rules: [
@@ -71,5 +72,6 @@ module.exports = {
         type: 'css'
       }
     ]
-  }
+  },
+  plugins: [new ForkTsCheckerWebpackPlugin()]
 }
