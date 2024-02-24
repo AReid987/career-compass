@@ -1,3 +1,5 @@
+const { RunScriptWebpackPlugin } = require('run-script-webpack-plugin')
+// import { RunScriptWebpackPlugin } from 'run-script-webpack-plugin'
 /**
  * @type {import('@rspack/cli').Configuration}
  */
@@ -36,8 +38,7 @@ module.exports = {
   externalsType: 'commonjs',
   plugins: [
     !process.env.BUILD &&
-      new RunScriptWebpackPlugin({ name: main.js, autorestart: false }),
-    new webpack.HotModuleReplacementPlugin()
+      new RunScriptWebpackPlugin({ name: 'main.js', autorestart: false })
   ].filter(Boolean),
   devServer: {
     devMiddleware: {
@@ -51,8 +52,33 @@ module.exports = {
         '@nestjs/core',
         '@nestjs/microservices',
         '@nestjs/platform-express',
-        'cache-manager'
+        'cache-manager',
+        'class-validator',
+        'class-transformer',
+        '@nestjs/microservices/microservices-module',
+        '@nestjs/websockets',
+        'socket.io-adapater',
+        'utf-8-validate',
+        'bufferutil',
+        'kerberos',
+        '@mongodb-js/zstd',
+        'snappy',
+        '@aws-sdk/credential-providers',
+        'mongodb-client-encryption',
+        '@nestjs/websockets/socket-module',
+        'bson-ext',
+        'snappy/package.json',
+        'aws4'
       ]
+      if (!lazyImports.includes(resource)) {
+        return callback()
+      }
+      try {
+        require.resolve(resource)
+      } catch (err) {
+        callback(null, resource)
+      }
+      callback()
     }
   ]
 }
