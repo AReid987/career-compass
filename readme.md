@@ -250,6 +250,7 @@
 
 Generated via [Stack File](https://github.com/marketplace/stack-file)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bb17ec8c551541838b1f99223997b8f0)](https://app.codacy.com/gh/AReid987/career-compass?utm_source=github.com&utm_medium=referral&utm_content=AReid987/career-compass&utm_campaign=Badge_Grade)
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Top contributors
 
 [![Top contributors](https://images.repography.com/46730663/AReid987/career-compass/top-contributors/HPCNZF9qyYMXuS212zxhZMbDg2zvmHNpbjDh07PsWyo/jiQcd3qvz0xG2xBGwwlLn19su-bkEpe509xSNfUcMds_table.svg)](https://github.com/AReid987/career-compass/graphs/contributors)
