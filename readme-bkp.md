@@ -54,7 +54,22 @@
       <img src="https://img.stackshare.io/repo.svg"  alt="StackShare logo" />
       AReid987/career-compass
     </a>
-    <img alt="GitHub License" src="https://img.shields.io/github/license/areid987/career-compass">
+    <img alt="GitHub package.json dynamic" src="https://img.shields.io/github/package-json/name/areid987/career-compass?style=plastic">
+    <img alt="GitHub package.json dynamic" src="https://img.shields.io/github/package-json/version/areid987/career-compass?style=plastic">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/areid987/career-compass?style=plastic&logo=github"/>
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/areid987/career-compass?style=plastic">
+    <img alt="GitHub repo file or directory count" src="https://img.shields.io/github/directory-file-count/areid987/career-compass?style=plastic">
+    <img alt="Depfu" src="https://img.shields.io/depfu/dependencies/github/AReid987%2Fcareer-compass?style=plastic">
+    <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/areid987/career-compass?style=plastic">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/areid987/career-compass?style=plastic&logo=github"/>
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-pr/areid987/career-compass?style=plastic&logo=github">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/areid987/career-compass?style=plastic&logo=github">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/areid987/career-compass?style=plastic&logo=github"/>
+    <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/areid987/career-compass/autofix.yml?style=plastic&logo=github&label=autofix%20%7C%20build"/>
+    <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/areid987/career-compass/ci.yml?style=plastic&logo=github&label=ci%20%7C%20build"/>
+    <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/areid987/career-compass/mega-linter.yml?style=plastic&logo=github&label=mega-linter%20%7C%20build"/>
+    <img alt="Bit Components" src="https://img.shields.io/bit/collection/total-components/areid987/career-compass?style=plastic&logo=bit">
+    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/a086df3a73fe4b8397c74d168684b0bb?style=plastic&logo=codacy">
   </div>
 </div>
 

@@ -1,7 +1,7 @@
 {
   "name": "career-compass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Navigate your way to your next role with AI.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "pnpm exec nx run-many --target=build",
@@ -15,8 +15,8 @@
     "dev": "pnpm run --parallel dev"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Antonio Reid",
+  "license": "MIT",
   "devDependencies": {
     "@appnest/readme": "^1.2.7",
     "@nx/eslint": "18.0.4",

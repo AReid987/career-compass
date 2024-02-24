@@ -52,6 +52,13 @@ jobs:
           path: ./tmp/appmap
           key: appmaps-${{ github.sha }}-${{ github.run_attempt }}
 
+      - name: Codecov
+        uses: codecov/codecov-action@v4.0.2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: AReid987/career-compass
+          verbose: true
+
   appmap-analysis:
     if: always()
     needs: [main]
