@@ -12,6 +12,10 @@ describe('AppController', () => {
     }).compile()
 
     appController = app.get<AppController>(AppController)
+
+    afterAll(async () => {
+      await app.close()
+    })
   })
 
   describe('root', () => {
