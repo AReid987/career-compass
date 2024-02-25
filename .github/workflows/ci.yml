@@ -52,10 +52,17 @@ jobs:
           path: ./tmp/appmap
           key: appmaps-${{ github.sha }}-${{ github.run_attempt }}
 
+      - name: Run ATS
+        uses: codecov/codecov-ats
+        with:
+          static_token: ${{ secrets.CODECOV_STATIC_TOKEN }}
+      - name: Run tests and collect coverage
+        run: pnpm exec nx run-many --target=test:cov --parallel=3
       - name: Codecov
         uses: codecov/codecov-action@v4.0.2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          flags: smart-tests
           slug: AReid987/career-compass
           verbose: true
 
