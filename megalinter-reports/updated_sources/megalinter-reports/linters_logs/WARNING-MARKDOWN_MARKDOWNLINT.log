@@ -1,0 +1,19 @@
+Results of markdownlint linter (version 0.39.0)
+See documentation on https://megalinter.io/7.9.0/descriptors/markdown_markdownlint/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+apps/api/README.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "<p align="center">"]
+apps/api/README.md:16:62 MD045/no-alt-text Images should have alternate text (alt text)
+apps/api/README.md:18:63 MD045/no-alt-text Images should have alternate text (alt text)
+apps/client/README.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "This is a [Next.js](https://ne..."]
+readme.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "<div align="center">"]
+readme.md:5:1 MD045/no-alt-text Images should have alternate text (alt text)
+readme.md:5:117 MD045/no-alt-text Images should have alternate text (alt text)
+readme.md:12:4 MD045/no-alt-text Images should have alternate text (alt text)
+readme.md:42:4 MD045/no-alt-text Images should have alternate text (alt text)
+readme.md:122:4 MD045/no-alt-text Images should have alternate text (alt text)
+readme.md:214:4 MD045/no-alt-text Images should have alternate text (alt text)
+readme.md:216:4 MD045/no-alt-text Images should have alternate text (alt text)
+

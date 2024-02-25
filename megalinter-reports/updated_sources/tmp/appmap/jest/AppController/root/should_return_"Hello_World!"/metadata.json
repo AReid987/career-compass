@@ -1,0 +1,19 @@
+{
+  "client": {
+    "name": "appmap-node",
+    "version": "2.15.0",
+    "url": "https://github.com/getappmap/appmap-node"
+  },
+  "language": {
+    "name": "javascript",
+    "engine": "Node.js",
+    "version": "v20.9.0"
+  },
+  "app": "career-compass",
+  "recorder": {
+    "type": "tests",
+    "name": "jest"
+  },
+  "name": "AppController root should return \"Hello World!\"",
+  "test_status": "succeeded"
+}

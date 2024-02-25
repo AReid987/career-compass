@@ -1,0 +1,120 @@
+Results of git_diff linter (version 2.43.0)
+See documentation on https://megalinter.io/7.9.0/descriptors/repository_git_diff/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+warning: in the working copy of '.mega-linter.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'apps/api/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'apps/api/src/app.controller.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'apps/api/src/app.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'apps/api/src/main.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'apps/client/src/app/layout.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/.cspell.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/copy-paste/html/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/copy-paste/html/js/prism.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/copy-paste/html/jscpd-report.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-COPYPASTE_JSCPD.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-JAVASCRIPT_STANDARD.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-JSON_JSONLINT.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-MARKDOWN_MARKDOWN_LINK_CHECK.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-REPOSITORY_CHECKOV.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-REPOSITORY_GITLEAKS.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-SPELL_LYCHEE.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-TYPESCRIPT_STANDARD.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-YAML_YAMLLINT.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/SUCCESS-ACTION_ACTIONLINT.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/SUCCESS-JSON_NPM_PACKAGE_JSON_LINT.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/SUCCESS-JSON_V8R.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/SUCCESS-REPOSITORY_DUSTILOCK.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/WARNING-MARKDOWN_MARKDOWNLINT.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pnpm-lock.yaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'readme.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'techstack.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classes.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.exceptions.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpClientRequests.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpServerRequests.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.labels.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packageDependencies.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packages.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.parameters.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlNormalized.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlTables.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/classMap.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json', LF will be replaced by CRLF the next time Git touches it
+megalinter-reports/copy-paste/html/index.html:202: trailing whitespace.
++    
+megalinter-reports/copy-paste/html/index.html:208: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:209: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:215: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:216: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:220: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:221: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:273: trailing whitespace.
++    
+megalinter-reports/copy-paste/html/index.html:279: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:280: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:286: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:287: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:291: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:292: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:344: trailing whitespace.
++    
+megalinter-reports/copy-paste/html/index.html:350: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:356: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:357: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:363: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:364: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:371: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:372: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:377: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:378: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:384: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:385: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:460: trailing whitespace.
++    
+megalinter-reports/copy-paste/html/index.html:466: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:472: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:473: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:479: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:480: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:486: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:487: trailing whitespace.
++            
+megalinter-reports/copy-paste/html/index.html:493: trailing whitespace.
++        
+megalinter-reports/copy-paste/html/index.html:494: trailing whitespace.
++            
+megalinter-reports/megalinter.log:16270: new blank line at EOF.
+

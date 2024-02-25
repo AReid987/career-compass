@@ -1,0 +1,13 @@
+Results of standard linter (version 17.1.0)
+See documentation on https://megalinter.io/7.9.0/descriptors/javascript_standard/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+standard: Use JavaScript Standard Style (https://standardjs.com)
+  apps/client/rpsack.config.js:24:31: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:25:27: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:48:31: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:49:27: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:58:9: Duplicate key 'test'. (no-dupe-keys)
+
