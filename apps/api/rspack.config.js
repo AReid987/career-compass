@@ -46,7 +46,7 @@ module.exports = {
     }
   },
   externals: [
-    function (obj, callback) {
+    function (obj) {
       const resource = obj.request
       const lazyImports = [
         '@nestjs/core',
