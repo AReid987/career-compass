@@ -19,7 +19,7 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout All
         uses: actions/checkout@v4.1.1
         with:
           fetch-depth: 0
