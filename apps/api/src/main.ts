@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core'
 import {
   FastifyAdapter,
-  NestFastifyApplication,
+  NestFastifyApplication
 } from '@nestjs/platform-fastify'
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
 import * as swaggerStats from 'swagger-stats'
@@ -14,8 +14,8 @@ async function bootstrap() {
     AppModule,
     new FastifyAdapter(),
     {
-      snapshot: true,
-    },
+      snapshot: true
+    }
   )
   const logger = new Logger()
   app.useLogger(logger)
@@ -36,11 +36,14 @@ async function bootstrap() {
   logger.log('🚀 Server running on http://localhost:3000', 'Bootstrap')
   logger.log(
     '🧪 Swagger running on http://localhost:3000/api',
-    'Bootstrap Swagger',
+    'Bootstrap Swagger'
   )
   logger.log(
     '📊 Swagger Stats running on http://localhost:3000/swagger-stats/',
-    'Bootstrap Swagger Stats',
+    'Bootstrap Swagger Stats'
+  )
+  logger.log(
+    '📃 Prisma Studio => run pnpm dlx prisma studio. View on http://localhost:5000'
   )
 }
 

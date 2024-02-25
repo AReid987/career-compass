@@ -1,0 +1,117 @@
+Results of lychee linter (version 0.14.3)
+See documentation on https://megalinter.io/7.9.0/descriptors/spell_lychee/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+✗ [ERR] http://localhost:3000/ | Failed: Network error: tcp connect error: Connection refused (os error 111)
+✗ [ERR] http://localhost:3000/ | Failed: Network error: tcp connect error: Connection refused (os error 111)
+✗ [404] http://facebook.github.io/jest/ | Failed: Network error: Not Found
+✗ [ERR] file://nestjs.com | Failed: Cannot find file
+↻ [404] http://facebook.github.io/jest/ | Cached: Error (cached)
+✗ [404] https://megalinter.io/configuration | Failed: Network error: Not Found
+✗ [404] https://megalinter.io/flavors | Failed: Network error: Not Found
+✗ [ERR] file://apps/api/LICENSE | Failed: Cannot find file
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/@types/node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/source-map | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/package/supertest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/eslint-plugin | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/~nestjscore | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-config-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tslib | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/parser | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/methods | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/supertest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [404] https://owasp.org/Top10/A02_2021-Cryptographic_Failures//nimpactDomain | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/@types/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-plugin-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/parser | Failed: Network error: Too Many Requests
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+⧖ [TIMEOUT] https://aka.ms/tsconfig | Timeout
+📝 Summary
+---------------------
+🔍 Total..........274
+✅ Successful.....228
+⏳ Timeouts.........3
+🔀 Redirected.......0
+👻 Excluded.........2
+❓ Unknown..........0
+🚫 Errors..........41
+
+Errors in techstack.yml
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/methods | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/parser | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@typescript-eslint/eslint-plugin | Failed: Network error: Too Many Requests
+✗ [404] http://facebook.github.io/jest/ | Failed: Network error: Not Found
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+
+Errors in .github/workflows/mega-linter.yml
+✗ [404] https://megalinter.io/configuration | Failed: Network error: Not Found
+✗ [404] https://megalinter.io/flavors | Failed: Network error: Not Found
+
+Errors in apps/client/README.md
+✗ [ERR] http://localhost:3000/ | Failed: Network error: tcp connect error: Connection refused (os error 111)
+
+Errors in apps/api/README.md
+✗ [429] https://www.npmjs.com/~nestjscore | Failed: Network error: Too Many Requests
+✗ [ERR] file://apps/api/LICENSE | Failed: Cannot find file
+
+Errors in tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json
+✗ [404] https://owasp.org/Top10/A02_2021-Cryptographic_Failures//nimpactDomain | Failed: Network error: Not Found
+
+Errors in tsconfig.json
+⧖ [TIMEOUT] https://aka.ms/tsconfig | Timeout
+
+Errors in readme.md
+✗ [ERR] file://nestjs.com | Failed: Cannot find file
+✗ [429] https://www.npmjs.com/source-map | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/testing | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-config-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/react-dom | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/eslint-plugin-prettier | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/node | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@nestjs/common | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-jest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/ts-loader | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/reflect-metadata | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react-dom | Failed: Network error: Too Many Requests
+⧖ [TIMEOUT] http://www.typescriptlang.org/ | Timeout
+✗ [429] https://www.npmjs.com/@nestjs/core | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tsconfig-paths | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/@types/react | Failed: Network error: Too Many Requests
+↻ [404] http://facebook.github.io/jest/ | Cached: Error (cached)
+✗ [429] https://www.npmjs.com/@typescript-eslint/parser | Failed: Network error: Too Many Requests
+✗ [404] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 | Failed: Network error: Not Found
+✗ [429] https://www.npmjs.com/@types/supertest | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/tslib | Failed: Network error: Too Many Requests
+✗ [429] https://www.npmjs.com/package/supertest | Failed: Network error: Too Many Requests
+

@@ -1,0 +1,17 @@
+Results of standard linter (version 17.1.0)
+See documentation on https://megalinter.io/7.9.0/descriptors/javascript_standard/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+  apps/client/rpsack.config.js:23:31: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:24:27: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:47:31: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:48:27: 'prod' is not defined. (no-undef)
+  apps/client/rpsack.config.js:57:9: Duplicate key 'test'. (no-dupe-keys)
+  apps/client/tailwind.config.js:1:1: Unexpected var, use let or const instead. (no-var) (warning)
+  lint-staged.config.js:2:66: Unexpected trailing comma. (comma-dangle)
+

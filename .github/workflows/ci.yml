@@ -2,9 +2,10 @@ name: CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
+    branches: [main]
+
   schedule:
     - cron: '0 0 * * 0'
 
@@ -15,35 +16,48 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.1.1
         with:
           fetch-depth: 0
 
       # Connect your workspace on nx.app and uncomment this to enable task distribution.
       # The "--stop-agents-after" is optional, but allows idle agents to shut down once the "build" targets have been requested
-      # - run: pnpm exec nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="build"
+      - run: pnpm exec nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="build"
 
       - uses: pnpm/action-setup@v3
         with:
           version: 8
       # Cache node_modules
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.0.2
         with:
           node-version: 20
           cache: 'pnpm'
       - run: pnpm install --no-frozen-lockfile
 
-      - uses: nrwl/nx-set-shas@v4
+      - uses: nrwl/nx-set-shas@v4.0.4
 
-      - run: pnpm exec nx-cloud record -- nx format:check
+      - run: pnpm exec nx-cloud record -- nx format:write
       - run: pnpm exec nx affected -t lint test build
 
+      - name: Archive AppMaps
+        uses: getappmap/analyze-action@v1
+        with:
+          project-summary: true
+          verbose: true
+
       - name: Save AppMaps
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v4.0.0
         if: always()
         with:
           path: ./tmp/appmap
           key: appmaps-${{ github.sha }}-${{ github.run_attempt }}
+
+      - name: Codecov
+        uses: codecov/codecov-action@v4.0.2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: AReid987/career-compass
+          verbose: true
 
   appmap-analysis:
     if: always()

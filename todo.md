@@ -1,7 +1,15 @@
 <!-- * TODO
   - [x] Fastify
+  - [ ] docker cache action
+  - [ ] compodoc
+  - [ ] shelljs
+  - [ ] terminus
+  - [ ]
   - [ ] fix CI actions
+  - [ ] commitlint
+  - [ ] commitizen
   - [ ] RSpack
+  - [ ] Bit.dev
   - [x] Swagger
   - [x] Swagger Stats
   - [ ] Logger

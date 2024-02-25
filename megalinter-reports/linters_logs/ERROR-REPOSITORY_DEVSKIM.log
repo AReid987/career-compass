@@ -1,0 +1,244 @@
+Results of devskim linter (version 1.0.28)
+See documentation on https://megalinter.io/7.9.0/descriptors/repository_devskim/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /tmp/lint
+Linter raw log:
+git version 2.43.0
+fatal: this operation must be run in a work tree
+fatal: this operation must be run in a work tree
+fatal: this operation must be run in a work tree
+fatal: this operation must be run in a work tree
+fatal: this operation must be run in a work tree
+fatal: this operation must be run in a work tree
+fatal: this operation must be run in a work tree
+fatal: this operation must be run in a work tree
+fatal: pathspec 'node_modules/eslint-config-standard/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard/CHANGELOG.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard/.eslintrc.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard-jsx/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard-jsx/eslintrc.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard-jsx/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard-jsx/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard-jsx/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/constants.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/navigation.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/constants.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/og.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/client.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/license.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/amp.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/error.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/babel.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/jest.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/script.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/app.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/server.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/cache.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/amp.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/jest.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/server.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/head.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/config.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/link.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/dynamic.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/config.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/error.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/script.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/web-vitals.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/headers.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/document.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/headers.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/router.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/navigation.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/cache.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/image.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/og.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/babel.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/router.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/dynamic.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/index.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/link.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/client.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/web-vitals.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/image.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/app.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/head.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/next/document.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard-with-typescript/readme.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-standard-with-typescript/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-es/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-es/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-es/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/methods/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/methods/HISTORY.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/methods/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/methods/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/methods/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-next/core-web-vitals.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-next/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-next/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-next/parser.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-import/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-import/CHANGELOG.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-import/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-import/RELEASE.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-import/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-import/CONTRIBUTING.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-import/SECURITY.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-utils/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-utils/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-utils/index.mjs.map' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-utils/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-utils/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-utils/index.mjs' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-utils/index.js.map' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/standalone.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/standalone.mjs' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/standalone.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/doc.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/doc.mjs' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/index.cjs' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/index.mjs' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/index.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier/doc.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/LICENSE.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/eslint-plugin-prettier.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/recommended.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/worker.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/eslint-plugin-prettier.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-prettier/recommended.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/tslib.d.ts' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/tslib.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/CopyrightNotice.txt' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/tslib.es6.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/tslib.es6.html' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/LICENSE.txt' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/tslib.es6.mjs' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/tslib.html' is beyond a symbolic link
+fatal: pathspec 'node_modules/tslib/SECURITY.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/constants.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/CHANGELOG.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/options.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/eslintrc.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/.commitlintrc.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/cli.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/ts-standard/resolve-tsconfig.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-import-resolver-node/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-import-resolver-node/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-import-resolver-node/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-import-resolver-node/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-react-hooks/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-react-hooks/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-react-hooks/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-react-hooks/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/LICENSE.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/.prettierignore' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/.editorconfig' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/.prettierrc' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/.eslintrc.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/prettier-linter-helpers/.eslintignore' is beyond a symbolic link
+fatal: pathspec 'node_modules/lint-staged/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/lint-staged/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/lint-staged/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/ModuleCache.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/CHANGELOG.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/moduleVisitor.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/pkgDir.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/readPkgUp.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/visit.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/resolve.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/module-require.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/parse.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/ignore.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/.nycrc' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/pkgUp.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/hash.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/unambiguous.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-module-utils/declaredScope.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-n/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-n/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-n/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-jsx-a11y/.babelrc' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-jsx-a11y/LICENSE.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-jsx-a11y/CHANGELOG.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-jsx-a11y/.eslintrc' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-jsx-a11y/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-jsx-a11y/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/AUTHORS.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/CHANGELOG.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/.pre-commit-hooks.yaml' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/eslintrc.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/standard/RULES.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/client.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/server.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/server.browser.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/profiling.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/test-utils.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/react-dom/server.node.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-promise/LICENSE.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-promise/CHANGELOG.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-promise/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-promise/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-promise/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/nx/executors.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/nx/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/nx/generators.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/nx/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/nx/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/nx/migrations.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/nx/.eslintrc.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/standard.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/prettier.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/unicorn.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/react.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/index.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/@typescript-eslint.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/vue.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/babel.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-config-prettier/flowtype.js' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint/package.json' is beyond a symbolic link
+Unhandled exception. System.InvalidOperationException: Process must exit before requested information can be determined.
+   at System.Diagnostics.Process.EnsureState(State state)
+   at Microsoft.DevSkim.CLI.Commands.AnalyzeCommand.IsGitIgnored(String fp) in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Commands\AnalyzeCommand.cs:line 274
+   at Microsoft.DevSkim.CLI.Commands.AnalyzeCommand.<>c.<Run>b__4_0(String fileName) in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Commands\AnalyzeCommand.cs:line 104
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at Microsoft.DevSkim.CLI.Commands.AnalyzeCommand.Run() in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Commands\AnalyzeCommand.cs:line 105
+   at Microsoft.DevSkim.CLI.Program.<>c.<Main>b__0_0(AnalyzeCommandOptions opts) in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Program.cs:line 16
+   at CommandLine.ParserResultExtensions.MapResult[T1,T2,T3,T4,TResult](ParserResult`1 result, Func`2 parsedFunc1, Func`2 parsedFunc2, Func`2 parsedFunc3, Func`2 parsedFunc4, Func`2 notParsedFunc)
+   at Microsoft.DevSkim.CLI.Program.Main(String[] args) in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Program.cs:line 14
+
