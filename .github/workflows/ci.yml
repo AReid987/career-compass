@@ -20,10 +20,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Connect your workspace on nx.app and uncomment this to enable task distribution.
-      # The "--stop-agents-after" is optional, but allows idle agents to shut down once the "build" targets have been requested
-      # - run: pnpm exec nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="build"
-
       - uses: pnpm/action-setup@v3
         with:
           version: 8
@@ -52,17 +48,10 @@ jobs:
           path: ./tmp/appmap
           key: appmaps-${{ github.sha }}-${{ github.run_attempt }}
 
-      - name: Run ATS
-        uses: codecov/codecov-ats
-        with:
-          static_token: ${{ secrets.CODECOV_STATIC_TOKEN }}
-      - name: Run tests and collect coverage
-        run: pnpm exec nx run-many --target=test:cov --parallel=3
-      - name: Codecov
-        uses: codecov/codecov-action@v4.0.2
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          flags: smart-tests
           slug: AReid987/career-compass
           verbose: true
 

@@ -71,6 +71,7 @@
     <img alt="Bit Components" src="https://img.shields.io/bit/collection/total-components/areid987/career-compass?style=plastic&logo=bit">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/a086df3a73fe4b8397c74d168684b0bb?style=plastic&logo=codacy">
     <img alt="Codecov" src="https://img.shields.io/codecov/c/github/areid987/career-compass?style=plastic&logo=CodeCov">
+    <img src="https://codecov.io/gh/AReid987/career-compass/graphs/tree.svg?token=CNQCMUNUIW"/>
   </div>
 </div>
 
