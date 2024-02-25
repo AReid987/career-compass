@@ -8,16 +8,17 @@ jobs:
   autofix:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.1
-      - uses: pnpm/action-setup@v3
-        with:
-          version: 8
-      - uses: actions/setup-node@v4.0.2
-        with:
-          node-version: 20
-          cache: 'pnpm'
+      - run: echo "autofix.ci"
+      # - uses: actions/checkout@v4.1.1
+      # - uses: pnpm/action-setup@v3
+      #   with:
+      #     version: 8
+      # - uses: actions/setup-node@v4.0.2
+      #   with:
+      #     node-version: 20
+      #     cache: 'pnpm'
 
-      - run: pnpm install --no-frozen-lockfile
-      - run: pnpm dlx prettier --write .
+      # - run: pnpm install --no-frozen-lockfile
+      # - run: pnpm dlx prettier --write .
 
-      - uses: autofix-ci/action@ea32e3a12414e6d3183163c3424a7d7a8631ad84
+      # - uses: autofix-ci/action@ea32e3a12414e6d3183163c3424a7d7a8631ad84

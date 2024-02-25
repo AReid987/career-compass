@@ -1,0 +1,44 @@
+name: appmap-analysis
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - run: echo "appmap-analysis"
+      # - uses: actions/checkout@v4.1.1
+      #   with:
+      #     fetch-depth: 0
+      #     ref: ${{ github.event.pull_request.head.ref }}
+
+      # - name: Set up pnpm
+      #   uses: pnpm/action-setup@v3
+      #   with:
+      #     version: 8
+
+      # - name: Set up Node
+      #   uses: actions/setup-node@v4.0.2
+      #   with:
+      #     node-version: 20
+      #     cache: 'pnpm'
+      # - name: Install dependencies
+      #   run: pnpm -r install --no-frozen-lockfile
+
+      # - name: set up nx
+      #   uses: nrwl/nx-set-shas@v4.0.4
+      # - run: |
+      #     echo "BASE: ${{ env.NX_BASE }}"
+      #     echo "HEAD: ${{ env.NX_HEAD }}"
+
+      # - run: pnpm exec nx-cloud record -- nx format:write
+      # - run: pnpm exec nx run-many --target=test

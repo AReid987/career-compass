@@ -23,6 +23,16 @@
         "devTargetName": "dev",
         "startTargetName": "start"
       }
+    },
+    {
+      "plugin": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "previewTargetName": "preview",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "serveStaticTargetName": "serve-static"
+      }
     }
   ],
   "nxCloudAccessToken": "ZDljYTM4OWQtNTVlMy00OGIyLTg5YjktYzVkMTFlOGQyZjc3fHJlYWQtd3JpdGU="
