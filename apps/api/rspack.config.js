@@ -48,7 +48,7 @@ module.exports = {
   externals: [
     function (obj) {
       const resource = obj.request
-      const lazyImports = [
+      // Removed unused 'lazyImports' array
         '@nestjs/core',
         '@nestjs/microservices',
         '@nestjs/platform-express',
