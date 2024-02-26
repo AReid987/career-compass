@@ -32,7 +32,11 @@ jobs:
         uses: actions/checkout@v4.1.1
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
-      # Megalinter
+      - name: Docker Cache
+        uses: ScribeMD/docker-cache@0.3.7
+        with:
+          key: ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}
+          # Megalinter
       - name: MegaLinter
         id: ml
         # https://megalinter.io/flavors
@@ -71,7 +75,3 @@ jobs:
           commit_message: '[MegaLinter] Apply linters fixes'
           commit_user_name: megalinter-bot
           commit_user_email: read.musik@gmail.com
-      - name: Docker Cache
-        uses: ScribeMD/docker-cache@0.3.7
-        with:
-          key: ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}

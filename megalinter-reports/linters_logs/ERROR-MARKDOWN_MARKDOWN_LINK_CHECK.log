@@ -4,7 +4,7 @@ See documentation on https://megalinter.io/7.9.0/descriptors/markdown_markdown_l
 
 ❌ [ERROR] for workspace /tmp/lint
 Linter raw log:
-(node:70) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:381) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 
   ERROR: 2 dead links found in apps/api/README.md !
@@ -13,9 +13,4 @@ Linter raw log:
 
   ERROR: 1 dead links found in apps/client/README.md !
   [✖] http://localhost:3000 → Status: 0
-
-  ERROR: 3 dead links found in readme.md !
-  [✖] https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 → Status: 404
-  [✖] nestjs.com → Status: 400
-  [✖] http://facebook.github.io/jest/ → Status: 404
 

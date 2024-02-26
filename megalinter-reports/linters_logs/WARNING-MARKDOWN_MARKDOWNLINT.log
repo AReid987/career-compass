@@ -5,18 +5,8 @@ See documentation on https://megalinter.io/7.9.0/descriptors/markdown_markdownli
 ❌ [ERROR] for workspace /tmp/lint
 Linter raw log:
 apps/api/README.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "<p align="center">"]
-apps/api/README.md:5:1 MD053/link-image-reference-definitions Link and image reference definitions should be needed [Unused link or image reference definition: "circleci-image"] [Context: "[circleci-image]: https://img...."]
-apps/api/README.md:6:1 MD053/link-image-reference-definitions Link and image reference definitions should be needed [Unused link or image reference definition: "circleci-url"] [Context: "[circleci-url]: https://circle..."]
-apps/api/README.md:18:62 MD045/no-alt-text Images should have alternate text (alt text)
-apps/api/README.md:20:63 MD045/no-alt-text Images should have alternate text (alt text)
-apps/api/README.md:32:1 MD014/commands-show-output Dollar signs used before commands without showing output [Context: "$ pnpm install"]
+apps/api/README.md:15:62 MD045/no-alt-text Images should have alternate text (alt text)
+apps/api/README.md:17:63 MD045/no-alt-text Images should have alternate text (alt text)
 apps/client/README.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "This is a [Next.js](https://ne..."]
-readme.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "<div align="center">"]
-readme.md:5:1 MD045/no-alt-text Images should have alternate text (alt text)
-readme.md:5:117 MD045/no-alt-text Images should have alternate text (alt text)
-readme.md:12:4 MD045/no-alt-text Images should have alternate text (alt text)
-readme.md:42:4 MD045/no-alt-text Images should have alternate text (alt text)
-readme.md:122:4 MD045/no-alt-text Images should have alternate text (alt text)
-readme.md:214:4 MD045/no-alt-text Images should have alternate text (alt text)
-readme.md:216:4 MD045/no-alt-text Images should have alternate text (alt text)
+blueprint.md:1 MD041/first-line-heading/first-line-h1 First line in a file should be a top-level heading [Context: "{{ template:title }}"]
 

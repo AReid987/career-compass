@@ -26,95 +26,60 @@ Scanning with Keeping Infrastructure as Code Secure v1.7.12
 
 
 
-Files scanned: 5
-Parsed files: 5
+Files scanned: 4
+Parsed files: 4
 Queries loaded: 4
 Queries failed to execute: 0
 
 ------------------------------------
 
-Unpinned Actions Full Length Commit SHA, Severity: MEDIUM, Results: 10
+Unpinned Actions Full Length Commit SHA, Severity: MEDIUM, Results: 5
 Description: Pinning an action to a full length commit SHA is currently the only way to use an action as an immutable release. Pinning to a particular SHA helps mitigate the risk of a bad actor adding a backdoor to the action's repository, as they would need to generate a SHA-1 collision for a valid Git object payload. When selecting a SHA, you should verify it is from the action's repository and not a repository fork.
 Platform: CICD
 Learn more about this vulnerability: https://docs.kics.io/latest/queries/cicd-queries/555ab8f9-2001-455e-a077-f2d0f41e2fb9
 
-	[1]: .github/workflows/autofix.yml:12
+	[1]: .github/workflows/ci.yml:28
 
-		011:       - uses: actions/checkout@v4.1.1
-		012:       - uses: pnpm/action-setup@v3
-		013:         with:
-
-
-	[2]: .github/workflows/ci.yml:37
-
-		036: 
-		037:       - uses: nrwl/nx-set-shas@v4.0.4
-		038: 
+		027:       - name: Setup pnpm
+		028:         uses: pnpm/action-setup@v3
+		029:         with:
 
 
-	[3]: .github/workflows/mega-linter.yml:68
+	[2]: .github/workflows/mega-linter.yml:36
 
-		067:         if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'commit' && github.ref != 'refs/heads/main' && (github.event_name == 'push' || github.event.
-		068:         uses: stefanzweifel/git-auto-commit-action@v5.0.0
-		069:         with:
-
-
-	[4]: megalinter-reports/updated_sources/.github/workflows/autofix.yml:12
-
-		011:       - uses: actions/checkout@v4
-		012:       - uses: pnpm/action-setup@v3
-		013:         with:
+		035:       - name: Docker Cache
+		036:         uses: ScribeMD/docker-cache@0.3.7
+		037:         with:
 
 
-	[5]: .github/workflows/ci.yml:43
+	[3]: .github/workflows/mega-linter.yml:43
 
-		042:       - name: Archive AppMaps
-		043:         uses: getappmap/analyze-action@v1
-		044:         with:
-
-
-	[6]: .github/workflows/ci.yml:27
-
-		026: 
-		027:       - uses: pnpm/action-setup@v3
-		028:         with:
+		042:         # https://megalinter.io/flavors
+		043:         uses: oxsecurity/megalinter@v7.9.0
+		044:         env:
 
 
-	[7]: .github/workflows/mega-linter.yml:39
+	[4]: .github/workflows/mega-linter.yml:61
 
-		038:         # https://megalinter.io/flavors
-		039:         uses: oxsecurity/megalinter@v7.9.0
-		040:         env:
-
-
-	[8]: .github/workflows/mega-linter.yml:57
-
-		056:         if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'pull_request' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_n
-		057:         uses: peter-evans/create-pull-request@v6.0.0
-		058:         with:
+		060:         if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'pull_request' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_n
+		061:         uses: peter-evans/create-pull-request@v6.0.0
+		062:         with:
 
 
-	[9]: megalinter-reports/updated_sources/.github/workflows/ci.yml:37
+	[5]: .github/workflows/mega-linter.yml:72
 
-		036: 
-		037:       - uses: nrwl/nx-set-shas@v4
-		038: 
-
-
-	[10]: megalinter-reports/updated_sources/.github/workflows/ci.yml:27
-
-		026: 
-		027:       - uses: pnpm/action-setup@v3
-		028:         with:
+		071:         if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'commit' && github.ref != 'refs/heads/main' && (github.event_name == 'push' || github.event.
+		072:         uses: stefanzweifel/git-auto-commit-action@v5.0.0
+		073:         with:
 
 
 
 Results Summary:
 HIGH: 0
-MEDIUM: 10
+MEDIUM: 5
 LOW: 0
 INFO: 0
-TOTAL: 10
+TOTAL: 5
 
-Scan duration: 10m40.480249789s
+Scan duration: 15m23.929974796s
 

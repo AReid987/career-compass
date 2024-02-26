@@ -1,0 +1,73 @@
+ cspell
+ github workflows appmap analysis
+ github workflows autofix
+ github workflows ci
+ github workflows mega linter
+ gitignore
+ husky pre commit
+ jscpd
+ markdownlint
+ mega linter
+ prettierrc
+ vscode settings
+ vscode symbols
+ whitesource
+LICENSE
+appmap
+apps api eslintrc
+apps api gitignore
+apps api swcrc
+apps api README
+apps api nest cli
+apps api package
+apps api src app controller spec
+apps api src app controller
+apps api src app module
+apps api src app service
+apps api src main
+apps api test app e2e spec
+apps api test jest e2e
+apps api tsconfig build
+apps api tsconfig
+apps client eslintrc
+apps client gitignore
+apps client README
+apps client analyze nodejs
+apps client package
+apps client postcss config
+apps client rpsack config
+apps client src tests setup
+apps client src app globals
+apps client src instrumentation
+apps client tailwind config
+apps client tsconfig
+blueprint
+blueprint
+lint staged config
+nx
+package
+pnpm lock
+pnpm workspace
+readme
+renovate
+stylelintrc
+techstack
+tmp appmap jest AppController root should return Hello World appmap
+tmp appmap jest AppController root should return Hello World appmap findings
+tmp appmap jest AppController root should return Hello World canonical classDependencies
+tmp appmap jest AppController root should return Hello World canonical classes
+tmp appmap jest AppController root should return Hello World canonical exceptions
+tmp appmap jest AppController root should return Hello World canonical httpClientRequests
+tmp appmap jest AppController root should return Hello World canonical httpServerRequests
+tmp appmap jest AppController root should return Hello World canonical labels
+tmp appmap jest AppController root should return Hello World canonical packageDependencies
+tmp appmap jest AppController root should return Hello World canonical packages
+tmp appmap jest AppController root should return Hello World canonical parameters
+tmp appmap jest AppController root should return Hello World canonical sqlNormalized
+tmp appmap jest AppController root should return Hello World canonical sqlTables
+tmp appmap jest AppController root should return Hello World classMap
+tmp appmap jest AppController root should return Hello World metadata
+tmp appmap jest AppController root should return Hello World mtime
+tmp appmap jest AppController root should return Hello World version
+todo
+tsconfig

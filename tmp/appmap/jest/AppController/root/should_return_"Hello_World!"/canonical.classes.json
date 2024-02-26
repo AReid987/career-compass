@@ -1,4 +1,1 @@
-[
-  "src/AppController",
-  "src/AppService"
-]
+["src/AppController", "src/AppService"]

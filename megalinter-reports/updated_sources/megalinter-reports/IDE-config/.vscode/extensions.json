@@ -1,11 +1,13 @@
 {
     "recommendations": [
+        "esbenp.prettier-vscode",
+        "monosans.djlint",
+        "streetsidesoftware.code-spell-checker",
         "MS-CST-E.vscode-devskim",
-        "stylelint.vscode-stylelint",
+        "HTMLHint.vscode-htmlhint",
+        "Bridgecrew.checkov",
         "standard.vscode-standard",
         "AquaSecurityOfficial.trivy-vulnerability-scanner",
-        "streetsidesoftware.code-spell-checker",
-        "esbenp.prettier-vscode",
-        "Bridgecrew.checkov"
+        "stylelint.vscode-stylelint"
     ]
 }

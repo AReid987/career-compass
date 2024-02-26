@@ -21,6 +21,22 @@ stylelint (CSS)
   - vscode:
     - vscode-stylelint: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
 
+djlint (HTML)
+  - sublime:
+    - SublimeLinter-contrib-djlint: https://packagecontrol.io/packages/SublimeLinter-contrib-djlint
+  - vscode:
+    - djlint-vscode: https://marketplace.visualstudio.com/items?itemName=monosans.djlint
+
+htmlhint (HTML)
+  - atom:
+    - atom-htmlhint: https://github.com/htmlhint/atom-htmlhint
+  - brackets:
+    - brackets-htmlhint: https://github.com/htmlhint/brackets-htmlhint
+  - sublime:
+    - SublimeLinter-contrib-htmlhint: https://github.com/htmlhint/SublimeLinter-contrib-htmlhint
+  - vscode:
+    - vscode-htmlhint: https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint
+
 standard (JAVASCRIPT)
   - atom:
     - linter-js-standard: https://atom.io/packages/linter-js-standard

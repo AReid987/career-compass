@@ -4,21 +4,42 @@ See documentation on https://megalinter.io/7.9.0/descriptors/json_prettier/
 
 ❌ [ERROR] for workspace /tmp/lint
 Linter raw log:
-Checking formatting...
-[warn] .vscode/symbols.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!".appmap.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classDependencies.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classes.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.exceptions.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpClientRequests.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpServerRequests.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.labels.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packageDependencies.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packages.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.parameters.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlNormalized.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlTables.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/classMap.json
-[warn] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json
-[warn] Code style issues found in 15 files. Run Prettier to fix.
+.cspell.json 498ms (unchanged)
+.jscpd.json 173ms (unchanged)
+.markdownlint.json 18ms (unchanged)
+.vscode/settings.json 69ms (unchanged)
+.vscode/symbols.json 73ms (unchanged)
+apps/api/nest-cli.json 23ms (unchanged)
+apps/api/package.json 10ms (unchanged)
+apps/api/test/jest-e2e.json 24ms (unchanged)
+apps/api/tsconfig.build.json 44ms (unchanged)
+apps/api/tsconfig.json 150ms (unchanged)
+apps/client/.eslintrc.json 9ms (unchanged)
+apps/client/package.json 19ms (unchanged)
+apps/client/tsconfig.json 19ms (unchanged)
+blueprint.json 3ms (unchanged)
+nx.json 6ms (unchanged)
+package.json 3ms (unchanged)
+renovate.json 2ms (unchanged)
+stylelintrc.json 3ms (unchanged)
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!".appmap.json 27ms
+[error] tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json: SyntaxError: Unexpected token (448:11)
+[error]   446 |       "languages": [
+[error]   447 |         {
+[error] > 448 |           
+[error]       |           ^
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classDependencies.json 33ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classes.json 75ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.exceptions.json 4ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpClientRequests.json 3ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpServerRequests.json 18ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.labels.json 116ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packageDependencies.json 27ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packages.json 69ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.parameters.json 33ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlNormalized.json 22ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlTables.json 2ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/classMap.json 8ms
+tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json 6ms
+tsconfig.json 6ms (unchanged)
 

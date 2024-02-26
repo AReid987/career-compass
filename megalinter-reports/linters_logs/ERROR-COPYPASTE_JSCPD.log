@@ -4,6 +4,94 @@ See documentation on https://megalinter.io/7.9.0/descriptors/copypaste_jscpd/
 
 ❌ [ERROR] for workspace /tmp/lint
 Linter raw log:
+Clone found (markup):
+ - apps/client/coverage/client/src/app/page.tsx.html [41:10 - 48:6] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [34:9 - 41:10]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/layout.tsx.html [6:26 - 22:11] (16 lines, 192 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [6:24 - 22:9]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/layout.tsx.html [41:10 - 48:6] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [34:9 - 41:10]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/layout.tsx.html [49:5 - 64:16] (15 lines, 168 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 64:17]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/layout.tsx.html [64:16 - 70:2] (6 lines, 136 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [64:17 - 69:3]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/layout.tsx.html [90:5 - 114:24] (24 lines, 330 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [90:2 - 94:19]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/layout.tsx.html [138:1 - 156:2] (18 lines, 172 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [75:1 - 93:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/index.html [6:15 - 22:15] (16 lines, 176 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [6:24 - 22:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/index.html [49:5 - 65:4] (16 lines, 177 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 65:4]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/app/index.html [113:4 - 130:2] (17 lines, 156 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [75:4 - 93:2]
+
+Clone found (json):
+ - tmp/appmap/jest/AppController/root/should_return_"Hello_World!".appmap.json [57:2 - 75:2] (18 lines, 106 tokens)
+   tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json [1:1 - 19:2]
+
+Clone found (json):
+ - tmp/appmap/jest/AppController/root/should_return_"Hello_World!".appmap.json [76:2 - 107:2] (31 lines, 157 tokens)
+   tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/classMap.json [1:1 - 32:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/instrumentation.ts.html [22:19 - 28:4] (6 lines, 69 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 28:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/instrumentation.ts.html [28:4 - 49:4] (21 lines, 197 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [28:5 - 49:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/instrumentation.ts.html [49:4 - 71:3] (22 lines, 356 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 72:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/instrumentation.ts.html [71:2 - 76:2] (5 lines, 169 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [90:3 - 114:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/instrumentation.ts.html [79:3 - 90:18] (11 lines, 128 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [136:2 - 84:21]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/index.html [6:11 - 22:11] (16 lines, 176 tokens)
+   apps/client/coverage/client/src/instrumentation.ts.html [6:30 - 22:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/index.html [22:11 - 82:19] (60 lines, 831 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 82:11]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/index.html [82:19 - 87:2] (5 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 87:3]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/index.html [87:4 - 93:2] (6 lines, 116 tokens)
+   apps/client/coverage/client/src/app/index.html [87:5 - 91:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/src/index.html [93:4 - 115:2] (22 lines, 176 tokens)
+   apps/client/coverage/client/src/app/index.html [108:4 - 99:2]
+
 Clone found (typescript):
  - apps/client/.next/types/app/layout.ts [5:29 - 28:12] (23 lines, 200 tokens)
    apps/client/.next/types/app/page.ts [5:27 - 28:10]
@@ -12,31 +100,371 @@ Clone found (typescript):
  - apps/client/.next/types/app/layout.ts [38:12 - 79:30] (41 lines, 661 tokens)
    apps/client/.next/types/app/page.ts [38:10 - 79:30]
 
+Clone found (markup):
+ - apps/client/coverage/client/tailwind.config.js.html [22:19 - 28:5] (6 lines, 69 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 28:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/tailwind.config.js.html [28:5 - 49:5] (21 lines, 197 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [28:5 - 49:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/tailwind.config.js.html [49:5 - 84:3] (35 lines, 694 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 85:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/tailwind.config.js.html [84:3 - 102:6] (18 lines, 349 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [90:3 - 114:7]
+
+Clone found (markup):
+ - apps/client/coverage/client/tailwind.config.js.html [119:7 - 129:15] (10 lines, 107 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [137:2 - 84:21]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [6:24 - 22:17] (16 lines, 192 tokens)
+   apps/client/coverage/client/tailwind.config.js.html [6:26 - 22:19]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [22:17 - 28:5] (6 lines, 69 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 28:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [28:5 - 49:5] (21 lines, 197 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [28:5 - 49:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [49:5 - 91:2] (42 lines, 851 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 90:3]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [143:3 - 220:27] (77 lines, 1177 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [90:3 - 102:7]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [256:28 - 261:14] (5 lines, 119 tokens)
+   apps/client/coverage/client/rpsack.config.js.html [232:22 - 237:13]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [263:3 - 270:3] (7 lines, 163 tokens)
+   apps/client/coverage/client/rpsack.config.js.html [239:6 - 246:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [295:30 - 315:2] (20 lines, 197 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [136:2 - 138:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/postcss.config.js.html [6:25 - 22:18] (16 lines, 192 tokens)
+   apps/client/coverage/client/tailwind.config.js.html [6:26 - 22:19]
+
+Clone found (markup):
+ - apps/client/coverage/client/postcss.config.js.html [22:18 - 28:4] (6 lines, 69 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 28:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/postcss.config.js.html [28:4 - 49:4] (21 lines, 197 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [28:5 - 49:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/postcss.config.js.html [49:4 - 72:3] (23 lines, 382 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 73:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/postcss.config.js.html [72:2 - 78:15] (6 lines, 181 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [90:3 - 114:7]
+
+Clone found (markup):
+ - apps/client/coverage/client/postcss.config.js.html [78:2 - 84:7] (6 lines, 119 tokens)
+   apps/client/coverage/client/rpsack.config.js.html [282:2 - 288:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/postcss.config.js.html [82:2 - 102:2] (20 lines, 197 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [136:2 - 138:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/next.config.mjs.html [6:23 - 22:16] (16 lines, 192 tokens)
+   apps/client/coverage/client/tailwind.config.js.html [6:26 - 22:19]
+
+Clone found (markup):
+ - apps/client/coverage/client/next.config.mjs.html [22:16 - 28:5] (6 lines, 69 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 28:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/next.config.mjs.html [28:5 - 49:5] (21 lines, 197 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [28:5 - 49:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/next.config.mjs.html [49:5 - 80:3] (31 lines, 590 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 81:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/next.config.mjs.html [80:3 - 94:19] (14 lines, 295 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [90:3 - 114:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/next.config.mjs.html [107:31 - 126:2] (19 lines, 176 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [137:2 - 138:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [6:7 - 22:7] (16 lines, 176 tokens)
+   apps/client/coverage/client/tailwind.config.js.html [6:26 - 22:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [22:7 - 28:6] (6 lines, 69 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 28:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [28:6 - 35:4] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [28:5 - 35:4]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [35:4 - 42:4] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [35:4 - 42:4]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [41:10 - 48:6] (7 lines, 65 tokens)
+   apps/client/coverage/client/index.html [34:9 - 41:10]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [42:4 - 49:6] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [42:4 - 49:5]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [49:6 - 82:16] (33 lines, 563 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 82:11]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [82:16 - 87:3] (5 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 87:3]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [87:5 - 93:3] (6 lines, 116 tokens)
+   apps/client/coverage/client/src/app/index.html [87:5 - 91:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [97:18 - 102:2] (5 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 87:3]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [102:4 - 108:2] (6 lines, 116 tokens)
+   apps/client/coverage/client/src/app/index.html [87:5 - 91:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [112:17 - 117:3] (5 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 87:3]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [117:5 - 123:3] (6 lines, 116 tokens)
+   apps/client/coverage/client/src/app/index.html [87:5 - 91:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [127:19 - 132:3] (5 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 87:3]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [132:5 - 138:3] (6 lines, 116 tokens)
+   apps/client/coverage/client/src/app/index.html [87:5 - 91:2]
+
+Clone found (markup):
+ - apps/client/coverage/client/index.html [138:5 - 160:2] (22 lines, 176 tokens)
+   apps/client/coverage/client/src/app/index.html [108:4 - 138:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [22:8 - 33:5] (11 lines, 104 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 33:3]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [28:5 - 35:4] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [28:4 - 35:4]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [35:4 - 116:3] (81 lines, 1658 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [35:4 - 117:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [116:5 - 124:19] (8 lines, 106 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [116:2 - 120:24]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [126:24 - 133:2] (7 lines, 91 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [90:19 - 114:3]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [130:19 - 142:19] (12 lines, 167 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [123:24 - 133:24]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [140:19 - 145:24] (5 lines, 69 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [122:24 - 127:19]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [142:19 - 166:3] (24 lines, 342 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [116:24 - 120:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/main.ts.html [216:1 - 223:25] (7 lines, 89 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [75:1 - 82:25]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/index.html [6:6 - 22:4] (16 lines, 160 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [6:8 - 22:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/index.html [49:6 - 82:10] (33 lines, 557 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 82:9]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/index.html [97:14 - 102:3] (5 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 87:3]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/index.html [104:5 - 111:2] (7 lines, 94 tokens)
+   apps/client/coverage/client/src/app/index.html [87:5 - 96:3]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/index.html [127:8 - 133:4] (6 lines, 128 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 88:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/index.html [134:4 - 141:3] (7 lines, 94 tokens)
+   apps/client/coverage/client/src/app/index.html [87:5 - 96:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/index.html [138:5 - 160:2] (22 lines, 176 tokens)
+   apps/client/coverage/client/src/app/index.html [108:4 - 234:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.service.ts.html [6:15 - 22:15] (16 lines, 176 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [6:8 - 22:8]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.service.ts.html [35:5 - 42:4] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [35:4 - 42:4]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.service.ts.html [49:5 - 64:19] (15 lines, 168 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 64:17]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.service.ts.html [64:19 - 74:3] (10 lines, 265 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [64:17 - 75:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.service.ts.html [76:5 - 81:3] (5 lines, 67 tokens)
+   apps/api/coverage/lcov-report/app.service.ts.html [74:2 - 78:3]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.service.ts.html [89:1 - 108:2] (19 lines, 174 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [74:1 - 234:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.module.ts.html [6:14 - 22:14] (16 lines, 176 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [6:8 - 22:8]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.module.ts.html [22:14 - 28:5] (6 lines, 69 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [22:11 - 28:5]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.module.ts.html [28:5 - 35:5] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [28:5 - 35:4]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.module.ts.html [35:5 - 81:3] (46 lines, 748 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [35:4 - 82:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.module.ts.html [81:2 - 96:3] (15 lines, 224 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [125:5 - 146:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.module.ts.html [111:1 - 129:2] (18 lines, 172 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [75:1 - 234:2]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.controller.ts.html [6:18 - 22:18] (16 lines, 176 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [6:8 - 22:8]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.controller.ts.html [35:6 - 42:4] (7 lines, 65 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [35:4 - 42:4]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.controller.ts.html [49:6 - 82:20] (33 lines, 648 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 82:19]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.controller.ts.html [81:3 - 88:3] (7 lines, 122 tokens)
+   apps/api/coverage/lcov-report/app.service.ts.html [74:2 - 78:3]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.controller.ts.html [90:5 - 95:2] (5 lines, 58 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [69:2 - 72:3]
+
+Clone found (markup):
+ - apps/api/coverage/lcov-report/app.controller.ts.html [110:2 - 129:2] (19 lines, 176 tokens)
+   apps/client/coverage/client/src/app/layout.tsx.html [137:2 - 234:2]
+
 Clone found (javascript):
- - apps/client/.next/types/app/layout.js [2:29 - 22:2] (20 lines, 108 tokens)
-   apps/client/.next/types/app/page.js [2:27 - 22:2]
+ - apps/client/coverage/sorter.js [1:1 - 191:2] (190 lines, 1598 tokens)
+   apps/api/coverage/lcov-report/sorter.js [1:1 - 191:2]
+
+Clone found (markup):
+ - apps/client/coverage/index.html [2:1 - 26:6] (24 lines, 233 tokens)
+   apps/api/coverage/lcov-report/index.html [2:1 - 26:7]
+
+Clone found (markup):
+ - apps/client/coverage/index.html [49:6 - 82:7] (33 lines, 563 tokens)
+   apps/client/coverage/client/src/app/page.tsx.html [49:4 - 82:11]
+
+Clone found (markup):
+ - apps/client/coverage/index.html [82:7 - 87:4] (5 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 87:3]
+
+Clone found (markup):
+ - apps/client/coverage/index.html [97:11 - 112:9] (15 lines, 264 tokens)
+   apps/client/coverage/client/src/app/index.html [82:11 - 112:12]
+
+Clone found (markup):
+ - apps/client/coverage/index.html [123:5 - 136:12] (13 lines, 107 tokens)
+   apps/client/coverage/client/src/app/index.html [108:4 - 84:21]
+
+Clone found (markup):
+ - apps/client/coverage/index.html [135:13 - 145:2] (10 lines, 80 tokens)
+   apps/api/coverage/lcov-report/main.ts.html [224:13 - 234:2]
+
+Clone found (javascript):
+ - apps/client/coverage/block-navigation.js [1:1 - 85:2] (84 lines, 576 tokens)
+   apps/api/coverage/lcov-report/block-navigation.js [1:1 - 85:2]
+
+Clone found (css):
+ - apps/client/coverage/base.css [1:1 - 224:2] (223 lines, 1597 tokens)
+   apps/api/coverage/lcov-report/base.css [1:1 - 224:2]
 
 ┌────────────┬────────────────┬─────────────┬──────────────┬──────────────┬──────────────────┬───────────────────┐
 │ Format     │ Files analyzed │ Total lines │ Total tokens │ Clones found │ Duplicated lines │ Duplicated tokens │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ javascript │ 15             │ 479         │ 46515        │ 1            │ 20 (4.18%)       │ 108 (0.23%)       │
+│ json       │ 33             │ 1462        │ 8523         │ 2            │ 49 (3.35%)       │ 263 (3.09%)       │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ typescript │ 9              │ 292         │ 3067         │ 2            │ 64 (21.92%)      │ 861 (28.07%)      │
+│ markup     │ 17             │ 2368        │ 35918        │ 102          │ 1579 (66.68%)    │ 22310 (62.11%)    │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ tsx        │ 1              │ 23          │ 182          │ 0            │ 0 (0%)           │ 0 (0%)            │
+│ javascript │ 13             │ 713         │ 48501        │ 2            │ 274 (38.43%)     │ 2174 (4.48%)      │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ jsx        │ 1              │ 16          │ 152          │ 0            │ 0 (0%)           │ 0 (0%)            │
+│ typescript │ 11             │ 322         │ 3305         │ 2            │ 64 (19.88%)      │ 861 (26.05%)      │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ css        │ 1              │ 223         │ 1597         │ 0            │ 0 (0%)           │ 0 (0%)            │
+│ tsx        │ 2              │ 31          │ 288          │ 0            │ 0 (0%)           │ 0 (0%)            │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ markdown   │ 1              │ 60          │ 630          │ 0            │ 0 (0%)           │ 0 (0%)            │
+│ css        │ 2              │ 446         │ 3194         │ 1            │ 223 (50%)        │ 1597 (50%)        │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ Total:     │ 28             │ 1093        │ 52143        │ 3            │ 84 (7.69%)       │ 969 (1.86%)       │
+│ markdown   │ 5              │ 136         │ 975          │ 0            │ 0 (0%)           │ 0 (0%)            │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ yaml       │ 3              │ 690         │ 5488         │ 0            │ 0 (0%)           │ 0 (0%)            │
+├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
+│ Total:     │ 86             │ 6168        │ 106192       │ 109          │ 2189 (35.49%)    │ 27205 (25.62%)    │
 └────────────┴────────────────┴─────────────┴──────────────┴──────────────┴──────────────────┴───────────────────┘
-Found 3 clones.
+Found 109 clones.
 HTML report saved to megalinter-reports/copy-paste/html/
-ERROR: jscpd found too many duplicates (7.69%) over threshold (0%)
-Error: ERROR: jscpd found too many duplicates (7.69%) over threshold (0%)
+ERROR: jscpd found too many duplicates (35.49%) over threshold (0%)
+Error: ERROR: jscpd found too many duplicates (35.49%) over threshold (0%)
     at ThresholdReporter.report (/node-deps/node_modules/@jscpd/finder/dist/reporters/threshold.js:12:19)
     at /node-deps/node_modules/@jscpd/finder/dist/in-files-detector.js:82:26
     at Array.forEach (<anonymous>)
