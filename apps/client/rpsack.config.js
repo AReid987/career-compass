@@ -1,10 +1,10 @@
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 const isProduction = process.env.NODE_ENV === 'production'
-const rspack = require('@rspack/core')
 
 module.exports = {
   module: {
     mode: isProduction ? 'production' : 'development',
+    context: __dirname,
     entry: { main: './src/page.tsx' },
     devtool: 'source-map',
     resolve: {
@@ -63,7 +63,9 @@ module.exports = {
           env: {
             targets: 'Chrome >= 48' // browser compatibility
           }
-        },
+        }
+      },
+      {
         test: /\.css$/,
         use: [
           {

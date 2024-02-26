@@ -27,16 +27,16 @@ jobs:
       issues: write
       pull-requests: write
     steps:
+      # Megalinter
+      - name: Docker Cache
+        uses: ScribeMD/docker-cache@0.3.7
+        with:
+          key: ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}
       # Git Checkout
       - name: Checkout Code
         uses: actions/checkout@v4.1.1
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
-      - name: Docker Cache
-        uses: ScribeMD/docker-cache@0.3.7
-        with:
-          key: ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}
-          # Megalinter
       - name: MegaLinter
         id: ml
         # https://megalinter.io/flavors

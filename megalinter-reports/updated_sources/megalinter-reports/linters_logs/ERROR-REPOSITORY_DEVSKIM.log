@@ -166,7 +166,6 @@ fatal: pathspec 'node_modules/eslint-module-utils/pkgDir.js' is beyond a symboli
 fatal: pathspec 'node_modules/eslint-module-utils/readPkgUp.js' is beyond a symbolic link
 fatal: pathspec 'node_modules/eslint-module-utils/visit.js' is beyond a symbolic link
 fatal: pathspec 'node_modules/eslint-module-utils/resolve.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint-module-utils/module-require.js' is beyond a symbolic link
 fatal: pathspec 'node_modules/eslint-module-utils/parse.js' is beyond a symbolic link
 fatal: pathspec 'node_modules/eslint-module-utils/package.json' is beyond a symbolic link
 fatal: pathspec 'node_modules/eslint-module-utils/ignore.js' is beyond a symbolic link
@@ -250,6 +249,9 @@ fatal: pathspec 'node_modules/eslint-plugin-react/LICENSE' is beyond a symbolic 
 fatal: pathspec 'node_modules/eslint-plugin-react/index.js' is beyond a symbolic link
 fatal: pathspec 'node_modules/eslint-plugin-react/README.md' is beyond a symbolic link
 fatal: pathspec 'node_modules/eslint-plugin-react/package.json' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-tailwindcss/LICENSE' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-tailwindcss/README.md' is beyond a symbolic link
+fatal: pathspec 'node_modules/eslint-plugin-tailwindcss/package.json' is beyond a symbolic link
 fatal: pathspec 'node_modules/buffer-from/LICENSE' is beyond a symbolic link
 fatal: pathspec 'node_modules/buffer-from/index.js' is beyond a symbolic link
 fatal: pathspec 'node_modules/buffer-from/readme.md' is beyond a symbolic link
@@ -684,77 +686,15 @@ fatal: pathspec 'node_modules/nx/bin/nx.js' is beyond a symbolic link
 fatal: pathspec 'node_modules/nx/bin/run-executor.d.ts' is beyond a symbolic link
 fatal: pathspec 'node_modules/nx/bin/post-install.d.ts' is beyond a symbolic link
 fatal: pathspec 'node_modules/nx/bin/run-executor.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/bin/init-local.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/bin/post-install.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/plugins/package-json.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/plugins/package-json.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/release/index.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/release/index.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/tasks-runners/default.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/tasks-runners/default.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/schemas/nx-schema.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/schemas/project-schema.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/schemas/workspace-schema.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/presets/npm.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/presets/core.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/devkit-internals.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/devkit-exports.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/devkit-internals.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/index.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/devkit-testing-exports.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/index.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/devkit-exports.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/nx/src/devkit-testing-exports.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/index.cjs.js.map' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/index.cjs.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/index.esm.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/README.md' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/index.esm.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/package.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/index.cjs.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/cli.cjs.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/cli.esm.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/index.esm.js.map' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/cli.esm.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/@appnest/readme/cli.cjs.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/@vitest/ui/shim.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/@vitest/ui/LICENSE' is beyond a symbolic link
-fatal: pathspec 'node_modules/@vitest/ui/reporter.d.ts' is beyond a symbolic link
-fatal: pathspec 'node_modules/@vitest/ui/README.md' is beyond a symbolic link
-fatal: pathspec 'node_modules/@vitest/ui/package.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint-config-prettier/bin/validators.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint-config-prettier/bin/cli.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/eslintrc-plugins.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/plugin-invalid.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/failed-to-read-json.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/eslintrc-incompat.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/plugin-missing.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/file-not-found.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/invalid-rule-severity.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/extend-config-missing.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/all-files-ignored.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/invalid-rule-options.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/print-config-with-directory-path.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/plugin-conflict.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/whitespace-found.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/shared.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/messages/no-config-found.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/bin/eslint.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/lib/unsupported-api.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/lib/options.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/lib/cli.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/lib/api.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/conf/globals.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/conf/replacements.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/conf/config-schema.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/conf/default-cli-options.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/eslint/conf/rule-type-list.json' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/dist/source-map.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/lib/source-map-consumer.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/lib/util.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/lib/base64-vlq.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/lib/mapping-list.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/lib/binary-search.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/lib/base64.js' is beyond a symbolic link
-fatal: pathspec 'node_modules/source-map/lib/array-set.js' is beyond a symbolic link
+Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.
+   at NLog.LogFactory.LoggerCache.Retrieve(LoggerCacheKey cacheKey)
+   at NLog.LogFactory.GetLoggerThreadSafe(String name, Type loggerType, Func`2 loggerCreator)
+   at NLog.LogManager.GetCurrentClassLogger()
+   at Microsoft.CST.RecursiveExtractor.ResourceGovernor..ctor(ExtractorOptions opts)
+   at Microsoft.CST.RecursiveExtractor.Extractor.Extract(FileEntry fileEntry, ExtractorOptions opts, ResourceGovernor governor, Boolean topLevel)+MoveNext()
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at Microsoft.DevSkim.CLI.Commands.AnalyzeCommand.Run() in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Commands\AnalyzeCommand.cs:line 107
+   at Microsoft.DevSkim.CLI.Program.<>c.<Main>b__0_0(AnalyzeCommandOptions opts) in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Program.cs:line 16
+   at CommandLine.ParserResultExtensions.MapResult[T1,T2,T3,T4,TResult](ParserResult`1 result, Func`2 parsedFunc1, Func`2 parsedFunc2, Func`2 parsedFunc3, Func`2 parsedFunc4, Func`2 notParsedFunc)
+   at Microsoft.DevSkim.CLI.Program.Main(String[] args) in D:\a\_work\1\s\DevSkim-DotNet\Microsoft.DevSkim.CLI\Program.cs:line 14
 

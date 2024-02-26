@@ -5,289 +5,27 @@ See documentation on https://megalinter.io/7.9.0/descriptors/repository_git_diff
 ❌ [ERROR] for workspace /tmp/lint
 Linter raw log:
 warning: in the working copy of '.github/workflows/mega-linter.yml', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'apps/api/README.md', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'apps/api/src/app.controller.ts', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'apps/api/src/app.service.ts', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'apps/api/src/main.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'apps/client/rpsack.config.js', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'apps/client/src/instrumentation.ts', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/.cspell.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/copy-paste/html/index.html', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/copy-paste/html/js/prism.js', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/copy-paste/html/jscpd-report.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/copy-paste/html/styles/prism.css', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-COPYPASTE_JSCPD.log', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-JAVASCRIPT_STANDARD.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-JSON_JSONLINT.log', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-MARKDOWN_MARKDOWN_LINK_CHECK.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-REPOSITORY_DEVSKIM.log', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-REPOSITORY_GITLEAKS.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-REPOSITORY_TRIVY.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-SPELL_LYCHEE.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-TYPESCRIPT_STANDARD.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/ERROR-YAML_YAMLLINT.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/SUCCESS-ACTION_ACTIONLINT.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/SUCCESS-JSON_NPM_PACKAGE_JSON_LINT.log', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'megalinter-reports/linters_logs/SUCCESS-REPOSITORY_DUSTILOCK.log', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'megalinter-reports/linters_logs/WARNING-MARKDOWN_MARKDOWNLINT.log', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'pnpm-lock.yaml', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'stylelintrc.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'techstack.yml', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/appmap-findings.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classDependencies.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.classes.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.exceptions.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpClientRequests.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.httpServerRequests.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.labels.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packageDependencies.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.packages.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.parameters.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlNormalized.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/canonical.sqlTables.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/classMap.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tmp/appmap/jest/AppController/root/should_return_"Hello_World!"/metadata.json', LF will be replaced by CRLF the next time Git touches it
-megalinter-reports/copy-paste/html/index.html:53: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:54: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:69: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:76: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:77: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:82: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:83: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:155: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:161: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:162: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:194: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:200: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:201: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:207: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:208: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:214: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:215: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:221: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:222: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:269: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:275: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:281: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:282: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:288: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:289: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:295: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:296: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:302: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:303: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:368: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:374: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:375: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:381: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:382: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:388: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:389: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:395: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:396: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:468: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:474: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:480: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:481: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:487: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:488: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:494: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:495: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:501: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:502: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:662: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:668: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:674: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:675: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:681: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:682: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:688: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:689: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:695: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:696: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:760: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:766: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:772: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:773: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:779: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:780: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:786: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:787: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:793: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:794: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:867: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:873: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:879: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:880: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:886: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:887: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:894: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:895: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:900: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:901: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:907: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:908: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1006: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1012: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1013: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1017: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1018: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1024: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1025: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1031: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1032: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1038: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1039: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1178: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:1184: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1185: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1274: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:1280: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1281: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1287: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1288: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1346: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:1352: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1358: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1359: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1365: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1366: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1372: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1373: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1379: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1380: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1454: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:1460: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1461: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1467: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1468: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1545: trailing whitespace.
-+    
-megalinter-reports/copy-paste/html/index.html:1551: trailing whitespace.
-+            
-megalinter-reports/copy-paste/html/index.html:1555: trailing whitespace.
-+        
-megalinter-reports/copy-paste/html/index.html:1556: trailing whitespace.
-+            
-megalinter-reports/megalinter.log:3263: trailing whitespace.
-+Linting 0/1 files ┈┈┈┈┈┈┈┈┈┈ 00:00    Linting 1/1 files ━━━━━━━━━━ 00:04                                          Linting 1/1 files ━━━━━━━━━━ 00:04    Linting 1/1 files ━━━━━━━━━━ 00:04    
-megalinter-reports/megalinter.log:3268: trailing whitespace.
+megalinter-reports/megalinter.log:5386: trailing whitespace.
++Linting 0/1 files ┈┈┈┈┈┈┈┈┈┈ 00:00    Linting 1/1 files ━━━━━━━━━━ 00:11                                          Linting 1/1 files ━━━━━━━━━━ 00:11    Linting 1/1 files ━━━━━━━━━━ 00:11    
+megalinter-reports/megalinter.log:5391: trailing whitespace.
 +H005 2:0 Html tag should have lang attribute. <html> <head> 
-megalinter-reports/megalinter.log:3269: trailing whitespace.
+megalinter-reports/megalinter.log:5392: trailing whitespace.
 +H030 2:0 Consider adding a meta description. <html> <head> 
-megalinter-reports/megalinter.log:3270: trailing whitespace.
+megalinter-reports/megalinter.log:5393: trailing whitespace.
 +H031 2:0 Consider adding meta keywords. <html> <head> 
-megalinter-reports/megalinter.log:8507: new blank line at EOF.
 

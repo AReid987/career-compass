@@ -26,8 +26,8 @@ Scanning with Keeping Infrastructure as Code Secure v1.7.12
 
 
 
-Files scanned: 4
-Parsed files: 4
+Files scanned: 7
+Parsed files: 7
 Queries loaded: 4
 Queries failed to execute: 0
 
@@ -45,11 +45,11 @@ Learn more about this vulnerability: https://docs.kics.io/latest/queries/cicd-qu
 		029:         with:
 
 
-	[2]: .github/workflows/mega-linter.yml:36
+	[2]: .github/workflows/mega-linter.yml:32
 
-		035:       - name: Docker Cache
-		036:         uses: ScribeMD/docker-cache@0.3.7
-		037:         with:
+		031:       - name: Docker Cache
+		032:         uses: ScribeMD/docker-cache@0.3.7
+		033:         with:
 
 
 	[3]: .github/workflows/mega-linter.yml:43
@@ -73,13 +73,53 @@ Learn more about this vulnerability: https://docs.kics.io/latest/queries/cicd-qu
 		073:         with:
 
 
+Passwords And Secrets - Generic Token, Severity: HIGH, Results: 5
+Description: Query to find passwords and secrets in infrastructure code.
+Platform: Common
+Learn more about this vulnerability: https://docs.kics.io/latest/queries/common-queries/common/baee238e-1921-4801-9c3f-79ae1d7b2cbc
+
+	[1]: pnpm-lock.yaml:14959
+
+		14958:       got: 12.6.1
+		14959:       registry-auth-token: <SECRET-MASKED-ON-PURPOSE>
+		14960:       registry-url: 6.0.1
+
+
+	[2]: pnpm-lock.yaml:17651
+
+		17650:     dependencies:
+		17651:       '@tokenizer/token': <SECRET-MASKED-ON-PURPOSE>
+		17652:       peek-readable: 5.0.0
+
+
+	[3]: pnpm-lock.yaml:4757
+
+		4756:     dependencies:
+		4757:       '@octokit/auth-token': <SECRET-MASKED-ON-PURPOSE>
+		4758:       '@octokit/graphql': 4.8.0
+
+
+	[4]: pnpm-lock.yaml:10663
+
+		10662:       env-paths: 3.0.0
+		10663:       registry-auth-token: <SECRET-MASKED-ON-PURPOSE>
+		10664:       registry-url: 6.0.1
+
+
+	[5]: pnpm-lock.yaml:18404
+
+		18403:     dependencies:
+		18404:       '@tokenizer/token': <SECRET-MASKED-ON-PURPOSE>
+		18405:       ieee754: 1.2.1
+
+
 
 Results Summary:
-HIGH: 0
+HIGH: 5
 MEDIUM: 5
 LOW: 0
 INFO: 0
-TOTAL: 5
+TOTAL: 10
 
-Scan duration: 15m23.929974796s
+Scan duration: 52m45.248526285s
 

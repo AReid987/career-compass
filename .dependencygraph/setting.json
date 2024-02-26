@@ -1,0 +1,16 @@
+{
+  "alias": {
+    "@career-compass/api": "apps/api/src/*",
+    "@career-compass/client": "apps/client/*",
+    "react": "apps/client/node_modules/@types/react"
+  },
+  "resolveExtensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx",
+    ".vue",
+    ".scss",
+    ".less"
+  ]
+}
