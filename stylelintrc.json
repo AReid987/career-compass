@@ -1,3 +1,8 @@
 {
-  "extends": ["@culur/stylelint-config"]
+  "rules": {
+    "at-rule-allowed-list": ["extends", "tailwind"]
+  },
+  "extends": ["@culur/stylelint-config"],
+  "cache": true,
+  "fix": true
 }

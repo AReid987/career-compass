@@ -71,3 +71,7 @@ jobs:
           commit_message: '[MegaLinter] Apply linters fixes'
           commit_user_name: megalinter-bot
           commit_user_email: read.musik@gmail.com
+      # - name: Docker Cache
+      #   uses: ScribeMD/docker-cache@0.3.7
+      #   with:
+      #     key: ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}
