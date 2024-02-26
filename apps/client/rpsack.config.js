@@ -1,6 +1,15 @@
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
+const isProduction = process.env.NODE_ENV === 'production'
+const rspack = require('@rspack/core')
+
 module.exports = {
   module: {
+    mode: isProduction ? 'production' : 'development',
+    entry: { main: './src/page.tsx' },
+    devtool: 'source-map',
+    resolve: {
+      extensions: ['...', '.ts', '.tsx', '.js', '.jsx']
+    },
     rules: [
       { test: /\.css$/i, type: 'css' }, // this is enabled by default for .css, so you don't need to specify it
       {
@@ -21,8 +30,8 @@ module.exports = {
             transform: {
               react: {
                 runtime: 'automatic',
-                development: !prod,
-                refresh: !prod
+                development: !isProduction,
+                refresh: !isProduction
               }
             }
           },
@@ -45,8 +54,8 @@ module.exports = {
             transform: {
               react: {
                 runtime: 'automatic',
-                development: !prod,
-                refresh: !prod
+                development: !isProduction,
+                refresh: !isProduction
               }
             },
             externalHelpers: true
