@@ -5,7 +5,8 @@
       true,
       {
         "ignoreAtRules": [
-          "@tailwind",
+          "/tailwind/",
+          "tailwind",
           "apply",
           "variants",
           "responsive",
