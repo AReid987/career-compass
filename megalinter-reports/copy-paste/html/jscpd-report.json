@@ -1,6 +1,6 @@
 {
   "statistics": {
-    "detectionDate": "2024-02-26T19:07:47.868Z",
+    "detectionDate": "2024-02-26T22:51:09.530Z",
     "formats": {
       "json": {
         "sources": {
@@ -41,8 +41,8 @@
             "newClones": 0
           },
           "tmp/appmap/jest/AppController/root/should_return_\"Hello_World!\"/appmap-findings.json": {
-            "lines": 435,
-            "tokens": 2600,
+            "lines": 462,
+            "tokens": 2645,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -174,7 +174,7 @@
           },
           "apps/api/test/jest-e2e.json": {
             "lines": 8,
-            "tokens": 53,
+            "tokens": 55,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -268,9 +268,9 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          ".vscode/symbols.json": {
-            "lines": 63,
-            "tokens": 400,
+          ".vscode/settings.json": {
+            "lines": 6,
+            "tokens": 33,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -280,9 +280,9 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
-          ".vscode/settings.json": {
-            "lines": 6,
-            "tokens": 33,
+          ".dependencygraph/setting.json": {
+            "lines": 15,
+            "tokens": 68,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -305,8 +305,8 @@
             "newClones": 0
           },
           "stylelintrc.json": {
-            "lines": 32,
-            "tokens": 154,
+            "lines": 33,
+            "tokens": 158,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -329,8 +329,8 @@
             "newClones": 0
           },
           "package.json": {
-            "lines": 55,
-            "tokens": 365,
+            "lines": 54,
+            "tokens": 358,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -402,14 +402,14 @@
           }
         },
         "total": {
-          "lines": 1462,
-          "tokens": 8523,
+          "lines": 1441,
+          "tokens": 8235,
           "sources": 33,
           "clones": 2,
           "duplicatedLines": 49,
           "duplicatedTokens": 263,
-          "percentage": 3.35,
-          "percentageTokens": 3.09,
+          "percentage": 3.4,
+          "percentageTokens": 3.19,
           "newDuplicatedLines": 0,
           "newClones": 0
         }
@@ -433,10 +433,10 @@
             "tokens": 2554,
             "sources": 1,
             "clones": 40,
-            "duplicatedLines": 716,
-            "duplicatedTokens": 9770,
-            "percentage": 464.94,
-            "percentageTokens": 382.54,
+            "duplicatedLines": 727,
+            "duplicatedTokens": 9924,
+            "percentage": 472.08,
+            "percentageTokens": 388.57,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
@@ -454,13 +454,13 @@
           },
           "apps/client/coverage/client/src/instrumentation.ts.html": {
             "lines": 97,
-            "tokens": 1300,
+            "tokens": 1302,
             "sources": 1,
             "clones": 6,
             "duplicatedLines": 81,
             "duplicatedTokens": 1095,
             "percentage": 83.51,
-            "percentageTokens": 84.23,
+            "percentageTokens": 84.1,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
@@ -480,23 +480,23 @@
             "lines": 136,
             "tokens": 2118,
             "sources": 1,
-            "clones": 9,
-            "duplicatedLines": 154,
-            "duplicatedTokens": 2168,
-            "percentage": 113.24,
-            "percentageTokens": 102.36,
+            "clones": 10,
+            "duplicatedLines": 159,
+            "duplicatedTokens": 2279,
+            "percentage": 116.91,
+            "percentageTokens": 107.6,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
           "apps/client/coverage/client/rpsack.config.js.html": {
-            "lines": 313,
-            "tokens": 5936,
+            "lines": 346,
+            "tokens": 6659,
             "sources": 1,
-            "clones": 11,
-            "duplicatedLines": 212,
-            "duplicatedTokens": 3366,
-            "percentage": 67.73,
-            "percentageTokens": 56.7,
+            "clones": 12,
+            "duplicatedLines": 228,
+            "duplicatedTokens": 3631,
+            "percentage": 65.9,
+            "percentageTokens": 54.53,
             "newDuplicatedLines": 0,
             "newClones": 0
           },
@@ -622,14 +622,14 @@
           }
         },
         "total": {
-          "lines": 2368,
-          "tokens": 35918,
+          "lines": 2401,
+          "tokens": 36643,
           "sources": 17,
-          "clones": 102,
-          "duplicatedLines": 1579,
-          "duplicatedTokens": 22310,
-          "percentage": 66.68,
-          "percentageTokens": 62.11,
+          "clones": 103,
+          "duplicatedLines": 1595,
+          "duplicatedTokens": 22575,
+          "percentage": 66.43,
+          "percentageTokens": 61.61,
           "newDuplicatedLines": 0,
           "newClones": 0
         }
@@ -745,8 +745,8 @@
             "newClones": 0
           },
           "apps/client/rpsack.config.js": {
-            "lines": 85,
-            "tokens": 560,
+            "lines": 87,
+            "tokens": 562,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -794,13 +794,13 @@
           }
         },
         "total": {
-          "lines": 713,
-          "tokens": 48501,
+          "lines": 715,
+          "tokens": 48503,
           "sources": 13,
           "clones": 2,
           "duplicatedLines": 274,
           "duplicatedTokens": 2174,
-          "percentage": 38.43,
+          "percentage": 38.32,
           "percentageTokens": 4.48,
           "newDuplicatedLines": 0,
           "newClones": 0
@@ -834,7 +834,7 @@
           },
           "apps/client/src/instrumentation.ts": {
             "lines": 4,
-            "tokens": 37,
+            "tokens": 36,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -856,9 +856,21 @@
             "newDuplicatedLines": 0,
             "newClones": 0
           },
+          "apps/api/test/app.controller.spec.ts": {
+            "lines": 44,
+            "tokens": 394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
           "apps/api/src/main.ts": {
             "lines": 49,
-            "tokens": 355,
+            "tokens": 354,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -870,7 +882,7 @@
           },
           "apps/api/src/app.service.ts": {
             "lines": 7,
-            "tokens": 45,
+            "tokens": 44,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -894,19 +906,7 @@
           },
           "apps/api/src/app.controller.ts": {
             "lines": 14,
-            "tokens": 125,
-            "sources": 1,
-            "clones": 0,
-            "duplicatedLines": 0,
-            "duplicatedTokens": 0,
-            "percentage": 0,
-            "percentageTokens": 0,
-            "newDuplicatedLines": 0,
-            "newClones": 0
-          },
-          "apps/api/src/app.controller.spec.ts": {
-            "lines": 26,
-            "tokens": 216,
+            "tokens": 123,
             "sources": 1,
             "clones": 0,
             "duplicatedLines": 0,
@@ -942,14 +942,14 @@
           }
         },
         "total": {
-          "lines": 322,
-          "tokens": 3305,
+          "lines": 340,
+          "tokens": 3478,
           "sources": 11,
           "clones": 2,
           "duplicatedLines": 64,
           "duplicatedTokens": 861,
-          "percentage": 19.88,
-          "percentageTokens": 26.05,
+          "percentage": 18.82,
+          "percentageTokens": 24.76,
           "newDuplicatedLines": 0,
           "newClones": 0
         }
@@ -1164,14 +1164,14 @@
       }
     },
     "total": {
-      "lines": 6168,
-      "tokens": 106192,
+      "lines": 6200,
+      "tokens": 106804,
       "sources": 86,
-      "clones": 109,
-      "duplicatedLines": 2189,
-      "duplicatedTokens": 27205,
-      "percentage": 35.49,
-      "percentageTokens": 25.62,
+      "clones": 110,
+      "duplicatedLines": 2205,
+      "duplicatedTokens": 27470,
+      "percentage": 35.56,
+      "percentageTokens": 25.72,
       "newDuplicatedLines": 0,
       "newClones": 0
     }
@@ -1396,7 +1396,7 @@
     {
       "format": "markup",
       "lines": 19,
-      "fragment": "&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../../../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../../../sorter.js\"></script>\n        <script src=\"../../../block-navigation.js\"></script>\n    </body>\n</html>",
+      "fragment": "&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../../../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../../../sorter.js\"></script>\n        <script src=\"../../../block-navigation.js\"></script>\n    </body>\n</html>",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/src/app/layout.tsx.html",
@@ -1504,7 +1504,7 @@
     {
       "format": "markup",
       "lines": 18,
-      "fragment": ">\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../../../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../../../sorter.js\"></script>\n        <script src=\"../../../block-navigation.js\"></script>\n    </body>\n</html>",
+      "fragment": ">\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../../../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../../../sorter.js\"></script>\n        <script src=\"../../../block-navigation.js\"></script>\n    </body>\n</html>",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/src/app/index.html",
@@ -1756,7 +1756,7 @@
     {
       "format": "markup",
       "lines": 12,
-      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >}</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../../prettify.js",
+      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >}</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../../prettify.js",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/src/instrumentation.ts.html",
@@ -1765,12 +1765,12 @@
         "startLoc": {
           "line": 79,
           "column": 3,
-          "position": 1104
+          "position": 1106
         },
         "endLoc": {
           "line": 90,
           "column": 18,
-          "position": 1232
+          "position": 1234
         }
       },
       "secondFile": {
@@ -1936,7 +1936,7 @@
     {
       "format": "markup",
       "lines": 23,
-      "fragment": "</td>\n\t</tr>\n\n</tbody>\n</table>\n</div>\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../../sorter.js\"></script>\n        <script src=\"../../block-navigation.js\"></script>\n    </body>\n</html>",
+      "fragment": "</td>\n\t</tr>\n\n</tbody>\n</table>\n</div>\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../../sorter.js\"></script>\n        <script src=\"../../block-navigation.js\"></script>\n    </body>\n</html>",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/src/index.html",
@@ -1965,7 +1965,7 @@
         "endLoc": {
           "line": 99,
           "column": 2,
-          "position": 1301
+          "position": 1303
         }
       }
     },
@@ -2188,7 +2188,7 @@
     {
       "format": "markup",
       "lines": 11,
-      "fragment": "</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../prettify.js",
+      "fragment": "</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../prettify.js",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/tailwind.config.js.html",
@@ -2260,7 +2260,7 @@
     {
       "format": "markup",
       "lines": 7,
-      "fragment": "</h1>\n        <div class='clearfix'>\n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Statements</span>\n                <span class='fraction'>0/77",
+      "fragment": "</h1>\n        <div class='clearfix'>\n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Statements</span>\n                <span class='fraction'>0/88",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
@@ -2296,7 +2296,7 @@
     {
       "format": "markup",
       "lines": 22,
-      "fragment": "</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Branches</span>\n                <span class='fraction'>0/1</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Functions</span>\n                <span class='fraction'>0/1</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Lines</span>\n                <span class='fraction'>0/77",
+      "fragment": "</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Branches</span>\n                <span class='fraction'>0/1</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Functions</span>\n                <span class='fraction'>0/1</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Lines</span>\n                <span class='fraction'>0/88",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
@@ -2367,22 +2367,22 @@
     },
     {
       "format": "markup",
-      "lines": 78,
-      "fragment": "</a></td><td class=\"line-coverage quiet\"><span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-neutral\">&nbsp;</span></td><td class=\"text\"><pre class=\"prettyprint lang-js\"><span class=\"cstat-no\" title=\"statement not covered\" ><span class=\"fstat-no\" title=\"function not covered\" ><span class=\"branch-0 cbranch-no\" title=\"branch not covered\" >const ForkTsCheckerWebpackPlugin",
+      "lines": 89,
+      "fragment": "</a></td><td class=\"line-coverage quiet\"><span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-no\">&nbsp;</span>\n<span class=\"cline-any cline-neutral\">&nbsp;</span></td><td class=\"text\"><pre class=\"prettyprint lang-js\"><span class=\"cstat-no\" title=\"statement not covered\" ><span class=\"fstat-no\" title=\"function not covered\" ><span class=\"branch-0 cbranch-no\" title=\"branch not covered\" >const ForkTsCheckerWebpackPlugin",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
-        "start": 143,
-        "end": 220,
+        "start": 154,
+        "end": 242,
         "startLoc": {
-          "line": 143,
+          "line": 154,
           "column": 3,
-          "position": 2717
+          "position": 3003
         },
         "endLoc": {
-          "line": 220,
+          "line": 242,
           "column": 27,
-          "position": 3894
+          "position": 4334
         }
       },
       "secondFile": {
@@ -2408,89 +2408,125 @@
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
-        "start": 256,
-        "end": 261,
+        "start": 287,
+        "end": 292,
         "startLoc": {
-          "line": 256,
+          "line": 287,
           "column": 28,
-          "position": 4821
+          "position": 5500
         },
         "endLoc": {
-          "line": 261,
+          "line": 292,
           "column": 14,
-          "position": 4940
+          "position": 5619
         }
       },
       "secondFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
-        "start": 232,
-        "end": 237,
+        "start": 263,
+        "end": 268,
         "startLoc": {
-          "line": 232,
+          "line": 263,
           "column": 22,
-          "position": 4256
+          "position": 4935
         },
         "endLoc": {
-          "line": 237,
+          "line": 268,
           "column": 13,
-          "position": 4375
+          "position": 5054
         }
       }
     },
     {
       "format": "markup",
       "lines": 8,
-      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >            transform: {</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >              react: {</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >                runtime: 'automatic',</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >                development: !prod,</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >                refresh: !prod</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >              }</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >            },",
+      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >            transform: {</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >              react: {</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >                runtime: 'automatic',</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >                development: !isProduction,</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >                refresh: !isProduction</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >              }</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >            },",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
-        "start": 263,
-        "end": 270,
+        "start": 294,
+        "end": 301,
         "startLoc": {
-          "line": 263,
+          "line": 294,
           "column": 3,
-          "position": 4987
+          "position": 5666
         },
         "endLoc": {
-          "line": 270,
+          "line": 301,
           "column": 3,
-          "position": 5150
+          "position": 5829
         }
       },
       "secondFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
-        "start": 239,
-        "end": 246,
+        "start": 270,
+        "end": 277,
         "startLoc": {
-          "line": 239,
+          "line": 270,
           "column": 6,
-          "position": 4422
+          "position": 5101
         },
         "endLoc": {
-          "line": 246,
+          "line": 277,
           "column": 2,
-          "position": 4585
+          "position": 5264
+        }
+      }
+    },
+    {
+      "format": "markup",
+      "lines": 6,
+      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >          }</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >        }</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >      },</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >      {</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >        test: /\\.css$/,",
+      "tokens": 0,
+      "firstFile": {
+        "name": "apps/client/coverage/client/rpsack.config.js.html",
+        "start": 305,
+        "end": 310,
+        "startLoc": {
+          "line": 305,
+          "column": 14,
+          "position": 5935
+        },
+        "endLoc": {
+          "line": 310,
+          "column": 10,
+          "position": 6046
+        }
+      },
+      "secondFile": {
+        "name": "apps/client/coverage/client/tailwind.config.js.html",
+        "start": 113,
+        "end": 261,
+        "startLoc": {
+          "line": 113,
+          "column": 27,
+          "position": 1807
+        },
+        "endLoc": {
+          "line": 261,
+          "column": 13,
+          "position": 4886
         }
       }
     },
     {
       "format": "markup",
       "lines": 21,
-      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >}</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
+      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >}</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
-        "start": 295,
-        "end": 315,
+        "start": 328,
+        "end": 348,
         "startLoc": {
-          "line": 295,
+          "line": 328,
           "column": 30,
-          "position": 5740
+          "position": 6463
         },
         "endLoc": {
-          "line": 315,
+          "line": 348,
           "column": 2,
-          "position": 5937
+          "position": 6660
         }
       },
       "secondFile": {
@@ -2711,24 +2747,24 @@
       },
       "secondFile": {
         "name": "apps/client/coverage/client/rpsack.config.js.html",
-        "start": 282,
-        "end": 288,
+        "start": 315,
+        "end": 321,
         "startLoc": {
-          "line": 282,
+          "line": 315,
           "column": 2,
-          "position": 5442
+          "position": 6165
         },
         "endLoc": {
-          "line": 288,
+          "line": 321,
           "column": 2,
-          "position": 5562
+          "position": 6285
         }
       }
     },
     {
       "format": "markup",
       "lines": 21,
-      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >}</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
+      "fragment": "</span>\n<span class=\"cstat-no\" title=\"statement not covered\" >}</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/postcss.config.js.html",
@@ -2944,7 +2980,7 @@
     {
       "format": "markup",
       "lines": 20,
-      "fragment": "</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
+      "fragment": "</span>\n&nbsp;</pre></td></tr></table></pre>\n\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/next.config.mjs.html",
@@ -3016,7 +3052,7 @@
     {
       "format": "markup",
       "lines": 7,
-      "fragment": "</h1>\n        <div class='clearfix'>\n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Statements</span>\n                <span class='fraction'>0/115",
+      "fragment": "</h1>\n        <div class='clearfix'>\n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Statements</span>\n                <span class='fraction'>0/126",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/index.html",
@@ -3160,7 +3196,7 @@
     {
       "format": "markup",
       "lines": 8,
-      "fragment": "</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Lines</span>\n                <span class='fraction'>0/115",
+      "fragment": "</span>\n            </div>\n        \n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">0% </span>\n                <span class=\"quiet\">Lines</span>\n                <span class='fraction'>0/126",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/index.html",
@@ -3376,7 +3412,7 @@
     {
       "format": "markup",
       "lines": 6,
-      "fragment": "</a></td>\n\t<td data-value=\"0\" class=\"pic low\">\n\t<div class=\"chart\"><div class=\"cover-fill\" style=\"width: 0%\"></div><div class=\"cover-empty\" style=\"width: 100%\"></div></div>\n\t</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"77",
+      "fragment": "</a></td>\n\t<td data-value=\"0\" class=\"pic low\">\n\t<div class=\"chart\"><div class=\"cover-fill\" style=\"width: 0%\"></div><div class=\"cover-empty\" style=\"width: 100%\"></div></div>\n\t</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"88",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/index.html",
@@ -3412,7 +3448,7 @@
     {
       "format": "markup",
       "lines": 7,
-      "fragment": "</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"1\" class=\"abs low\">0/1</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"1\" class=\"abs low\">0/1</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"77",
+      "fragment": "</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"1\" class=\"abs low\">0/1</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"1\" class=\"abs low\">0/1</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"88",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/index.html",
@@ -3520,7 +3556,7 @@
     {
       "format": "markup",
       "lines": 23,
-      "fragment": "</td>\n\t</tr>\n\n</tbody>\n</table>\n</div>\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
+      "fragment": "</td>\n\t</tr>\n\n</tbody>\n</table>\n</div>\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"../prettify.js\"></script>\n        <script>\n            window.onload = function () {\n                prettyPrint();\n            };\n        </script>\n        <script src=\"../sorter.js\"></script>\n        <script src=\"../block-navigation.js\"></script>\n    </body>\n</html>",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/client/index.html",
@@ -4816,7 +4852,7 @@
     {
       "format": "markup",
       "lines": 25,
-      "fragment": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <title>Code coverage report for All files</title>\n    <meta charset=\"utf-8\" />\n    <link rel=\"stylesheet\" href=\"prettify.css\" />\n    <link rel=\"stylesheet\" href=\"base.css\" />\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <style type='text/css'>\n        .coverage-summary .sorter {\n            background-image: url(sort-arrow-sprite.png);\n        }\n    </style>\n</head>\n    \n<body>\n<div class='wrapper'>\n    <div class='pad1'>\n        <h1>All files</h1>\n        <div class='clearfix'>\n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">2.04%",
+      "fragment": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <title>Code coverage report for All files</title>\n    <meta charset=\"utf-8\" />\n    <link rel=\"stylesheet\" href=\"prettify.css\" />\n    <link rel=\"stylesheet\" href=\"base.css\" />\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"favicon.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <style type='text/css'>\n        .coverage-summary .sorter {\n            background-image: url(sort-arrow-sprite.png);\n        }\n    </style>\n</head>\n    \n<body>\n<div class='wrapper'>\n    <div class='pad1'>\n        <h1>All files</h1>\n        <div class='clearfix'>\n            \n            <div class='fl pad1y space-right2'>\n                <span class=\"strong\">1.89%",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/index.html",
@@ -4888,7 +4924,7 @@
     {
       "format": "markup",
       "lines": 6,
-      "fragment": "</a></td>\n\t<td data-value=\"0\" class=\"pic low\">\n\t<div class=\"chart\"><div class=\"cover-fill\" style=\"width: 0%\"></div><div class=\"cover-empty\" style=\"width: 100%\"></div></div>\n\t</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"115",
+      "fragment": "</a></td>\n\t<td data-value=\"0\" class=\"pic low\">\n\t<div class=\"chart\"><div class=\"cover-fill\" style=\"width: 0%\"></div><div class=\"cover-empty\" style=\"width: 100%\"></div></div>\n\t</td>\n\t<td data-value=\"0\" class=\"pct low\">0%</td>\n\t<td data-value=\"126",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/index.html",
@@ -4960,7 +4996,7 @@
     {
       "format": "markup",
       "lines": 14,
-      "fragment": "</td>\n\t</tr>\n\n</tbody>\n</table>\n</div>\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-25T07:46:02.813Z\n            </div>\n        <script src=\"prettify.js",
+      "fragment": "</td>\n\t</tr>\n\n</tbody>\n</table>\n</div>\n                <div class='push'></div><!-- for sticky footer -->\n            </div><!-- /wrapper -->\n            <div class='footer quiet pad2 space-top1 center small'>\n                Code coverage generated by\n                <a href=\"https://istanbul.js.org/\" target=\"_blank\" rel=\"noopener noreferrer\">istanbul</a>\n                at 2024-02-26T20:54:51.954Z\n            </div>\n        <script src=\"prettify.js",
       "tokens": 0,
       "firstFile": {
         "name": "apps/client/coverage/index.html",

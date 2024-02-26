@@ -137,19 +137,23 @@ Clone found (markup):
    apps/client/coverage/client/src/app/page.tsx.html [49:4 - 90:3]
 
 Clone found (markup):
- - apps/client/coverage/client/rpsack.config.js.html [143:3 - 220:27] (77 lines, 1177 tokens)
+ - apps/client/coverage/client/rpsack.config.js.html [154:3 - 242:27] (88 lines, 1331 tokens)
    apps/client/coverage/client/src/app/layout.tsx.html [90:3 - 102:7]
 
 Clone found (markup):
- - apps/client/coverage/client/rpsack.config.js.html [256:28 - 261:14] (5 lines, 119 tokens)
-   apps/client/coverage/client/rpsack.config.js.html [232:22 - 237:13]
+ - apps/client/coverage/client/rpsack.config.js.html [287:28 - 292:14] (5 lines, 119 tokens)
+   apps/client/coverage/client/rpsack.config.js.html [263:22 - 268:13]
 
 Clone found (markup):
- - apps/client/coverage/client/rpsack.config.js.html [263:3 - 270:3] (7 lines, 163 tokens)
-   apps/client/coverage/client/rpsack.config.js.html [239:6 - 246:2]
+ - apps/client/coverage/client/rpsack.config.js.html [294:3 - 301:3] (7 lines, 163 tokens)
+   apps/client/coverage/client/rpsack.config.js.html [270:6 - 277:2]
 
 Clone found (markup):
- - apps/client/coverage/client/rpsack.config.js.html [295:30 - 315:2] (20 lines, 197 tokens)
+ - apps/client/coverage/client/rpsack.config.js.html [305:14 - 310:10] (5 lines, 111 tokens)
+   apps/client/coverage/client/tailwind.config.js.html [113:27 - 261:13]
+
+Clone found (markup):
+ - apps/client/coverage/client/rpsack.config.js.html [328:30 - 348:2] (20 lines, 197 tokens)
    apps/client/coverage/client/src/app/layout.tsx.html [136:2 - 138:2]
 
 Clone found (markup):
@@ -174,7 +178,7 @@ Clone found (markup):
 
 Clone found (markup):
  - apps/client/coverage/client/postcss.config.js.html [78:2 - 84:7] (6 lines, 119 tokens)
-   apps/client/coverage/client/rpsack.config.js.html [282:2 - 288:2]
+   apps/client/coverage/client/rpsack.config.js.html [315:2 - 321:2]
 
 Clone found (markup):
  - apps/client/coverage/client/postcss.config.js.html [82:2 - 102:2] (20 lines, 197 tokens)
@@ -443,13 +447,13 @@ Clone found (css):
 ┌────────────┬────────────────┬─────────────┬──────────────┬──────────────┬──────────────────┬───────────────────┐
 │ Format     │ Files analyzed │ Total lines │ Total tokens │ Clones found │ Duplicated lines │ Duplicated tokens │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ json       │ 33             │ 1462        │ 8523         │ 2            │ 49 (3.35%)       │ 263 (3.09%)       │
+│ json       │ 33             │ 1441        │ 8235         │ 2            │ 49 (3.4%)        │ 263 (3.19%)       │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ markup     │ 17             │ 2368        │ 35918        │ 102          │ 1579 (66.68%)    │ 22310 (62.11%)    │
+│ markup     │ 17             │ 2401        │ 36643        │ 103          │ 1595 (66.43%)    │ 22575 (61.61%)    │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ javascript │ 13             │ 713         │ 48501        │ 2            │ 274 (38.43%)     │ 2174 (4.48%)      │
+│ javascript │ 13             │ 715         │ 48503        │ 2            │ 274 (38.32%)     │ 2174 (4.48%)      │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ typescript │ 11             │ 322         │ 3305         │ 2            │ 64 (19.88%)      │ 861 (26.05%)      │
+│ typescript │ 11             │ 340         │ 3478         │ 2            │ 64 (18.82%)      │ 861 (24.76%)      │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
 │ tsx        │ 2              │ 31          │ 288          │ 0            │ 0 (0%)           │ 0 (0%)            │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
@@ -459,12 +463,12 @@ Clone found (css):
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
 │ yaml       │ 3              │ 690         │ 5488         │ 0            │ 0 (0%)           │ 0 (0%)            │
 ├────────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤
-│ Total:     │ 86             │ 6168        │ 106192       │ 109          │ 2189 (35.49%)    │ 27205 (25.62%)    │
+│ Total:     │ 86             │ 6200        │ 106804       │ 110          │ 2205 (35.56%)    │ 27470 (25.72%)    │
 └────────────┴────────────────┴─────────────┴──────────────┴──────────────┴──────────────────┴───────────────────┘
-Found 109 clones.
+Found 110 clones.
 HTML report saved to megalinter-reports/copy-paste/html/
-ERROR: jscpd found too many duplicates (35.49%) over threshold (0%)
-Error: ERROR: jscpd found too many duplicates (35.49%) over threshold (0%)
+ERROR: jscpd found too many duplicates (35.56%) over threshold (0%)
+Error: ERROR: jscpd found too many duplicates (35.56%) over threshold (0%)
     at ThresholdReporter.report (/node-deps/node_modules/@jscpd/finder/dist/reporters/threshold.js:12:19)
     at /node-deps/node_modules/@jscpd/finder/dist/in-files-detector.js:82:26
     at Array.forEach (<anonymous>)
