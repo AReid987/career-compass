@@ -10,7 +10,7 @@
     "report"
   ],
   "language": "en",
-  "noConfigSearch": true,
+  "noConfigSearch": false,
   "words": ["megalinter", "oxsecurity"],
   "version": "0.2"
 }
