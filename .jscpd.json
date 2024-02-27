@@ -11,6 +11,6 @@
     "**/.idea/**",
     "**/report/**",
     "**/*.svg",
-    "/tmp/appmap/jest/**"
+    "**/tmp/appmap/jest/**"
   ]
 }
