@@ -43,10 +43,22 @@ jobs:
       - name: Cache Docker layers
         uses: actions/cache@v4.0.0
         with:
-          path: /tmp/.buildx-cache
-          key: ${{ runner.os }}-buildx-${{ github.sha }}
-          restore-keys: ${{ runner.os }}-buildx-${{ github.sha }}
-
+          path: /tmp/.docker-images
+          key: ${{ runner.os }}-docker-image-oxsecurity-megalinter-latest
+          restore-keys: |
+            ${{ runner.os }}-docker-image-oxsecurity-megalinter-
+      - name: Load cached Docker image
+        run: |
+          if [ -f "/tmp/.docker-images/megalinter.tar"]; then
+            docker load -i /tmp/.docker-images/megalinter.tar
+          fi
+      - name: Pull and Save Docker Image
+        run: |
+          if ! docker images oxsecurity/megalinter | grep -q oxsecurity/megalinter; then
+            docker pull oxsecurity/megalinter:latest
+            mkdir -p /tmp/.docker-images
+            docker save oxsecurity/megalinter:latest > /tmp/.docker-images/megalinter.tar
+          fi
       - name: Log in to Dockerhub
         uses: docker/login-action@v3.0.0
         with:
