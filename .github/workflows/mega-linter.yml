@@ -32,10 +32,11 @@ jobs:
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
-      # - name: ScribeMD Docker Cache
-      #   uses: ScribeMD/docker-cache@e481e638abdb45e2fa30845305c387a544cc617f
-      #   with:
-      #     key: ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}
+      - name: ScribeMD Docker Cache
+        uses: ScribeMD/docker-cache@e481e638abdb45e2fa30845305c387a544cc617f
+        with:
+          key: ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}
+      - run: echo "ScribeMD Docker Cache ${{ runner.os }}-${{ hashFiles('**/Dockerfile') }}"
 
       # - name: Set up Docker Buildx
       #   uses: docker/setup-buildx-action@v3.0.0
