@@ -9,7 +9,7 @@ import { AppModule } from './app.module'
 import { FlubErrorHandler } from 'nestjs-flub'
 import { Logger } from '@nestjs/common'
 
-async function bootstrap() {
+async function bootstrap(): Promise<void> {
   const app = await NestFactory.create<NestFastifyApplication>(
     AppModule,
     new FastifyAdapter(),
@@ -47,4 +47,8 @@ async function bootstrap() {
   )
 }
 
-bootstrap()
+bootstrap().catch((error) => {
+  const logger = new Logger()
+  logger.log('Error starting API: ', error)
+  process.exit(1)
+})
