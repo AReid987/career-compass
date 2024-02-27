@@ -96,6 +96,9 @@ importers:
       prettier:
         specifier: ^3.0.0
         version: 3.2.5
+      stylelint-config-standard-scss:
+        specifier: ^13.0.0
+        version: 13.0.0(postcss@8.4.35)(stylelint@16.2.1)
       vite:
         specifier: ~5.0.0
         version: 5.0.12(@types/node@20.11.20)(less@4.2.0)(stylus@0.62.0)
@@ -17522,6 +17525,23 @@ packages:
       stylelint-scss: 5.3.2(stylelint@16.2.1)
     dev: true
 
+  /stylelint-config-recommended-scss@14.0.0(postcss@8.4.35)(stylelint@16.2.1):
+    resolution: {integrity: sha512-HDvpoOAQ1RpF+sPbDOT2Q2/YrBDEJDnUymmVmZ7mMCeNiFSdhRdyGEimBkz06wsN+HaFwUh249gDR+I9JR7Onw==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      postcss: ^8.3.3
+      stylelint: ^16.0.2
+    peerDependenciesMeta:
+      postcss:
+        optional: true
+    dependencies:
+      postcss: 8.4.35
+      postcss-scss: 4.0.9(postcss@8.4.35)
+      stylelint: 16.2.1(typescript@5.3.3)
+      stylelint-config-recommended: 14.0.0(stylelint@16.2.1)
+      stylelint-scss: 6.1.0(stylelint@16.2.1)
+    dev: true
+
   /stylelint-config-recommended-vue@1.5.0(postcss-html@1.6.0)(stylelint@16.2.1):
     resolution: {integrity: sha512-65TAK/clUqkNtkZLcuytoxU0URQYlml+30Nhop7sRkCZ/mtWdXt7T+spPSB3KMKlb+82aEVJ4OrcstyDBdbosg==}
     engines: {node: ^12 || >=14}
@@ -17569,6 +17589,22 @@ packages:
       stylelint-config-standard: 34.0.0(stylelint@16.2.1)
     dev: true
 
+  /stylelint-config-standard-scss@13.0.0(postcss@8.4.35)(stylelint@16.2.1):
+    resolution: {integrity: sha512-WaLvkP689qSYUpJQPCo30TFJSSc3VzvvoWnrgp+7PpVby5o8fRUY1cZcP0sePZfjrFl9T8caGhcKg0GO34VDiQ==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      postcss: ^8.3.3
+      stylelint: ^16.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
+    dependencies:
+      postcss: 8.4.35
+      stylelint: 16.2.1(typescript@5.3.3)
+      stylelint-config-recommended-scss: 14.0.0(postcss@8.4.35)(stylelint@16.2.1)
+      stylelint-config-standard: 36.0.0(stylelint@16.2.1)
+    dev: true
+
   /stylelint-config-standard-vue@1.0.0(postcss-html@1.6.0)(stylelint@16.2.1):
     resolution: {integrity: sha512-wAzU7p6DSlo04pWfCbOcaMq09Nojt0FEsbdxhCBTdC7IguD9ZVl7FP/bvyA0HAHjZGC4JkW7m6WiQaoVMDSuFw==}
     engines: {node: ^12 || >=14}
@@ -17593,6 +17629,16 @@ packages:
       stylelint-config-recommended: 13.0.0(stylelint@16.2.1)
     dev: true
 
+  /stylelint-config-standard@36.0.0(stylelint@16.2.1):
+    resolution: {integrity: sha512-3Kjyq4d62bYFp/Aq8PMKDwlgUyPU4nacXsjDLWJdNPRUgpuxALu1KnlAHIj36cdtxViVhXexZij65yM0uNIHug==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.1.0
+    dependencies:
+      stylelint: 16.2.1(typescript@5.3.3)
+      stylelint-config-recommended: 14.0.0(stylelint@16.2.1)
+    dev: true
+
   /stylelint-order@6.0.4(stylelint@16.2.1):
     resolution: {integrity: sha512-0UuKo4+s1hgQ/uAxlYU4h0o0HS4NiQDud0NAUNI0aa8FJdmYHA5ZZTFHiV5FpmE3071e9pZx5j0QpVJW5zOCUA==}
     peerDependencies:
@@ -17607,6 +17653,20 @@ packages:
     resolution: {integrity: sha512-4LzLaayFhFyneJwLo0IUa8knuIvj+zF0vBFueQs4e3tEaAMIQX8q5th8ziKkgOavr6y/y9yoBe+RXN/edwLzsQ==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
+    dependencies:
+      known-css-properties: 0.29.0
+      postcss-media-query-parser: 0.2.3
+      postcss-resolve-nested-selector: 0.1.1
+      postcss-selector-parser: 6.0.15
+      postcss-value-parser: 4.2.0
+      stylelint: 16.2.1(typescript@5.3.3)
+    dev: true
+
+  /stylelint-scss@6.1.0(stylelint@16.2.1):
+    resolution: {integrity: sha512-kCfK8TQzthGwb4vaZniZgxRsVbCM4ZckmT1b/H5m4FU3I8Dz0id9llKsy1NMp3XXqC8+OPD4rVKtUbSxXlJb5g==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.0.2
     dependencies:
       known-css-properties: 0.29.0
       postcss-media-query-parser: 0.2.3
@@ -18977,7 +19037,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.2.0
-      webpack: 5.90.3(@swc/core@1.4.2)(esbuild@0.14.54)
+      webpack: 5.90.3(esbuild@0.14.54)
 
   /webpack-dev-middleware@6.0.2(webpack@5.90.3):
     resolution: {integrity: sha512-iOddiJzPcQC6lwOIu60vscbGWth8PCRcWRCwoQcTQf9RMoOWBHg5EyzpGdtSmGMrSPd5vHEfFXmVErQEmkRngQ==}
