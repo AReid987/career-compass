@@ -1,17 +1,6 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    // "baseUrl": "./",
-    // "emitDecoratorMetadata": true,
-    // "experimentalDecorators": true,
-    // "incremental": true,
-    // "skipLibCheck": true,
-    // "strictNullChecks": false,
-    // "noImplicitAny": false,
-    // "strictBindCallApply": false,
-    // "forceConsistentCasingInFileNames": false,
-    // "noFallthroughCasesInSwitch": false,
-    // "isolatedModules": true,
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
