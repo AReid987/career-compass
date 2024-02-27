@@ -45,8 +45,12 @@ jobs:
         with:
           path: /tmp/.docker-images
           key: ${{ runner.os }}-docker-image-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-docker-image-oxsecurity-megalinter-
+
+      - name: Save Docker Cache
+        uses: actions/cache/save@v4.0.0
+        with:
+          path: /tmp/.docker-images
+          key: ${{ runner.os }}-docker-image-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       # - name: Load cached Docker image
       #   run: |
