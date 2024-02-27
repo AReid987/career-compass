@@ -38,29 +38,6 @@ jobs:
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
       - name: MegaLinter
-        - name: Setup Docker Buildx
-          uses: docker/setup-buildx-action@v1
-        - name: Cache Docker Layer
-          uses: actions/cache@v3
-          with:
-            path: /tmp/.buildx-cache
-            key: ${{ runner.os }}-buildx-${{ github.sha }}
-            restore-keys: |
-              ${{ runner.os }}-buildx-
-        - name: Build and cache Docker image
-          uses: docker/build-push-action@v3
-          with:
-            context: .
-            file: ./Dockerfile
-            push: false
-            load: true
-            cache-from: type=local,src=/tmp/.buildx-cache
-            cache-to: type=local,dest=/tmp/.buildx-cache-new
-        - name: Move Docker cache
-          run: |
-            rm -rf /tmp/.buildx-cache
-            mv /tmp/.buildx-cache-new /tmp/.buildx-cache
-
         id: ml
         # https://megalinter.io/flavors
         uses: oxsecurity/megalinter@v7.9.0
