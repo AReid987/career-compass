@@ -60,7 +60,9 @@ jobs:
         id: meta
         uses: docker/metadata-action@f206c36955d3cc6213c38fb3747d9ba4113e686a
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME || github.repository.lowercase }}
+          images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME || github.repository.lowercase }}
+        tags: |
+          type=raw,value=latest,enable={{is_default_branch}}
 
       - name: Build and push Docker image
         if: github.event_name != 'pull_request'
