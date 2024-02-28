@@ -1,52 +1,10 @@
 entry: gh-start
 executions:
   - src:
-      node: gh-actions-checkout-v4-1-1-green-cranberry-dolphin
-      port: exec
-    dst:
-      node: gh-sigstore-cosign-installer-v3-4-0-gold-dog-kangaroo
-      port: exec
-  - src:
-      node: gh-docker-setup-buildx-action-v3-1-0-mango-cat-kiwi
-      port: exec
-    dst:
-      node: gh-docker-login-action-v3-0-0-peach-giraffe-dog
-      port: exec
-  - src:
-      node: gh-docker-login-action-v3-0-0-peach-giraffe-dog
-      port: exec
-    dst:
-      node: gh-actions-cache-silver-butterfly-brown
-      port: exec
-  - src:
-      node: gh-actions-cache-silver-butterfly-brown
-      port: exec
-    dst:
-      node: gh-docker-metadata-action-v5-5-1-elephant-pineapple-green
-      port: exec
-  - src:
       node: gh-start
       port: exec-on-push
     dst:
       node: gh-actions-checkout-v4-1-1-green-cranberry-dolphin
-      port: exec
-  - src:
-      node: gh-docker-metadata-action-v5-5-1-elephant-pineapple-green
-      port: exec
-    dst:
-      node: gh-docker-build-push-action-v5-1-0-apple-zebra-koala
-      port: exec
-  - src:
-      node: gh-docker-build-push-action-v5-1-0-apple-zebra-koala
-      port: exec
-    dst:
-      node: run-v1-pineapple-squirrel-elephant
-      port: exec
-  - src:
-      node: gh-sigstore-cosign-installer-v3-4-0-gold-dog-kangaroo
-      port: exec
-    dst:
-      node: gh-docker-setup-buildx-action-v3-1-0-mango-cat-kiwi
       port: exec
 connections: []
 nodes:
