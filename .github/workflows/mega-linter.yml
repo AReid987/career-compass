@@ -5,8 +5,11 @@ name: MegaLinter
 on:
   # Trigger mega-linter on every push
   push:
+    branches:
+      - main
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 env:
   APPLY_FIXES: all
@@ -60,13 +63,17 @@ jobs:
       - name: Load Docker image from cache
         if: steps.cache-docker.outputs.cache-hit == 'true'
         run: |
-          docker load < /tmp/docker-cache.tar
+          mkdir -p /tmp/docker-images
+          if [ -f /tmp/docker-images/${{ env.IMAGE_NAME }}.tar ]; then
+            docker load < /tmp/docker-images/${{ env.IMAGE_NAME }}.tar
+          fi
 
       - name: Pull Docker image
         if: steps.cache-docker.outputs.cache-hit != 'true'
         run: |
-          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-          docker save ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest > /tmp/.docker-images/${{ env.IMAGE_NAME }}.tar
+          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          mkdir -p /tmp/docker-images
+          docker save ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }} > /tmp/.docker-images/${{ env.IMAGE_NAME }}.tar
 
       - name: Build and push Docker image
         id: build-and-push
@@ -74,9 +81,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: $IMAGE_NAME:latest
+          tags: ${{ IMAGE_NAME }}:latest
           cache-from: type=local,src=/tmp/.docker-cache.tar
-          cache-to: type=local,dest=/tmp/.docker-cache-new.tar.tar,mode=max
+          cache-to: type=local,dest=/tmp/.docker-cache-new.tar,mode=max
 
       - name: Move and Save Cache
         run: |
