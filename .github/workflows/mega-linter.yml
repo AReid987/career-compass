@@ -64,7 +64,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@f206c36955d3cc6213c38fb3747d9ba4113e686a
         with:
-          images: ${{ env.REGISTRY }}/${{ github.repository.owner }}/${{ env.IMAGE_NAME }}
+          images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}
           tags: |
             type=schedule
             type=ref,event=branch
@@ -72,7 +72,7 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
-            type=sha,short=8
+            type=sha
 
       - name: Build and push Docker image
         id: build-and-push
