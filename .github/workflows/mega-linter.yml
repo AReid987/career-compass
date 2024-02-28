@@ -62,22 +62,30 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
+      - name: Format tags as registry refs
+        id: registry_refs
+        env:
+          TAGS: ${{ steps.meta.outputs.json }}
+        run: |
+          echo tags=$(echo $TAGS | jq '.tags[] | "type=registry,ref=" + . | @text') >> $GITHUB_OUTPUT
+
       - name: Build and push Docker image
         if: github.event_name != 'pull_request'
         uses: docker/build-push-action@v5.1.0
         with:
           context: .
-          push: true
+          push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache
+          cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:cache
+          cache-to: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:cache,mode=max
 
       - name: Sign the publisehd Docker image
         if: ${{ github.event_name != 'pull_request' }}
         env:
           COSIGN_EXPERIMENTAL: 'true'
         run: echo "${{ steps.meta.oututs.tags }}" | xargs -I {} cosign sign {}@${{ steps.build-and-push.outputs.digest }}
+
   # megalinter:
   #   name: MegaLinter
   #   runs-on: ubuntu-latest
