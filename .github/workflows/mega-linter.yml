@@ -12,7 +12,7 @@ env:
   APPLY_FIXES: all
   APPLY_FIXES_EVENT: all
   APPLY_FIXES_MODE: commit
-  REGISTRY: docker.io
+  REGISTRY: docker.io/areid987
   IMAGE_NAME: ${{ github.repository.lowercase }}
 
 concurrency:
