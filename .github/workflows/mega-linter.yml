@@ -62,13 +62,6 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-      - name: Format tags as registry refs
-        id: registry_refs
-        env:
-          TAGS: ${{ steps.meta.outputs.json }}
-        run: |
-          echo tags=$(echo $TAGS | jq '.tags[] | "type=registry,ref=" + . | @text') >> $GITHUB_OUTPUT
-
       - name: Build and push Docker image
         if: github.event_name != 'pull_request'
         uses: docker/build-push-action@v5.1.0
