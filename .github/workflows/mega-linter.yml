@@ -13,8 +13,6 @@ env:
   APPLY_FIXES_EVENT: all
   APPLY_FIXES_MODE: commit
   REGISTRY: docker.io
-  IMAGE_NAME: ${{ github.repository }}.lowercase()
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -31,6 +29,10 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4.1.1
+
+      - name: Set lowercase IMAGE_NAME
+        id: set_env
+        run: echo "IMAGE_NAME=$(echo '${{ github.repository }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
       - name: Calculate cache key
         id: cache-key
@@ -57,8 +59,8 @@ jobs:
       - name: Pull Docker image
         if: steps.cache-docker.outputs.cache-hit != 'true'
         run: |
-          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-          docker save ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest > /tmp/.docker-images/${{ env.IMAGE_NAME }}.tar
+          docker pull ${{ env.REGISTRY }}/$IMAGE_NAME:latest
+          docker save ${{ env.REGISTRY }}/$IMAGE_NAME:latest > /tmp/.docker-images/$IMAGE_NAME.tar
 
       - name: Login to Docker Hub
         uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d
@@ -72,7 +74,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ env.IMAGE_NAME }}:latest
+          tags: $IMAGE_NAME:latest
           cache-from: type=local,src=/tmp/.docker-cache.tar
           cache-to: type=local,dest=/tmp/.docker-cache-new.tar.tar,mode=max
 
