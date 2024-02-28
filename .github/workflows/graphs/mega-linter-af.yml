@@ -24,6 +24,18 @@ executions:
     dst:
       node: run-v1-pomegranate-silver-squirrel
       port: exec
+  - src:
+      node: run-v1-pomegranate-silver-squirrel
+      port: exec-success
+    dst:
+      node: run-v1-koala-brown-orange
+      port: exec
+  - src:
+      node: run-v1-koala-brown-orange
+      port: exec-success
+    dst:
+      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
+      port: exec
 connections: []
 nodes:
   - id: gh-start
@@ -66,8 +78,31 @@ nodes:
         echo "IMAGE_NAME=$(echo '${{ github.repository }}' | tr '[:upper:]'
         '[:lower:]')" >> $GITHUB_ENV
     settings:
+      folded: true
+  - id: run-v1-koala-brown-orange
+    type: run@v1
+    position:
+      x: 1950
+      y: 130
+    inputs:
+      script: >-
+        echo "::set-output name=key::$(echo $IMAGE_NAME | sha256sum | cut -d ' '
+        -f 1)"
+    settings:
+      folded: false
+  - id: gh-actions-cache-v4-0-0-squirrel-orange-snake
+    type: github.com/actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2
+    position:
+      x: 2330
+      y: 110
+    inputs:
+      path: /tmp/.docker-caache
+      key: ${{ runner.os }}-docker-${{ steps.cache-key.outputs.key }}
+      restore-keys: ${{ runner.os }}-docker-
+    settings:
       folded: false
 registries:
   - github.com/docker/setup-qemu-action@v3.0.0
   - github.com/docker/setup-buildx-action@v3.1.0
+  - github.com/actions/cache@v4.0.0
 description: ''
