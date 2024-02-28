@@ -50,7 +50,7 @@ jobs:
         id: cache-docker
         uses: actions/cache@v4.0.0
         with:
-          path: /tmp/.docker-cache.tar
+          path: /tmp/.docker-cache
           key: ${{ runner.os }}-docker-${{ steps.cache-key.outputs.key }}
           restore-keys: |
             ${{ runner.os }}-docker-
@@ -64,18 +64,10 @@ jobs:
       - name: Load Docker image from cache
         if: steps.cache-docker.outputs.cache-hit == 'true'
         run: |
-          mkdir -p /tmp/docker-images
-          if [ -f /tmp/docker-images/${{ env.IMAGE_NAME }}.tar ]; then
-            docker load < /tmp/docker-images/${{ env.IMAGE_NAME }}.tar || true
-          fi
-
-      - name: Pull Docker image
-        if: steps.cache-docker.outputs.cache-hit != 'true'
-        id: pull-docker-image
-        continue-on-error: true
-        run: |
-          if docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}; then
-            echo "${{ env.IMAGE_NAME }} pulled successfully"
+          mkdir -p /tmp/.docker-cache
+          if [ -f /tmp/.docker-cache/${{ env.IMAGE_NAME }}.tar ]; then
+            echo "Loading ${IMAGE_NAME} from cache"
+            docker load < /tmp/.docker-cache/${{ env.IMAGE_NAME }}.tar || true
             echo "DOCKER_IMAGE_EXISTS=true" >> $GITHUB_ENV
           else
             echo "${{ env.IMAGE_NAME }} not found. Will use fallback."
@@ -88,13 +80,13 @@ jobs:
         with:
           push: true
           tags: ${{ env.IMAGE_NAME }}:latest
-          cache-from: type=local,src=/tmp/.docker-cache.tar
-          cache-to: type=local,dest=/tmp/.docker-cache-new.tar,mode=max
+          cache-from: type=local,src=/tmp/.docker-cache
+          cache-to: type=local,dest=/tmp/.docker-cache-new,mode=max
 
       - name: Move and Save Cache
         run: |
-          rm -rf /tmp/.docker-cache.tar
-          mv /tmp/.docker-cache-new.tar /tmp/.docker-cache.tar
+          rm -rf /tmp/.docker-cache
+          mv /tmp/.docker-cache-new /tmp/.docker-cache
 
   # megalinter:
   #   name: MegaLinter
