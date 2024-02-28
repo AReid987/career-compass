@@ -9,3 +9,5 @@ Welcome to career-compass. This is version 1.0.0
 <a href="https://github.com/Areid987/career-pilot/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/Areid987/career-pilot.svg" height="20"/></a>
 <a href="https://github.com/Areid987/career-compass"><img alt="StackShare Logo" src="https://img.stackshare.io/repo.svg" height="20"/></a>
 	</p> -->
+<img src="./career-compass-logo-1.png" alt="career-compass-logo-1-removebg-preview.png" width="200" height="auto"/>
+<img src="./career-compass-logo-2.png" alt="career-compass-logo-2.png" width="200" height="auto"/>
