@@ -13,7 +13,7 @@ env:
   APPLY_FIXES_EVENT: all
   APPLY_FIXES_MODE: commit
   REGISTRY: docker.io
-  IMAGE_NAME: ${{ github.repository.lowercase }}
+  IMAGE_NAME: ${{ github.repository.name.lowercase }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -64,7 +64,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@f206c36955d3cc6213c38fb3747d9ba4113e686a
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          images: ${{ env.REGISTRY }}/${{ github.repository.owner }}/${{ env.IMAGE_NAME }}
           tags: |
             type=schedule
             type=ref,event=branch
