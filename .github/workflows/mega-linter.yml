@@ -13,7 +13,7 @@ env:
   APPLY_FIXES_EVENT: all
   APPLY_FIXES_MODE: commit
   REGISTRY: docker.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: ${{ github.repository.lowercase }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
