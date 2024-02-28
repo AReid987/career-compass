@@ -61,30 +61,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-docker-
 
-      - name: Login to Docker Hub
-        uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
-
-      - name: Load Docker image from cache
-        if: steps.cache-docker.outputs.cache-hit == 'true'
-        run: |
-          mkdir -p /tmp/.docker-cache
-          if [ -f /tmp/.docker-cache/${{ env.IMAGE_NAME }}.tar ]; then
-            echo "Loading ${IMAGE_NAME} from cache"
-            docker load < /tmp/.docker-cache/${{ env.IMAGE_NAME }}.tar || true
-            echo "DOCKER_IMAGE_EXISTS=true" >> $GITHUB_ENV
-          else
-            echo "${{ env.IMAGE_NAME }} not found. Will use fallback."
-            echo "DOCKER_IMAGE_EXISTS=false" >> $GITHUB_ENV
-          fi
-
-      - name: Move and Save Cache
-        run: |
-          rm -rf /tmp/.docker-cache
-          mv /tmp/.docker-cache-new /tmp/.docker-cache
-
   # megalinter:
   #   name: MegaLinter
   #   runs-on: ubuntu-latest
