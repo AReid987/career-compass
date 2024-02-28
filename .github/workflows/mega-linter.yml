@@ -32,19 +32,33 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4.1.1
 
+      - name: Calculate cache key
+        id: cache-key
+        run: echo "::set-output name=key::$(echo env.IMAGE_NAME | sha256sum | cut -d ' ' -f 1)""
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226
         with:
           version: latest
 
       - name: Cache Docker layers
-        id: cache
+        id: cache-docker
         uses: actions/cache@v4.0.0
         with:
-          path: /tmp/.buildx-cache
-          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          path: /tmp/.docker-cache.tar
+          key: ${{ runner.os }}-docker-${{ steps.cache-key.outputs.key }}
           restore-keys: |
-            ${{ runner.os }}-buildx-
+            ${{ runner.os }}-docker-
+
+      - name: Load Docker image from cache
+        if: steps.cache-docker.outputs.cache-hit == 'true'
+        run: |
+          docker load < /tmp/docker-cache.tar
+
+      - name: Pull Docker image
+        if: steps.cache-docker.outputs.cache-hit != 'true'
+        run: |
+          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          docker save ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest > /tmp/.docker-images/${{ env.IMAGE_NAME }}.tar
 
       - name: Login to Docker Hub
         uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d
@@ -59,13 +73,13 @@ jobs:
           context: .
           push: true
           tags: ${{ env.IMAGE_NAME }}:latest
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
+          cache-from: type=local,src=/tmp/.docker-cache.tar
+          cache-to: type=local,dest=/tmp/.docker-cache-new.tar.tar,mode=max
 
       - name: Move and Save Cache
         run: |
-          rm -rf /tmp/.buildx-cache
-          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
+          rm -rf /tmp/.docker-cache.tar
+          mv /tmp/.docker-cache-new.tar /tmp/.docker-cache.tar
 
   # megalinter:
   #   name: MegaLinter
