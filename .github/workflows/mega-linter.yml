@@ -81,7 +81,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ IMAGE_NAME }}:latest
+          tags: ${{ env.IMAGE_NAME }}:latest
           cache-from: type=local,src=/tmp/.docker-cache.tar
           cache-to: type=local,dest=/tmp/.docker-cache-new.tar,mode=max
 
