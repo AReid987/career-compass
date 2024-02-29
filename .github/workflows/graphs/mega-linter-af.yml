@@ -31,24 +31,6 @@ executions:
       node: gh-actions-cache-v4-0-0-squirrel-orange-snake
       port: exec
   - src:
-      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
-      port: exec
-    dst:
-      node: gh-oxsecurity-megalinter-v7-9-0-purple-red-banana
-      port: exec
-  - src:
-      node: gh-oxsecurity-megalinter-v7-9-0-purple-red-banana
-      port: exec
-    dst:
-      node: gh-actions-upload-artifact-v4-3-1-raspberry-raspberry-shark
-      port: exec
-  - src:
-      node: gh-start
-      port: exec-on-push
-    dst:
-      node: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
-      port: exec
-  - src:
       node: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
       port: exec
     dst:
@@ -119,15 +101,6 @@ nodes:
       restore-keys: ${{ runner.os }}-docker-
     settings:
       folded: false
-  - id: gh-oxsecurity-megalinter-v7-9-0-purple-red-banana
-    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
-    position:
-      x: 2810
-      y: 130
-    inputs:
-      env: []
-    settings:
-      folded: false
   - id: gh-actions-upload-artifact-v4-3-1-raspberry-raspberry-shark
     type: >-
       github.com/actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3
@@ -144,8 +117,8 @@ nodes:
     type: >-
       github.com/djbender/docker-buildx-pull-or-build@fce252fd09be7c61ce95c04afaf73e90a09a742b
     position:
-      x: 2990
-      y: 100
+      x: 850
+      y: 790
     settings:
       folded: false
   - id: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
@@ -159,6 +132,20 @@ nodes:
       docker_registry: docker.io
       docker_password: ${{ secrets.DOCKERHUB_PASSWORD }}
       docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
+    settings:
+      folded: false
+  - id: gh-oxsecurity-megalinter-v7-9-0-giraffe-blackberry-pink
+    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
+    position:
+      x: 1380
+      y: 160
+    settings:
+      folded: false
+  - id: gh-oxsecurity-megalinter-v7-9-0-snake-dog-giraffe
+    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
+    position:
+      x: 0
+      y: 0
     settings:
       folded: false
 registries:
