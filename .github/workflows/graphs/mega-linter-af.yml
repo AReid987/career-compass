@@ -42,6 +42,12 @@ executions:
     dst:
       node: gh-oxsecurity-megalinter-v7-9-0-purple-red-banana
       port: exec
+  - src:
+      node: gh-oxsecurity-megalinter-v7-9-0-purple-red-banana
+      port: exec
+    dst:
+      node: gh-actions-upload-artifact-v4-3-1-raspberry-raspberry-shark
+      port: exec
 connections: []
 nodes:
   - id: gh-start
@@ -112,6 +118,22 @@ nodes:
     position:
       x: 2770
       y: -290
+    inputs:
+      env:
+        - ''
+        - ''
+    settings:
+      folded: false
+  - id: gh-actions-upload-artifact-v4-3-1-raspberry-raspberry-shark
+    type: >-
+      github.com/actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3
+    position:
+      x: 3270
+      y: -220
+    inputs:
+      path: >-
+        |             /tmp/.docker-images/megalinter.tar            
+        megalinter-reports             megalinter.log
     settings:
       folded: false
 registries:
@@ -120,4 +142,5 @@ registries:
   - github.com/actions/cache@v4.0.0
   - github.com/satackey/action-docker-layer-caching@v0.0.11
   - github.com/oxsecurity/megalinter@v7.9.0
+  - github.com/actions/upload-artifact@v4.3.1
 description: ''

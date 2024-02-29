@@ -76,6 +76,16 @@ jobs:
           VALIDATE_ALL_CODEBASE: 'true'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Archive production artifacts
+        if: success() || failure()
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: MegaLinter reports
+          path: |
+            /tmp/.docker-images/megalinter.tar
+            megalinter-reports
+            megalinter.log
+
   # megalinter:
   #   name: MegaLinter
   #   runs-on: ubuntu-latest
