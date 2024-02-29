@@ -1,0 +1,30 @@
+{
+    "folders": [
+		{
+			"name": "career-compass",
+			"path": "."
+		}
+	],
+    "settings": {
+        "workbench.colorCustomizations": {
+            "editor.lineHighlightBackground": "#1073cf2d",
+            "editor.lineHighlightBorder": "#9fced11f",
+            "editor.findMatchBackground": "#009032",
+            "editor.findMatchBorder": "#00ff1aeb",
+            "editor.findMatchHighlightBackground": "#006100e3",
+            "editor.findMatchHighlightBorder": "#007733"
+        },
+        "cSpell.words": [
+            "amqp"
+        ],
+        "ColorfulMonorepo.workspaces.collection": [
+            {
+                "path": "/Users/antonioreid/development/code/career-compass",
+                "packageName": "career-compass",
+                "label": "🌱  career-compass",
+                "foreground": "#ffffff",
+                "background": "#44395f"
+            }
+        ]
+    }
+}
