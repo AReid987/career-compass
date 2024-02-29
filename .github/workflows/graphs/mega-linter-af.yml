@@ -7,12 +7,6 @@ executions:
       node: gh-docker-setup-qemu-action-v3-0-0-red-purple-pomegranate
       port: exec
   - src:
-      node: gh-docker-setup-qemu-action-v3-0-0-red-purple-pomegranate
-      port: exec
-    dst:
-      node: gh-docker-setup-buildx-action-v3-1-0-dolphin-brown-pineapple
-      port: exec
-  - src:
       node: gh-docker-setup-buildx-action-v3-1-0-dolphin-brown-pineapple
       port: exec
     dst:
@@ -36,27 +30,39 @@ executions:
     dst:
       node: gh-checkout
       port: exec
+  - src:
+      node: gh-docker-setup-qemu-action-v3-0-0-red-purple-pomegranate
+      port: exec
+    dst:
+      node: gh-docker-setup-buildx-action-v3-1-0-dolphin-brown-pineapple
+      port: exec
+  - src:
+      node: gh-start
+      port: exec-on-push
+    dst:
+      node: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
+      port: exec
 connections: []
 nodes:
   - id: gh-start
     type: gh-start@v1
     position:
-      x: -450
-      y: 0
+      x: -140
+      y: -40
     settings:
       folded: false
   - id: gh-checkout
     type: github.com/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     position:
-      x: 450
-      y: 100
+      x: 590
+      y: 50
     settings:
       folded: false
   - id: gh-docker-setup-qemu-action-v3-0-0-red-purple-pomegranate
     type: >-
       github.com/docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
     position:
-      x: 890
+      x: 1000
       y: 80
     settings:
       folded: false
@@ -64,8 +70,8 @@ nodes:
     type: >-
       github.com/docker/setup-buildx-action@0d103c3126aa41d772a8362f6aa67afac040f80c
     position:
-      x: 1250
-      y: -120
+      x: 1330
+      y: -130
     settings:
       folded: false
   - id: run-v1-pomegranate-silver-squirrel
@@ -96,7 +102,7 @@ nodes:
       x: 2370
       y: -240
     inputs:
-      path: /tmp/.docker-caache
+      path: /tmp/.docker-cache
       key: ${{ runner.os }}-docker-${{ steps.cache-key.outputs.key }}
       restore-keys: ${{ runner.os }}-docker-
     settings:
@@ -113,39 +119,17 @@ nodes:
         megalinter-reports             megalinter.log
     settings:
       folded: false
-  - id: gh-djbender-docker-buildx-pull-or-build-v0-5-monkey-pineapple-cat
-    type: >-
-      github.com/djbender/docker-buildx-pull-or-build@fce252fd09be7c61ce95c04afaf73e90a09a742b
-    position:
-      x: 850
-      y: 790
-    settings:
-      folded: false
   - id: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
     type: >-
       github.com/djbender/docker-buildx-pull-or-build@fce252fd09be7c61ce95c04afaf73e90a09a742b
     position:
-      x: -60
-      y: 270
+      x: 200
+      y: 220
     inputs:
       image: oxsecurity/megalinter:latest
-      docker_registry: docker.io
+      docker_registry: ${{ env.REGISTRY }}
       docker_password: ${{ secrets.DOCKERHUB_PASSWORD }}
       docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
-    settings:
-      folded: false
-  - id: gh-oxsecurity-megalinter-v7-9-0-giraffe-blackberry-pink
-    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
-    position:
-      x: 1380
-      y: 160
-    settings:
-      folded: false
-  - id: gh-oxsecurity-megalinter-v7-9-0-snake-dog-giraffe
-    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
-    position:
-      x: 0
-      y: 0
     settings:
       folded: false
 registries:
