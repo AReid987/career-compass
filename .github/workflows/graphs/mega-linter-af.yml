@@ -1,12 +1,6 @@
 entry: gh-start
 executions:
   - src:
-      node: gh-start
-      port: exec-on-push
-    dst:
-      node: gh-checkout
-      port: exec
-  - src:
       node: gh-checkout
       port: exec
     dst:
@@ -48,13 +42,25 @@ executions:
     dst:
       node: gh-actions-upload-artifact-v4-3-1-raspberry-raspberry-shark
       port: exec
+  - src:
+      node: gh-start
+      port: exec-on-push
+    dst:
+      node: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
+      port: exec
+  - src:
+      node: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
+      port: exec
+    dst:
+      node: gh-checkout
+      port: exec
 connections: []
 nodes:
   - id: gh-start
     type: gh-start@v1
     position:
-      x: 130
-      y: -470
+      x: -450
+      y: 0
     settings:
       folded: false
   - id: gh-checkout
@@ -119,10 +125,7 @@ nodes:
       x: 2810
       y: 130
     inputs:
-      env:
-        - ''
-        - ''
-        - ''
+      env: []
     settings:
       folded: false
   - id: gh-actions-upload-artifact-v4-3-1-raspberry-raspberry-shark
@@ -137,6 +140,27 @@ nodes:
         megalinter-reports             megalinter.log
     settings:
       folded: false
+  - id: gh-djbender-docker-buildx-pull-or-build-v0-5-monkey-pineapple-cat
+    type: >-
+      github.com/djbender/docker-buildx-pull-or-build@fce252fd09be7c61ce95c04afaf73e90a09a742b
+    position:
+      x: 2990
+      y: 100
+    settings:
+      folded: false
+  - id: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
+    type: >-
+      github.com/djbender/docker-buildx-pull-or-build@fce252fd09be7c61ce95c04afaf73e90a09a742b
+    position:
+      x: -60
+      y: 270
+    inputs:
+      image: oxsecurity/megalinter:latest
+      docker_registry: docker.io
+      docker_password: ${{ secrets.DOCKERHUB_PASSWORD }}
+      docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
+    settings:
+      folded: false
 registries:
   - github.com/docker/setup-qemu-action@v3.0.0
   - github.com/docker/setup-buildx-action@v3.1.0
@@ -144,4 +168,6 @@ registries:
   - github.com/satackey/action-docker-layer-caching@v0.0.11
   - github.com/oxsecurity/megalinter@v7.9.0
   - github.com/actions/upload-artifact@v4.3.1
+  - github.com/oxsecurity/megalinter@v7
+  - github.com/djbender/docker-buildx-pull-or-build@v0.5
 description: ''

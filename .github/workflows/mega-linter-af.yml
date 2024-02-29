@@ -15,8 +15,15 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-and-publish:
-    runs-on: ubuntu-latest
     name: MegaLinter ActionForge
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+      packages: write
+      id-token: write
+
     steps:
       - name: Execute Action Graph
         uses: actionforge/action@afc00b0a012597ec831aa126138f170696e5370a # v0.8.31
