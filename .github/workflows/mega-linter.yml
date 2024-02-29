@@ -26,12 +26,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      issues: write
+      pull-requests: write
       packages: write
       id-token: write
 
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ScribeMD Docker Cache
+        uses: ScribeMD/docker-cache@e481e638abdb45e2fa30845305c387a544cc617f
+        with:
+          key: ${{ runner.os }}-docker-image-${{ steps.cache-key.outputs.key }}
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3.0.0
