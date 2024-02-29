@@ -25,12 +25,6 @@ executions:
       node: gh-actions-cache-v4-0-0-squirrel-orange-snake
       port: exec
   - src:
-      node: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
-      port: exec
-    dst:
-      node: gh-checkout
-      port: exec
-  - src:
       node: gh-docker-setup-qemu-action-v3-0-0-red-purple-pomegranate
       port: exec
     dst:
@@ -39,6 +33,12 @@ executions:
   - src:
       node: gh-start
       port: exec-on-push
+    dst:
+      node: gh-checkout
+      port: exec
+  - src:
+      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
+      port: exec
     dst:
       node: gh-djbender-docker-buildx-pull-or-build-v0-5-orange-kiwi-tiger
       port: exec
@@ -54,7 +54,7 @@ nodes:
   - id: gh-checkout
     type: github.com/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     position:
-      x: 590
+      x: 300
       y: 50
     settings:
       folded: false
@@ -62,15 +62,15 @@ nodes:
     type: >-
       github.com/docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
     position:
-      x: 1000
-      y: 80
+      x: 860
+      y: 90
     settings:
       folded: false
   - id: gh-docker-setup-buildx-action-v3-1-0-dolphin-brown-pineapple
     type: >-
       github.com/docker/setup-buildx-action@0d103c3126aa41d772a8362f6aa67afac040f80c
     position:
-      x: 1330
+      x: 1280
       y: -130
     settings:
       folded: false
@@ -123,8 +123,8 @@ nodes:
     type: >-
       github.com/djbender/docker-buildx-pull-or-build@fce252fd09be7c61ce95c04afaf73e90a09a742b
     position:
-      x: 200
-      y: 220
+      x: 2810
+      y: -330
     inputs:
       image: oxsecurity/megalinter:latest
       docker_registry: ${{ env.REGISTRY }}
