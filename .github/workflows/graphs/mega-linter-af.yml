@@ -117,7 +117,7 @@ nodes:
     type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
     position:
       x: 2770
-      y: -290
+      y: -250
     inputs:
       env:
         - ''
