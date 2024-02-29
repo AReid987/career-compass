@@ -7,6 +7,8 @@ env:
   APPLY_FIXES_EVENT: all
   APPLY_FIXES_MODE: commit
   REGISTRY: docker.io
+  VALIDATE_ALL_CODEBASE: 'true'
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

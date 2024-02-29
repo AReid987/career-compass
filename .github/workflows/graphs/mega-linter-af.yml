@@ -116,10 +116,11 @@ nodes:
   - id: gh-oxsecurity-megalinter-v7-9-0-purple-red-banana
     type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
     position:
-      x: 2770
-      y: -250
+      x: 2810
+      y: 130
     inputs:
       env:
+        - ''
         - ''
         - ''
     settings:
