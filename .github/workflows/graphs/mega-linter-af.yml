@@ -1,40 +1,10 @@
 entry: gh-start
 executions:
   - src:
-      node: gh-checkout
-      port: exec
-    dst:
-      node: gh-docker-setup-qemu-action-v3-0-0-red-purple-pomegranate
-      port: exec
-  - src:
-      node: gh-docker-setup-buildx-action-v3-1-0-dolphin-brown-pineapple
-      port: exec
-    dst:
-      node: run-v1-pomegranate-silver-squirrel
-      port: exec
-  - src:
-      node: run-v1-pomegranate-silver-squirrel
-      port: exec-success
-    dst:
-      node: run-v1-koala-brown-orange
-      port: exec
-  - src:
-      node: run-v1-koala-brown-orange
-      port: exec-success
-    dst:
-      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
-      port: exec
-  - src:
       node: gh-start
       port: exec-on-push
     dst:
       node: gh-checkout
-      port: exec
-  - src:
-      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
-      port: exec
-    dst:
-      node: gh-oxsecurity-megalinter-v7-plum-lion-penguin
       port: exec
   - src:
       node: gh-oxsecurity-megalinter-v7-plum-lion-penguin
@@ -42,7 +12,49 @@ executions:
     dst:
       node: gh-actions-upload-artifact-dolphin-watermelon-panda
       port: exec
-connections: []
+  - src:
+      node: gh-checkout
+      port: exec
+    dst:
+      node: gh-docker-setup-qemu-action-v3-0-0-gold-yellow-octopus
+      port: exec
+  - src:
+      node: gh-docker-setup-qemu-action-v3-0-0-gold-yellow-octopus
+      port: exec
+    dst:
+      node: gh-docker-setup-buildx-action-v3-1-0-silver-cranberry-strawberry
+      port: exec
+  - src:
+      node: gh-docker-setup-buildx-action-v3-1-0-silver-cranberry-strawberry
+      port: exec
+    dst:
+      node: run-v1-pomegranate-silver-squirrel
+      port: exec
+  - src:
+      node: run-v1-pomegranate-silver-squirrel
+      port: exec-success
+    dst:
+      node: run-v1-koala-brown-orange
+      port: exec
+  - src:
+      node: run-v1-koala-brown-orange
+      port: exec-success
+    dst:
+      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
+      port: exec
+  - src:
+      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
+      port: exec
+    dst:
+      node: gh-oxsecurity-megalinter-v7-plum-lion-penguin
+      port: exec
+connections:
+  - src:
+      node: string-fmt-v1-parrot-kangaroo-monkey
+      port: result
+    dst:
+      node: gh-actions-upload-artifact-dolphin-watermelon-panda
+      port: path
 nodes:
   - id: gh-start
     type: gh-start@v1
@@ -58,24 +70,6 @@ nodes:
       y: -80
     inputs:
       token: ${{ secrets.GITHUB_TOKEN }}
-    settings:
-      folded: false
-  - id: gh-docker-setup-qemu-action-v3-0-0-red-purple-pomegranate
-    type: >-
-      github.com/docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
-    position:
-      x: 740
-      y: 80
-    settings:
-      folded: false
-  - id: gh-docker-setup-buildx-action-v3-1-0-dolphin-brown-pineapple
-    type: >-
-      github.com/docker/setup-buildx-action@0d103c3126aa41d772a8362f6aa67afac040f80c
-    position:
-      x: 1120
-      y: -60
-    inputs:
-      version: latest
     settings:
       folded: false
   - id: run-v1-pomegranate-silver-squirrel
@@ -140,6 +134,22 @@ nodes:
     inputs:
       input[0]: null
       fmt: '| megalinter-reports mega-linter.log'
+    settings:
+      folded: false
+  - id: gh-docker-setup-qemu-action-v3-0-0-gold-yellow-octopus
+    type: >-
+      github.com/docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
+    position:
+      x: 710
+      y: -20
+    settings:
+      folded: false
+  - id: gh-docker-setup-buildx-action-v3-1-0-silver-cranberry-strawberry
+    type: >-
+      github.com/docker/setup-buildx-action@0d103c3126aa41d772a8362f6aa67afac040f80c
+    position:
+      x: 1130
+      y: -80
     settings:
       folded: false
 registries:
