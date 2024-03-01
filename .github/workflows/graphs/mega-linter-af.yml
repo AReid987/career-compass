@@ -6,6 +6,12 @@ executions:
     dst:
       node: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
       port: exec
+  - src:
+      node: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
+      port: exec
+    dst:
+      node: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
+      port: exec
 connections:
   - src:
       node: gh-secret-v1-elephant-yellow-rabbit
@@ -13,6 +19,24 @@ connections:
     dst:
       node: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
       port: token
+  - src:
+      node: env-array-v1-red-snake-lion
+      port: env
+    dst:
+      node: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
+      port: env
+  - src:
+      node: env-get-v1-monkey-plum-giraffe
+      port: env
+    dst:
+      node: env-array-v1-red-snake-lion
+      port: env[0]
+  - src:
+      node: env-get-v1-rabbit-dolphin-penguin
+      port: env
+    dst:
+      node: env-array-v1-red-snake-lion
+      port: env[1]
 nodes:
   - id: gh-start
     type: gh-start@v1
@@ -24,17 +48,52 @@ nodes:
   - id: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
     type: github.com/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     position:
-      x: 140
-      y: -170
+      x: 120
+      y: -570
     settings:
       folded: false
   - id: gh-secret-v1-elephant-yellow-rabbit
     type: gh-secret@v1
     position:
-      x: -290
-      y: 370
+      x: -320
+      y: 200
     inputs:
       name: secrets.GITHUB_TOKEN
+    settings:
+      folded: false
+  - id: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
+    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
+    position:
+      x: 690
+      y: 10
+    settings:
+      folded: false
+  - id: env-array-v1-red-snake-lion
+    type: env-array@v1
+    position:
+      x: 420
+      y: 230
+    inputs:
+      env[0]: ''
+      env[1]: ''
+    settings:
+      folded: false
+  - id: env-get-v1-monkey-plum-giraffe
+    type: env-get@v1
+    position:
+      x: 120
+      y: 260
+    inputs:
+      env: GITHUB_TOKEN
+    settings:
+      folded: false
+  - id: env-get-v1-rabbit-dolphin-penguin
+    type: env-get@v1
+    position:
+      x: 120
+      y: 390
+    inputs:
+      env: VALIDATE_ALL_CODEBASE
     settings:
       folded: false
 registries:

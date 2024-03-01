@@ -37,15 +37,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: MegaLinter
-      #   id: ml
-      #   # https://megalinter.io/flavors
-      #   # uses: docker://oxsecurity/megalinter:latest
-      #   uses: oxsecurity/megalinter@v7.9.0
-      #   env:
-      #     #  https://megalinter.io/configuration
-      #     VALIDATE_ALL_CODEBASE: 'true'
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: MegaLinter
+        id: ml
+        # https://megalinter.io/flavors
+        # uses: docker://oxsecurity/megalinter:latest
+        uses: oxsecurity/megalinter@v7.9.0
+        env:
+          #  https://megalinter.io/configuration
+          VALIDATE_ALL_CODEBASE: 'true'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: Archive production artifacts
       #   if: success() || failure()
