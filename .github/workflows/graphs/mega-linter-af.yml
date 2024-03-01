@@ -35,15 +35,15 @@ nodes:
   - id: gh-start
     type: gh-start@v1
     position:
-      x: -130
-      y: -20
+      x: -180
+      y: -270
     settings:
       folded: false
   - id: gh-checkout
     type: github.com/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     position:
-      x: 250
-      y: 90
+      x: 230
+      y: -80
     inputs:
       token: ${{ secrets.GITHUB_TOKEN }}
     settings:
@@ -52,7 +52,7 @@ nodes:
     type: >-
       github.com/docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
     position:
-      x: 670
+      x: 740
       y: 80
     settings:
       folded: false
@@ -61,7 +61,7 @@ nodes:
       github.com/docker/setup-buildx-action@0d103c3126aa41d772a8362f6aa67afac040f80c
     position:
       x: 1120
-      y: -90
+      y: -60
     inputs:
       version: latest
     settings:
@@ -69,8 +69,8 @@ nodes:
   - id: run-v1-pomegranate-silver-squirrel
     type: run@v1
     position:
-      x: 1700
-      y: -180
+      x: 1590
+      y: -0.0
     inputs:
       script: >-
         echo "IMAGE_NAME=$(echo '${{ github.repository }}' | tr '[:upper:]'
@@ -80,8 +80,8 @@ nodes:
   - id: run-v1-koala-brown-orange
     type: run@v1
     position:
-      x: 2030
-      y: -230
+      x: 1970
+      y: -0.0
     inputs:
       script: >-
         echo "{key}=$(echo $IMAGE_NAME | sha256sum | cut -d ' ' -f 1)" >>
@@ -91,8 +91,8 @@ nodes:
   - id: gh-actions-cache-v4-0-0-squirrel-orange-snake
     type: github.com/actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2
     position:
-      x: 2370
-      y: -240
+      x: 2330
+      y: -90
     inputs:
       path: /tmp/.docker-caache
       key: ${{ runner.os }}-docker-${{ steps.cache-key.outputs.key }}
