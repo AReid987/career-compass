@@ -8,7 +8,6 @@ env:
   APPLY_FIXES_MODE: commit
   REGISTRY: docker.io
   VALIDATE_ALL_CODEBASE: 'true'
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   GITHUB_WORKSPACE: /github/workspace
 
 concurrency:
@@ -30,3 +29,12 @@ jobs:
         uses: actionforge/action@afc00b0a012597ec831aa126138f170696e5370a # v0.8.31
         with:
           graph_file: mega-linter-af.yml
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+        env:
+          APPLY_FIXES: all
+          APPLY_FIXES_EVENT: all
+          APPLY_FIXES_MODE: commit
+          REGISTRY: docker.io
+          VALIDATE_ALL_CODEBASE: 'true'
+          GITHUB_WORKSPACE: /github/workspace
