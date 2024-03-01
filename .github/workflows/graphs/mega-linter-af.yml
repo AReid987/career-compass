@@ -180,10 +180,11 @@ nodes:
     type: env-array@v1
     position:
       x: 3150
-      y: -60
+      y: -90
     inputs:
       env[0]: VALIDATE_ALL_CODEBASE=true
       env[1]: ''
+      env[2]: GITHUB_WORKSPACE=/github/workspace
     settings:
       folded: false
   - id: env-get-v1-squirrel-cherry-squirrel
@@ -207,8 +208,8 @@ nodes:
   - id: env-get-v1-grape-octopus-plum
     type: env-get@v1
     position:
-      x: 2840
-      y: 100
+      x: 2860
+      y: 90
     inputs:
       env: GITHBUH_TOKEN
     settings:
