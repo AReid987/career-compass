@@ -21,8 +21,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  push_to_registry:
-    name: Push Docker image to Docker GitHub
+  lint_repository:
+    name: Lint reopository
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -55,6 +55,16 @@ jobs:
           path: |
             megalinter-reports
             megalinter.log
+
+      - name: Create Pull Request with applied fixes
+        id: cpr
+        if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'pull_request' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository) && !contains(github.event.head_commit.message, 'skip fix')
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: '[MegaLinter] Apply linters automatic fixes'
+          title: '[MegaLinter] Apply linters automatic fixes'
+          labels: bot
 
   #   - name: Set up QEMU
   #     uses: docker/setup-qemu-action@v3.0.0

@@ -10,7 +10,13 @@ executions:
       node: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
       port: exec
     dst:
-      node: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
+      node: gh-oxsecurity-megalinter-v7-9-0-grape-snake-watermelon
+      port: exec
+  - src:
+      node: gh-oxsecurity-megalinter-v7-9-0-grape-snake-watermelon
+      port: exec
+    dst:
+      node: gh-actions-upload-artifact-elephant-orange-lemon
       port: exec
 connections:
   - src:
@@ -41,7 +47,7 @@ connections:
       node: env-array-v1-red-snake-lion
       port: env
     dst:
-      node: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
+      node: gh-oxsecurity-megalinter-v7-9-0-grape-snake-watermelon
       port: env
 nodes:
   - id: gh-start
@@ -65,13 +71,6 @@ nodes:
       y: 200
     inputs:
       name: secrets.GITHUB_TOKEN
-    settings:
-      folded: false
-  - id: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
-    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
-    position:
-      x: 730
-      y: 410
     settings:
       folded: false
   - id: env-array-v1-red-snake-lion
@@ -103,6 +102,32 @@ nodes:
       env: VALIDATE_ALL_CODEBASE
     settings:
       folded: false
+  - id: gh-actions-upload-artifact-elephant-orange-lemon
+    type: >-
+      github.com/actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3
+    position:
+      x: 1020
+      y: 370
+    inputs:
+      name: Megalinter roports
+      path: megalinter-reports
+    settings:
+      folded: false
+  - id: gh-peter-evans-create-pull-request-v6-0-1-shark-cat-mango
+    type: >-
+      github.com/peter-evans/create-pull-request@a4f52f8033a6168103c2538976c07b467e8163bc
+    position:
+      x: 1450
+      y: -220
+    settings:
+      folded: false
+  - id: gh-oxsecurity-megalinter-v7-9-0-grape-snake-watermelon
+    type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
+    position:
+      x: 710
+      y: 410
+    settings:
+      folded: false
 registries:
   - github.com/docker/setup-qemu-action@v3.0.0
   - github.com/docker/setup-buildx-action@v3.1.0
@@ -113,4 +138,5 @@ registries:
   - github.com/oxsecurity/megalinter@v7
   - github.com/djbender/docker-buildx-pull-or-build@v0.5
   - github.com/actions/checkout@v4.1.1
+  - github.com/peter-evans/create-pull-request@v6.0.1
 description: ''
