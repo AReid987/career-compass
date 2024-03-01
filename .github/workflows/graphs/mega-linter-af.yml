@@ -14,23 +14,11 @@ executions:
       port: exec
 connections:
   - src:
-      node: gh-secret-v1-elephant-yellow-rabbit
-      port: secret
-    dst:
-      node: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
-      port: token
-  - src:
       node: env-array-v1-red-snake-lion
       port: env
     dst:
       node: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
       port: env
-  - src:
-      node: env-get-v1-monkey-plum-giraffe
-      port: env
-    dst:
-      node: env-array-v1-red-snake-lion
-      port: env[0]
   - src:
       node: env-get-v1-rabbit-dolphin-penguin
       port: env
@@ -43,26 +31,44 @@ connections:
     dst:
       node: env-array-v1-red-snake-lion
       port: env[2]
+  - src:
+      node: env-array-v1-red-snake-lion
+      port: env
+    dst:
+      node: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
+      port: env
+  - src:
+      node: gh-secret-v1-elephant-yellow-rabbit
+      port: secret
+    dst:
+      node: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
+      port: token
+  - src:
+      node: gh-secret-v1-elephant-yellow-rabbit
+      port: secret
+    dst:
+      node: env-array-v1-red-snake-lion
+      port: env[0]
 nodes:
   - id: gh-start
     type: gh-start@v1
     position:
       x: -250
-      y: -740
+      y: -800
     settings:
       folded: false
   - id: gh-actions-checkout-v4-1-1-squirrel-mango-raspberry
     type: github.com/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     position:
-      x: 200
-      y: -570
+      x: 180
+      y: -450
     settings:
       folded: false
   - id: gh-secret-v1-elephant-yellow-rabbit
     type: gh-secret@v1
     position:
-      x: -340
-      y: 200
+      x: -700
+      y: 240
     inputs:
       name: secrets.GITHUB_TOKEN
     settings:
@@ -70,15 +76,15 @@ nodes:
   - id: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
     type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
     position:
-      x: 730
-      y: -40
+      x: 760
+      y: 260
     settings:
       folded: false
   - id: env-array-v1-red-snake-lion
     type: env-array@v1
     position:
-      x: 420
-      y: 200
+      x: -170
+      y: 440
     inputs:
       env[0]: ''
       env[1]: ''
@@ -88,8 +94,8 @@ nodes:
   - id: env-get-v1-monkey-plum-giraffe
     type: env-get@v1
     position:
-      x: 100
-      y: 200
+      x: -580
+      y: 360
     inputs:
       env: GITHUB_TOKEN
     settings:
@@ -97,8 +103,8 @@ nodes:
   - id: env-get-v1-rabbit-dolphin-penguin
     type: env-get@v1
     position:
-      x: 100
-      y: 320
+      x: -580
+      y: 490
     inputs:
       env: VALIDATE_ALL_CODEBASE
     settings:
@@ -106,8 +112,8 @@ nodes:
   - id: env-get-v1-parrot-koala-silver
     type: env-get@v1
     position:
-      x: 100
-      y: 440
+      x: -580
+      y: 630
     inputs:
       env: GITHUB_WORKSPACE
     settings:

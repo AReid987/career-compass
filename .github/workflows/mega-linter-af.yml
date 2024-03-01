@@ -9,7 +9,7 @@ env:
   REGISTRY: docker.io
   VALIDATE_ALL_CODEBASE: 'true'
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  GITHUB_WORKSPACE: ${{ github.workspace }}
+  GITHUB_WORKSPACE: /github/workspace
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
