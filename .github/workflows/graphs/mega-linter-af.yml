@@ -34,7 +34,7 @@ nodes:
       x: -290
       y: 370
     inputs:
-      name: GITHUB_TOKEN
+      name: secrets.GITHUB_TOKEN
     settings:
       folded: false
 registries:
