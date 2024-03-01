@@ -82,7 +82,7 @@ nodes:
     inputs:
       env[0]: ''
       env[1]: ''
-      env[2]: GITHUB_WORKSPACE=/github/workspace
+      env[2]: GITHUB_WORKSPACE=${{ github.workspace }}
     settings:
       folded: false
   - id: env-get-v1-monkey-plum-giraffe

@@ -44,17 +44,17 @@ jobs:
         uses: oxsecurity/megalinter@v7.9.0
         env:
           #  https://megalinter.io/configuration
-          VALIDATE_ALL_CODEBASE: 'true'
+          VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Archive production artifacts
-      #   if: success() || failure()
-      #   uses: actions/upload-artifact@v4.3.1
-      #   with:
-      #     name: MegaLinter reports
-      #     path: |
-      #       megalinter-reports
-      #       megalinter.log
+      - name: Archive production artifacts
+        if: success() || failure()
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: MegaLinter reports
+          path: |
+            megalinter-reports
+            megalinter.log
 
   #   - name: Set up QEMU
   #     uses: docker/setup-qemu-action@v3.0.0
