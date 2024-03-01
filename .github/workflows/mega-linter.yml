@@ -83,7 +83,6 @@ jobs:
         with:
           name: MegaLinter reports
           path: |
-            /tmp/.docker-images/megalinter.tar
             megalinter-reports
             megalinter.log
 

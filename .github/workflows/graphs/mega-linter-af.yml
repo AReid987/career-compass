@@ -31,30 +31,18 @@ executions:
       node: gh-checkout
       port: exec
   - src:
-      node: branch-v1-squirrel-dog-penguin
-      port: exec-then
+      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
+      port: exec
     dst:
       node: gh-oxsecurity-megalinter-v7-plum-lion-penguin
       port: exec
   - src:
-      node: gh-actions-cache-v4-0-0-squirrel-orange-snake
+      node: gh-oxsecurity-megalinter-v7-plum-lion-penguin
       port: exec
     dst:
-      node: branch-v1-squirrel-dog-penguin
+      node: gh-actions-upload-artifact-dolphin-watermelon-panda
       port: exec
-connections:
-  - src:
-      node: env-get-v1-cherry-zebra-silver
-      port: env
-    dst:
-      node: string-match-v1-lemon-purple-pear
-      port: str1
-  - src:
-      node: string-match-v1-lemon-purple-pear
-      port: result
-    dst:
-      node: branch-v1-squirrel-dog-penguin
-      port: condition
+connections: []
 nodes:
   - id: gh-start
     type: gh-start@v1
@@ -126,7 +114,7 @@ nodes:
   - id: gh-oxsecurity-megalinter-v7-plum-lion-penguin
     type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
     position:
-      x: 3500
+      x: 2790
       y: -60
     inputs:
       env:
@@ -134,42 +122,24 @@ nodes:
         - ''
     settings:
       folded: false
-  - id: env-get-v1-cherry-zebra-silver
-    type: env-get@v1
+  - id: gh-actions-upload-artifact-dolphin-watermelon-panda
+    type: >-
+      github.com/actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3
     position:
-      x: 2720
-      y: -70
-    inputs:
-      env: VALIDATE_ALL_CODEBASE
-    settings:
-      folded: false
-  - id: string-fmt-v1-brown-rabbit-cranberry
-    type: string-fmt@v1
-    position:
-      x: 2740
-      y: 460
-    inputs:
-      input[0]: null
-      fmt: '%v'
-    settings:
-      folded: false
-  - id: branch-v1-squirrel-dog-penguin
-    type: branch@v1
-    position:
-      x: 3280
+      x: 3370
       y: -60
     inputs:
-      condition: true
+      name: Megalinter Reports
     settings:
       folded: false
-  - id: string-match-v1-lemon-purple-pear
-    type: string-match@v1
+  - id: string-fmt-v1-parrot-kangaroo-monkey
+    type: string-fmt@v1
     position:
-      x: 2970
-      y: 20
+      x: 2860
+      y: 320
     inputs:
-      op: equals
-      str2: 'true'
+      input[0]: null
+      fmt: '| megalinter-reports mega-linter.log'
     settings:
       folded: false
 registries:
