@@ -37,4 +37,4 @@ jobs:
           APPLY_FIXES_MODE: commit
           REGISTRY: docker.io
           VALIDATE_ALL_CODEBASE: 'true'
-          GITHUB_WORKSPACE: /github/workspace
+          GITHUB_WORKSPACE: '/github/workspace'

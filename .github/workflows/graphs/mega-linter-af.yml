@@ -14,12 +14,6 @@ executions:
       port: exec
 connections:
   - src:
-      node: env-array-v1-red-snake-lion
-      port: env
-    dst:
-      node: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
-      port: env
-  - src:
       node: env-get-v1-rabbit-dolphin-penguin
       port: env
     dst:
@@ -49,6 +43,12 @@ connections:
     dst:
       node: env-array-v1-red-snake-lion
       port: env[0]
+  - src:
+      node: env-array-v1-red-snake-lion
+      port: env
+    dst:
+      node: gh-oxsecurity-megalinter-v7-9-0-mango-plum-orange
+      port: env
 nodes:
   - id: gh-start
     type: gh-start@v1
