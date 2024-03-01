@@ -55,12 +55,36 @@ connections:
     dst:
       node: gh-actions-upload-artifact-dolphin-watermelon-panda
       port: path
+  - src:
+      node: env-get-v1-squirrel-cherry-squirrel
+      port: env
+    dst:
+      node: env-array-v1-pear-gold-monkey
+      port: env[0]
+  - src:
+      node: gh-secret-v1-green-blue-yellow
+      port: secret
+    dst:
+      node: gh-checkout
+      port: token
+  - src:
+      node: gh-secret-v1-lion-pear-orange
+      port: secret
+    dst:
+      node: env-array-v1-pear-gold-monkey
+      port: env[1]
+  - src:
+      node: env-array-v1-pear-gold-monkey
+      port: env
+    dst:
+      node: gh-oxsecurity-megalinter-v7-plum-lion-penguin
+      port: env
 nodes:
   - id: gh-start
     type: gh-start@v1
     position:
-      x: -180
-      y: -270
+      x: -400
+      y: -430
     settings:
       folded: false
   - id: gh-checkout
@@ -108,8 +132,8 @@ nodes:
   - id: gh-oxsecurity-megalinter-v7-plum-lion-penguin
     type: github.com/oxsecurity/megalinter@190cd0dad6dc52b2de5b810e3b290c3d6bdcc0f2
     position:
-      x: 2790
-      y: -60
+      x: 3390
+      y: -250
     inputs:
       env:
         - ''
@@ -120,8 +144,8 @@ nodes:
     type: >-
       github.com/actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3
     position:
-      x: 3370
-      y: -60
+      x: 3640
+      y: -120
     inputs:
       name: Megalinter Reports
     settings:
@@ -129,8 +153,8 @@ nodes:
   - id: string-fmt-v1-parrot-kangaroo-monkey
     type: string-fmt@v1
     position:
-      x: 2860
-      y: 320
+      x: 3210
+      y: 300
     inputs:
       input[0]: null
       fmt: '| megalinter-reports mega-linter.log'
@@ -150,6 +174,43 @@ nodes:
     position:
       x: 1130
       y: -80
+    settings:
+      folded: false
+  - id: env-array-v1-pear-gold-monkey
+    type: env-array@v1
+    position:
+      x: 3150
+      y: -60
+    inputs:
+      env[0]: VALIDATE_ALL_CODEBASE=true
+      env[1]: ''
+    settings:
+      folded: false
+  - id: gh-secret-v1-lion-pear-orange
+    type: gh-secret@v1
+    position:
+      x: 2740
+      y: 110
+    inputs:
+      name: GITHUB_TOKEN
+    settings:
+      folded: false
+  - id: env-get-v1-squirrel-cherry-squirrel
+    type: env-get@v1
+    position:
+      x: 2860
+      y: -30
+    inputs:
+      env: VALIIDATE_ALL_CODEBASE
+    settings:
+      folded: false
+  - id: gh-secret-v1-green-blue-yellow
+    type: gh-secret@v1
+    position:
+      x: -230
+      y: 510
+    inputs:
+      name: GITHUB_TOKEN
     settings:
       folded: false
 registries:
