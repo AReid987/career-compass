@@ -68,17 +68,17 @@ connections:
       node: gh-checkout
       port: token
   - src:
-      node: gh-secret-v1-lion-pear-orange
-      port: secret
-    dst:
-      node: env-array-v1-pear-gold-monkey
-      port: env[1]
-  - src:
       node: env-array-v1-pear-gold-monkey
       port: env
     dst:
       node: gh-oxsecurity-megalinter-v7-plum-lion-penguin
       port: env
+  - src:
+      node: env-get-v1-grape-octopus-plum
+      port: env
+    dst:
+      node: env-array-v1-pear-gold-monkey
+      port: env[1]
 nodes:
   - id: gh-start
     type: gh-start@v1
@@ -186,15 +186,6 @@ nodes:
       env[1]: ''
     settings:
       folded: false
-  - id: gh-secret-v1-lion-pear-orange
-    type: gh-secret@v1
-    position:
-      x: 2740
-      y: 110
-    inputs:
-      name: GITHUB_TOKEN
-    settings:
-      folded: false
   - id: env-get-v1-squirrel-cherry-squirrel
     type: env-get@v1
     position:
@@ -211,6 +202,15 @@ nodes:
       y: 510
     inputs:
       name: secrets.GITHUB_TOKEN
+    settings:
+      folded: false
+  - id: env-get-v1-grape-octopus-plum
+    type: env-get@v1
+    position:
+      x: 2840
+      y: 100
+    inputs:
+      env: GITHBUH_TOKEN
     settings:
       folded: false
 registries:
