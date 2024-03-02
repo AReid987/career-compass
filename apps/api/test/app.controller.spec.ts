@@ -30,7 +30,7 @@ describe('AppController', () => {
   })
 
   describe('root', () => {
-    it('should return "Hello World!" from requests on api endpoint "/"', async () => {
+    it('should return ("Hello World!") from requests on api endpoint "/"', async () => {
       return request(httpServer).get('/').expect(200).expect('Hello World!')
     })
 
