@@ -38,6 +38,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - run: git config --global --add safe.directory /github/workspace/.git
+
       - name: MegaLinter
         id: ml
         # https://megalinter.io/flavors
