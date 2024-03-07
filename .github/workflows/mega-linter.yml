@@ -38,8 +38,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - run: sudo git config --system --add safe.directory /github/workspace/.git
+
       - name: Change ownership
-        run: sudo chown -R username:groupname /path/to/repository
+        run: sudo chown -R username:groupname /githib/workspace/.git
 
       - name: MegaLinter
         id: ml
