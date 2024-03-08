@@ -40,8 +40,8 @@ jobs:
 
       - run: sudo git config --system --add safe.directory /github/workspace/.git
 
-      - name: Change ownership
-        # run: sudo chown -R username:groupname /githib/workspace/
+      # - name: Change ownership
+      # run: sudo chown -R username:groupname /githib/workspace/
 
       - name: MegaLinter
         id: ml
