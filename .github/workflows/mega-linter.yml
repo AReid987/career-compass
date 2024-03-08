@@ -36,9 +36,10 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4.1.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
-      - run: sudo git config --system --add safe.directory /github/workspace/.git
+      - name: Configure Git safe directory
+        run: git config --global --add safe.directory /github/workspace/.git
 
       # - name: Change ownership
       # run: sudo chown -R username:groupname /githib/workspace/
