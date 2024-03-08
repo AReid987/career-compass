@@ -42,7 +42,7 @@ jobs:
         run: git config --global --add safe.directory /github/workspace/.git
 
       - name: Configure Git safe directory at system level
-        run: sudo git config --system --add safe.directory /githib/workspace/.git
+        run: git config --system --add safe.directory /githib/workspace/.git
 
       # - name: Change ownership
       # run: sudo chown -R username:groupname /githib/workspace/
