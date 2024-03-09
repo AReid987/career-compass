@@ -19,15 +19,17 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout All
-        uses: actions/checkout@v4.1.1
-        with:
-          fetch-depth: 0
+      - run: echo "CI"
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@a3252b78c470c02df07e9d59298aecedc3ccdd6d
-        with:
-          version: 8
+      # - name: Checkout All
+      #   uses: actions/checkout@v4.1.1
+      #   with:
+      #     fetch-depth: 0
+
+      # - name: Setup pnpm
+      #   uses: pnpm/action-setup@a3252b78c470c02df07e9d59298aecedc3ccdd6d
+      #   with:
+      #     version: 8
   #     # Cache node_modules
   #     - uses: actions/setup-node@v4.0.2
   #       with:
