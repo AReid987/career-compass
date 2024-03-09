@@ -41,7 +41,8 @@ jobs:
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
-      # - name: Configure Git safe directory
+      - name: Configure Git safe directory
+      run: git config --global --add safe.directory /github/workspace/.git
       #   run: git config --global --add safe.directory $PWD
 
       # - name: Configure Git safe directory at system level
