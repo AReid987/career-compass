@@ -39,10 +39,10 @@ jobs:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
       - name: Configure Git safe directory
-        run: git config --global --add safe.directory /github/workspace/.git
+        run: git config --global --add safe.directory $PWD
 
-      - name: Configure Git safe directory at system level
-        run: git config --system --add safe.directory /githib/workspace/.git
+      # - name: Configure Git safe directory at system level
+      #   run: git config --system --add safe.directory /githib/workspace/.git
 
       # - name: Change ownership
       # run: sudo chown -R username:groupname /githib/workspace/
