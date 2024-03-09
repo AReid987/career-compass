@@ -34,7 +34,7 @@ jobs:
 
     steps:
       - name: Configure Git safe directory
-        run: git add git config --global --add safe.directory /github/workspace/.git
+        run: git config --global --add safe.directory /github/workspace/.git
 
       - name: Check out the repo
         uses: actions/checkout@v4.1.1
