@@ -33,13 +33,16 @@ jobs:
       id-token: write
 
     steps:
+      - name: Configure Git safe directory
+        run: git add git config --global --add safe.directory /github/workspace/.git
+
       - name: Check out the repo
         uses: actions/checkout@v4.1.1
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
-      - name: Configure Git safe directory
-        run: git config --global --add safe.directory $PWD
+      # - name: Configure Git safe directory
+      #   run: git config --global --add safe.directory $PWD
 
       # - name: Configure Git safe directory at system level
       #   run: git config --system --add safe.directory /githib/workspace/.git
