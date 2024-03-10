@@ -32,7 +32,7 @@ jobs:
 
     steps:
       - name: Configure Git safe directory
-        run: git config --global --add safe.directory /github/workspace/.Git
+        run: git config --global --add safe.directory /github/workspace/.git
       # Git Checkout
       - name: Checkout Code
         uses: actions/checkout@v4.1.1
