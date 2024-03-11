@@ -24,6 +24,6 @@ FILEIO_REPORTER: true
 
 PRE_COMMANDS:
   - command: git config --global --add safe.directory /github/workspace/.git
-    cwd: 'root'
+    cwd: 'workspace'
 # Uncomment if you want MegaLinter to detect errors but not block CI to pass
 # DISABLE_ERRORS: true
