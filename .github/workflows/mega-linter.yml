@@ -32,11 +32,13 @@ jobs:
     steps:
       # Git Checkout
       - name: Checkout Code
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           fetch-depth: 0 # If you use VALIDATE_ALL_CODEBASE = true, you can remove this line to improve performances
-
+      - name: Configure Git safe directory
+        run: git config --global --add safe.directory /github/workspace/.git
+        run: echo ${{ github.workspace }}
       # MegaLinter
       - name: MegaLinter
         id: ml
@@ -50,7 +52,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # ADD YOUR CUSTOM ENV VARIABLES HERE OR DEFINE THEM IN A FILE .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
           # DISABLE: COPYPASTE,SPELL # Uncomment to disable copy-paste and spell checks
-      - run: echo ${{ github.workspace }}
+
       # Upload MegaLinter artifacts
       - name: Archive production artifacts
         if: success() || failure()
@@ -88,4 +90,4 @@ jobs:
           branch: ${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
           commit_message: '[MegaLinter] Apply linters fixes'
           commit_user_name: megalinter-bot
-          commit_user_email: nicolas.vuillamy@ox.security
+          commit_user_email: read.musik@gmail.com
