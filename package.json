@@ -42,7 +42,7 @@
     "@nestjs/core": "^10.3.3",
     "@nestjs/microservices": "^10.3.3",
     "@nestjs/platform-express": "^10.3.3",
-    "@nx/rspack": "^18.0.0",
+    "@nx/rspack": "^18.0.6",
     "@swc-node/register": "^1.8.0",
     "@swc/core": "^1.4.2",
     "buffer-from": "^1.1.2",
