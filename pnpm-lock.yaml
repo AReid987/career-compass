@@ -44,7 +44,7 @@ importers:
         version: 14.1.0(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)
       nx-plugin-vite:
         specifier: 2.2.1
-        version: 2.2.1(@nrwl/devkit@14.8.9)(@nrwl/node@14.8.9)(@nrwl/tao@14.8.9)(@nrwl/workspace@14.8.9)(esbuild@0.14.54)(vite@5.1.5)
+        version: 2.2.1(@nrwl/devkit@14.8.9)(@nrwl/node@14.8.9)(@nrwl/tao@14.8.9)(@nrwl/workspace@14.8.9)(esbuild@0.14.54)(vite@5.1.6)
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
@@ -75,7 +75,7 @@ importers:
         version: 18.0.5(@babel/core@7.24.0)(@rspack/core@0.5.6)(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(esbuild@0.14.54)(next@14.1.0)(nx@18.0.5)(typescript@5.4.2)(webpack@5.90.3)
       '@nx/vite':
         specifier: 18.0.5
-        version: 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.5)(vitest@1.3.1)
+        version: 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.6)(vitest@1.3.1)
       '@nx/web':
         specifier: 18.0.5
         version: 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)
@@ -107,8 +107,8 @@ importers:
         specifier: ^3.0.0
         version: 3.2.5
       vite:
-        specifier: ~5.1.4
-        version: 5.1.5(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
+        specifier: ~5.1.6
+        version: 5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
       vitest:
         specifier: ^1.3.1
         version: 1.3.1(@types/node@20.11.25)(@vitest/ui@1.3.1)(jsdom@24.0.0)(less@4.2.0)(stylus@0.63.0)
@@ -278,7 +278,7 @@ importers:
         version: 18.2.19
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.2.1(vite@5.1.5)
+        version: 4.2.1(vite@5.1.6)
       '@vitest/coverage-v8':
         specifier: ^1.3.1
         version: 1.3.1(vitest@1.3.1)
@@ -314,7 +314,7 @@ importers:
         version: 5.3.3
       vite-tsconfig-paths:
         specifier: ^4.3.1
-        version: 4.3.1(typescript@5.3.3)(vite@5.1.5)
+        version: 4.3.1(typescript@5.3.3)(vite@5.1.6)
       vitest:
         specifier: ^1.3.1
         version: 1.3.1(@types/node@20.11.25)(@vitest/ui@1.3.1)(jsdom@24.0.0)(less@4.2.0)(stylus@0.63.0)
@@ -2638,7 +2638,7 @@ packages:
     dependencies:
       '@jest/types': 28.1.3
       '@types/node': 20.11.25
-      chalk: 4.1.0
+      chalk: 4.1.2
       jest-message-util: 28.1.3
       jest-util: 28.1.3
       slash: 3.0.0
@@ -2818,12 +2818,12 @@ packages:
     dependencies:
       '@bcoe/v8-coverage': 0.2.3
       '@jest/console': 28.1.3
-      '@jest/test-result': 28.1.1
+      '@jest/test-result': 28.1.3
       '@jest/transform': 28.1.3
       '@jest/types': 28.1.3
       '@jridgewell/trace-mapping': 0.3.25
       '@types/node': 20.11.25
-      chalk: 4.1.0
+      chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit: 0.1.2
       glob: 7.2.3
@@ -2834,7 +2834,7 @@ packages:
       istanbul-lib-source-maps: 4.0.1
       istanbul-reports: 3.1.7
       jest-message-util: 28.1.3
-      jest-util: 28.1.1
+      jest-util: 28.1.3
       jest-worker: 28.1.3
       slash: 3.0.0
       string-length: 4.0.2
@@ -2971,7 +2971,7 @@ packages:
       '@jest/types': 28.1.3
       '@jridgewell/trace-mapping': 0.3.25
       babel-plugin-istanbul: 6.1.1
-      chalk: 4.1.0
+      chalk: 4.1.2
       convert-source-map: 1.9.0
       fast-json-stable-stringify: 2.1.0
       graceful-fs: 4.2.11
@@ -3018,7 +3018,7 @@ packages:
       '@types/istanbul-reports': 3.0.4
       '@types/node': 20.11.25
       '@types/yargs': 17.0.32
-      chalk: 4.1.0
+      chalk: 4.1.2
     dev: false
 
   /@jest/types@29.6.3:
@@ -4106,10 +4106,10 @@ packages:
       - '@swc/core'
       - debug
 
-  /@nrwl/vite@18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.5)(vitest@1.3.1):
+  /@nrwl/vite@18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.6)(vitest@1.3.1):
     resolution: {integrity: sha512-BIx8W9tafxngn4/szFBEcVPatzkLDQpXNWrBNgi9GYdZJ+KCIZZFF94Mz6YPzw1vRtaQ5cwPEmTkJtgH/B3YUA==}
     dependencies:
-      '@nx/vite': 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.5)(vitest@1.3.1)
+      '@nx/vite': 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.6)(vitest@1.3.1)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -4991,20 +4991,20 @@ packages:
       - webpack
     dev: false
 
-  /@nx/vite@18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.5)(vitest@1.3.1):
+  /@nx/vite@18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.6)(vitest@1.3.1):
     resolution: {integrity: sha512-rK3BnHS3+JwshL+bqsCUDxCG1L6SyKEDHgv+TcP/qhnbWuh8SDVxbUr6cafoB2fnfYrpTJ9d13KfeDr6Azbfgw==}
     peerDependencies:
       vite: ^5.0.0
       vitest: ^1.3.1
     dependencies:
-      '@nrwl/vite': 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.5)(vitest@1.3.1)
+      '@nrwl/vite': 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)(vite@5.1.6)(vitest@1.3.1)
       '@nx/devkit': 18.0.5(nx@18.0.5)
       '@nx/js': 18.0.5(@swc-node/register@1.8.0)(@swc/core@1.4.2)(@types/node@20.11.25)(nx@18.0.5)(typescript@5.4.2)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.4.2)
       '@swc/helpers': 0.5.6
       enquirer: 2.3.6
       tsconfig-paths: 4.2.0
-      vite: 5.1.5(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
+      vite: 5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
       vitest: 1.3.1(@types/node@20.11.25)(@vitest/ui@1.3.1)(jsdom@24.0.0)(less@4.2.0)(stylus@0.63.0)
     transitivePeerDependencies:
       - '@babel/traverse'
@@ -7079,7 +7079,7 @@ packages:
       - supports-color
     dev: false
 
-  /@vitejs/plugin-react@4.2.1(vite@5.1.5):
+  /@vitejs/plugin-react@4.2.1(vite@5.1.6):
     resolution: {integrity: sha512-oojO9IDc4nCUUi8qIR11KoQm0XFFLIwsRBwHRR4d/88IWghn1y6ckz/bJ8GHDCsYEJee8mDzqtJxh15/cisJNQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -7090,7 +7090,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.23.3(@babel/core@7.23.9)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.0
-      vite: 5.1.5(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
+      vite: 5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7841,7 +7841,7 @@ packages:
       '@types/babel__core': 7.20.5
       babel-plugin-istanbul: 6.1.1
       babel-preset-jest: 28.1.3(@babel/core@7.24.0)
-      chalk: 4.1.0
+      chalk: 4.1.2
       graceful-fs: 4.2.11
       slash: 3.0.0
     transitivePeerDependencies:
@@ -11522,7 +11522,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.5
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: false
@@ -12629,7 +12629,7 @@ packages:
       '@jest/test-result': 28.1.3
       '@jest/types': 28.1.3
       '@types/node': 20.11.25
-      chalk: 4.1.0
+      chalk: 4.1.2
       co: 4.6.0
       dedent: 0.7.0
       is-generator-fn: 2.1.0
@@ -12721,7 +12721,7 @@ packages:
       '@jest/types': 28.1.3
       '@types/node': 20.11.25
       babel-jest: 28.1.3(@babel/core@7.24.0)
-      chalk: 4.1.0
+      chalk: 4.1.2
       ci-info: 3.9.0
       deepmerge: 4.3.1
       glob: 7.2.3
@@ -12730,9 +12730,9 @@ packages:
       jest-environment-node: 28.1.3
       jest-get-type: 28.0.2
       jest-regex-util: 28.0.2
-      jest-resolve: 28.1.1
+      jest-resolve: 28.1.3
       jest-runner: 28.1.3
-      jest-util: 28.1.1
+      jest-util: 28.1.3
       jest-validate: 28.1.3
       micromatch: 4.0.5
       parse-json: 5.2.0
@@ -12789,7 +12789,7 @@ packages:
     resolution: {integrity: sha512-8RqP1B/OXzjjTWkqMX67iqgwBVJRgCyKD3L9nq+6ZqJMdvjE8RgHktqZ6jNrkdMT+dJuYNI3rhQpxaz7drJHfw==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       diff-sequences: 28.1.1
       jest-get-type: 28.0.2
       pretty-format: 28.1.3
@@ -12823,7 +12823,7 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     dependencies:
       '@jest/types': 28.1.3
-      chalk: 4.1.0
+      chalk: 4.1.2
       jest-get-type: 28.0.2
       jest-util: 28.1.3
       pretty-format: 28.1.3
@@ -12931,7 +12931,7 @@ packages:
     resolution: {integrity: sha512-kQeJ7qHemKfbzKoGjHHrRKH6atgxMk8Enkk2iPQ3XwO6oE/KYD8lMYOziCkeSB9G4adPM4nR1DE8Tf5JeWH6Bw==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       jest-diff: 28.1.3
       jest-get-type: 28.0.2
       pretty-format: 28.1.3
@@ -12954,7 +12954,7 @@ packages:
       '@babel/code-frame': 7.23.5
       '@jest/types': 28.1.3
       '@types/stack-utils': 2.0.3
-      chalk: 4.1.0
+      chalk: 4.1.2
       graceful-fs: 4.2.11
       micromatch: 4.0.5
       pretty-format: 28.1.3
@@ -13054,11 +13054,11 @@ packages:
     resolution: {integrity: sha512-/d1UbyUkf9nvsgdBildLe6LAD4DalgkgZcKd0nZ8XUGPyA/7fsnaQIlKVnDiuUXv/IeZhPEDrRJubVSulxrShA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       graceful-fs: 4.2.11
       jest-haste-map: 28.1.3
       jest-pnp-resolver: 1.2.3(jest-resolve@28.1.1)
-      jest-util: 28.1.1
+      jest-util: 28.1.3
       jest-validate: 28.1.3
       resolve: 1.22.8
       resolve.exports: 1.1.0
@@ -13069,7 +13069,7 @@ packages:
     resolution: {integrity: sha512-Z1W3tTjE6QaNI90qo/BJpfnvpxtaFTFw5CDgwpyE/Kz8U/06N1Hjf4ia9quUhCh39qIGWF1ZuxFiBiJQwSEYKQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       graceful-fs: 4.2.11
       jest-haste-map: 28.1.3
       jest-pnp-resolver: 1.2.3(jest-resolve@28.1.3)
@@ -13105,7 +13105,7 @@ packages:
       '@jest/transform': 28.1.3
       '@jest/types': 28.1.3
       '@types/node': 20.11.25
-      chalk: 4.1.0
+      chalk: 4.1.2
       emittery: 0.10.2
       graceful-fs: 4.2.11
       jest-docblock: 28.1.1
@@ -13164,7 +13164,7 @@ packages:
       '@jest/test-result': 28.1.3
       '@jest/transform': 28.1.3
       '@jest/types': 28.1.3
-      chalk: 4.1.0
+      chalk: 4.1.2
       cjs-module-lexer: 1.2.3
       collect-v8-coverage: 1.0.2
       execa: 5.1.1
@@ -13228,7 +13228,7 @@ packages:
       '@types/babel__traverse': 7.20.5
       '@types/prettier': 2.7.3
       babel-preset-current-node-syntax: 1.0.1(@babel/core@7.24.0)
-      chalk: 4.1.0
+      chalk: 4.1.2
       expect: 28.1.3
       graceful-fs: 4.2.11
       jest-diff: 28.1.3
@@ -13278,7 +13278,7 @@ packages:
     dependencies:
       '@jest/types': 28.1.3
       '@types/node': 20.11.25
-      chalk: 4.1.0
+      chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
       picomatch: 2.3.1
@@ -13290,7 +13290,7 @@ packages:
     dependencies:
       '@jest/types': 28.1.3
       '@types/node': 20.11.25
-      chalk: 4.1.0
+      chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
       picomatch: 2.3.1
@@ -13314,7 +13314,7 @@ packages:
     dependencies:
       '@jest/types': 28.1.3
       camelcase: 6.3.0
-      chalk: 4.1.0
+      chalk: 4.1.2
       jest-get-type: 28.0.2
       leven: 3.1.0
       pretty-format: 28.1.3
@@ -13340,7 +13340,7 @@ packages:
       '@jest/types': 28.1.3
       '@types/node': 20.11.25
       ansi-escapes: 4.3.2
-      chalk: 4.1.0
+      chalk: 4.1.2
       emittery: 0.10.2
       jest-util: 28.1.3
       string-length: 4.0.2
@@ -14807,7 +14807,7 @@ packages:
       yargs-parser: 20.2.9
     dev: false
 
-  /nx-plugin-vite@2.2.1(@nrwl/devkit@14.8.9)(@nrwl/node@14.8.9)(@nrwl/tao@14.8.9)(@nrwl/workspace@14.8.9)(esbuild@0.14.54)(vite@5.1.5):
+  /nx-plugin-vite@2.2.1(@nrwl/devkit@14.8.9)(@nrwl/node@14.8.9)(@nrwl/tao@14.8.9)(@nrwl/workspace@14.8.9)(esbuild@0.14.54)(vite@5.1.6):
     resolution: {integrity: sha512-yK43i3jWHoKgOkWlnikoKZQNzpa00NcTNvMp/UPlDieY9Aux7Vml+M7lavO760E0qlLkjEH61znyFnHWBF4/Fw==}
     peerDependencies:
       vite: ^2.7.10
@@ -14820,7 +14820,7 @@ packages:
       nx-plugin-devkit: 1.3.1(@nrwl/devkit@14.8.9)(@nrwl/node@14.8.9)(@nrwl/tao@14.8.9)(@nrwl/workspace@14.8.9)(esbuild@0.14.54)
       rxjs: 6.6.7
       rxjs-for-await: 0.0.2(rxjs@6.6.7)
-      vite: 5.1.5(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
+      vite: 5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
     transitivePeerDependencies:
       - '@nrwl/devkit'
       - '@nrwl/node'
@@ -19021,7 +19021,7 @@ packages:
   /tsconfig-paths-webpack-plugin@3.5.2:
     resolution: {integrity: sha512-EhnfjHbzm5IYI9YPNVIxx1moxMI4bpHD2e0zTXeDNQcwjjRaGepP7IhTHJkyDBG0CAOoxRfe7jCG630Ou+C6Pw==}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       enhanced-resolve: 5.15.1
       tsconfig-paths: 3.15.0
     dev: false
@@ -19398,7 +19398,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.1.4(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
+      vite: 5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -19410,7 +19410,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.3.1(typescript@5.3.3)(vite@5.1.5):
+  /vite-tsconfig-paths@4.3.1(typescript@5.3.3)(vite@5.1.6):
     resolution: {integrity: sha512-cfgJwcGOsIxXOLU/nELPny2/LUD/lcf1IbfyeKTv2bsupVbTH/xpFtdQlBmIP1GEK2CjjLxYhFfB+QODFAx5aw==}
     peerDependencies:
       vite: '*'
@@ -19421,52 +19421,14 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.2(typescript@5.3.3)
-      vite: 5.1.5(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
+      vite: 5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.1.4(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0):
-    resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
-    engines: {node: ^18.0.0 || >=20.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': ^18.0.0 || >=20.0.0
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      '@types/node': 20.11.25
-      esbuild: 0.19.12
-      less: 4.2.0
-      postcss: 8.4.35
-      rollup: 4.12.1
-      stylus: 0.63.0
-    optionalDependencies:
-      fsevents: 2.3.3
-    dev: true
-
-  /vite@5.1.5(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0):
-    resolution: {integrity: sha512-BdN1xh0Of/oQafhU+FvopafUp6WaYenLU/NFoL5WyJL++GxkNfieKzBhM24H3HVsPQrlAqB7iJYTHabzaRed5Q==}
+  /vite@5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0):
+    resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -19547,7 +19509,7 @@ packages:
       strip-literal: 2.0.0
       tinybench: 2.6.0
       tinypool: 0.8.2
-      vite: 5.1.4(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
+      vite: 5.1.6(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
       vite-node: 1.3.1(@types/node@20.11.25)(less@4.2.0)(stylus@0.63.0)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
